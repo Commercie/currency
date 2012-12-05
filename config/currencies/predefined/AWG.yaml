@@ -1,0 +1,7 @@
+ISO4217Code: AWG
+minorUnit: 2
+ISO4217Number: '533'
+sign: ¤
+title: 'Aruban Florin'
+usage:
+    - { ISO8601From: '1986-01-01', ISO8601To: '', ISO3166Code: AW }

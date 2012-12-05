@@ -1,0 +1,7 @@
+ISO4217Code: WST
+minorUnit: 2
+ISO4217Number: '882'
+sign: ¤
+title: Tala
+usage:
+    - { ISO8601From: '1967-07-10', ISO8601To: '', ISO3166Code: WS }

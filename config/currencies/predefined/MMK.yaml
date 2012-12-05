@@ -1,0 +1,7 @@
+ISO4217Code: MMK
+minorUnit: 2
+ISO4217Number: '104'
+sign: ¤
+title: Kyat
+usage:
+    - { ISO8601From: '1989-06-18', ISO8601To: '', ISO3166Code: MM }

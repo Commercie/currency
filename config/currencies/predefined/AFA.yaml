@@ -1,0 +1,7 @@
+ISO4217Code: AFA
+minorUnit: null
+ISO4217Number: '004'
+sign: ¤
+title: 'Afghan afghani'
+usage:
+    - { ISO8601From: '1927-03-14', ISO8601To: '2002-12-31', ISO3166Code: AF }

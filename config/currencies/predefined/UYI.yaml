@@ -1,0 +1,7 @@
+ISO4217Code: UYI
+minorUnit: 0
+ISO4217Number: '940'
+sign: ¤
+title: 'Uruguay Peso en Unidades Indexadas (URUIURUI)'
+usage:
+    - { ISO8601From: '', ISO8601To: '', ISO3166Code: UY }

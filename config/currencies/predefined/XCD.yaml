@@ -1,0 +1,15 @@
+ISO4217Code: XCD
+minorUnit: 2
+ISO4217Number: '951'
+sign: ¤
+title: 'East Caribbean Dollar'
+usage:
+    - { ISO8601From: '1965-10-06', ISO8601To: '', ISO3166Code: AG }
+    - { ISO8601From: '1965-10-06', ISO8601To: '', ISO3166Code: AI }
+    - { ISO8601From: '1965-10-06', ISO8601To: '1973-12-03', ISO3166Code: BB }
+    - { ISO8601From: '1965-10-06', ISO8601To: '', ISO3166Code: DM }
+    - { ISO8601From: '1967-02-27', ISO8601To: '', ISO3166Code: GD }
+    - { ISO8601From: '1965-10-06', ISO8601To: '', ISO3166Code: KN }
+    - { ISO8601From: '1965-10-06', ISO8601To: '', ISO3166Code: LC }
+    - { ISO8601From: '1967-02-27', ISO8601To: '', ISO3166Code: MS }
+    - { ISO8601From: '1965-10-06', ISO8601To: '', ISO3166Code: VC }

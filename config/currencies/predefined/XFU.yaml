@@ -1,0 +1,7 @@
+ISO4217Code: XFU
+minorUnit: 0
+ISO4217Number: Nil
+sign: ¤
+title: UIC-Franc
+usage:
+    - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

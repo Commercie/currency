@@ -1,0 +1,7 @@
+ISO4217Code: BYB
+minorUnit: null
+ISO4217Number: null
+sign: ¤
+title: null
+usage:
+    - { ISO8601From: '1994-08-01', ISO8601To: '2000-12-31', ISO3166Code: BY }

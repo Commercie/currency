@@ -1,0 +1,7 @@
+ISO4217Code: COU
+minorUnit: 2
+ISO4217Number: '970'
+sign: ¤
+title: 'Unidad de Valor Real'
+usage:
+    - { ISO8601From: '', ISO8601To: '', ISO3166Code: CO }

@@ -1,4 +1,4 @@
-currency
+Currency
 ========
 
-Currency information and formatting
+A PHP library that provides metadata for current and historic currencies.

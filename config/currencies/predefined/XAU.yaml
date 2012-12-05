@@ -1,0 +1,7 @@
+ISO4217Code: XAU
+minorUnit: 0
+ISO4217Number: '959'
+sign: ¤
+title: Gold
+usage:
+    - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

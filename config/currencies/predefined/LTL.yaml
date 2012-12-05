@@ -1,0 +1,7 @@
+ISO4217Code: LTL
+minorUnit: 2
+ISO4217Number: '440'
+sign: ¤
+title: 'Lithuanian Litas'
+usage:
+    - { ISO8601From: '1993-06-25', ISO8601To: '', ISO3166Code: LT }

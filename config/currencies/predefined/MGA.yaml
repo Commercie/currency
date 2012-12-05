@@ -1,0 +1,7 @@
+ISO4217Code: MGA
+minorUnit: 2
+ISO4217Number: '969'
+sign: ¤
+title: 'Malagasy Ariary'
+usage:
+    - { ISO8601From: '1983-11-01', ISO8601To: '', ISO3166Code: MG }

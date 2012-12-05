@@ -1,0 +1,8 @@
+ISO4217Code: ILP
+minorUnit: 3
+ISO4217Number: null
+sign: ¤
+title: 'Israeli lira'
+usage:
+    - { ISO8601From: '1948-08-16', ISO8601To: '1980-02-22', ISO3166Code: IL }
+    - { ISO8601From: 1967-06, ISO8601To: '1980-02-22', ISO3166Code: PS }

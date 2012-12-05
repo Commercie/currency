@@ -1,0 +1,7 @@
+ISO4217Code: XPT
+minorUnit: 0
+ISO4217Number: '962'
+sign: ¤
+title: Platinum
+usage:
+    - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

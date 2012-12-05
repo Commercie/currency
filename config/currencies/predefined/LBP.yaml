@@ -1,0 +1,7 @@
+ISO4217Code: LBP
+minorUnit: 2
+ISO4217Number: '422'
+sign: ¤
+title: 'Lebanese Pound'
+usage:
+    - { ISO8601From: '1948-02-02', ISO8601To: '', ISO3166Code: LB }

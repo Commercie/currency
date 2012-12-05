@@ -1,0 +1,7 @@
+ISO4217Code: BAM
+minorUnit: 2
+ISO4217Number: '977'
+sign: ¤
+title: 'Convertible Mark'
+usage:
+    - { ISO8601From: '1995-01-01', ISO8601To: '', ISO3166Code: BA }

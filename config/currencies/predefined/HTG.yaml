@@ -1,0 +1,7 @@
+ISO4217Code: HTG
+minorUnit: 2
+ISO4217Number: '332'
+sign: ¤
+title: Gourde
+usage:
+    - { ISO8601From: '1872-08-26', ISO8601To: '', ISO3166Code: HT }

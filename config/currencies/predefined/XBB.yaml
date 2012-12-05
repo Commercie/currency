@@ -1,0 +1,7 @@
+ISO4217Code: XBB
+minorUnit: 0
+ISO4217Number: '956'
+sign: ¤
+title: 'Bond Markets Unit European Monetary Unit (E.M.U.-6)'
+usage:
+    - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

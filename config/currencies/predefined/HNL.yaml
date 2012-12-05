@@ -1,0 +1,7 @@
+ISO4217Code: HNL
+minorUnit: 2
+ISO4217Number: '340'
+sign: ¤
+title: Lempira
+usage:
+    - { ISO8601From: '1926-04-03', ISO8601To: '', ISO3166Code: HN }

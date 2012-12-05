@@ -1,0 +1,7 @@
+ISO4217Code: BMD
+minorUnit: 2
+ISO4217Number: '060'
+sign: ¤
+title: 'Bermudian Dollar'
+usage:
+    - { ISO8601From: '1970-02-06', ISO8601To: '', ISO3166Code: BM }

@@ -1,0 +1,7 @@
+ISO4217Code: PES
+minorUnit: null
+ISO4217Number: null
+sign: ¤
+title: null
+usage:
+    - { ISO8601From: '1863-02-14', ISO8601To: '1985-02-01', ISO3166Code: PE }

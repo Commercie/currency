@@ -1,0 +1,7 @@
+ISO4217Code: CHW
+minorUnit: 2
+ISO4217Number: '948'
+sign: ¤
+title: 'WIR Franc'
+usage:
+    - { ISO8601From: '', ISO8601To: '', ISO3166Code: CH }

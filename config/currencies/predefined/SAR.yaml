@@ -1,0 +1,7 @@
+ISO4217Code: SAR
+minorUnit: 2
+ISO4217Number: '682'
+sign: ¤
+title: 'Saudi Riyal'
+usage:
+    - { ISO8601From: '1952-10-22', ISO8601To: '', ISO3166Code: SA }

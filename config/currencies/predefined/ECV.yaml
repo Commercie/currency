@@ -1,0 +1,7 @@
+ISO4217Code: ECV
+minorUnit: 0
+ISO4217Number: '983'
+sign: ¤
+title: 'Ecuador Unidad de Valor Constante'
+usage:
+    - { ISO8601From: '', ISO8601To: '', ISO3166Code: EC }

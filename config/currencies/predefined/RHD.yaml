@@ -1,0 +1,7 @@
+ISO4217Code: RHD
+minorUnit: null
+ISO4217Number: null
+sign: ¤
+title: null
+usage:
+    - { ISO8601From: '1970-02-17', ISO8601To: '1980-04-18', ISO3166Code: ZW }

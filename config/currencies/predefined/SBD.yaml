@@ -1,0 +1,7 @@
+ISO4217Code: SBD
+minorUnit: 2
+ISO4217Number: '090'
+sign: ¤
+title: 'Solomon Islands Dollar'
+usage:
+    - { ISO8601From: '1977-10-24', ISO8601To: '', ISO3166Code: SB }

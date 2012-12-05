@@ -1,0 +1,7 @@
+ISO4217Code: ARM
+minorUnit: null
+ISO4217Number: null
+sign: ¤
+title: null
+usage:
+    - { ISO8601From: '1881-11-05', ISO8601To: '1970-01-01', ISO3166Code: AR }

@@ -1,0 +1,7 @@
+ISO4217Code: MTP
+minorUnit: null
+ISO4217Number: null
+sign: ¤
+title: null
+usage:
+    - { ISO8601From: '1914-08-13', ISO8601To: '1968-06-07', ISO3166Code: MT }

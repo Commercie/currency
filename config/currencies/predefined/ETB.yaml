@@ -1,0 +1,8 @@
+ISO4217Code: ETB
+minorUnit: 2
+ISO4217Number: '230'
+sign: ¤
+title: 'Ethiopian Birr'
+usage:
+    - { ISO8601From: '1993-05-24', ISO8601To: '1997-11-08', ISO3166Code: ER }
+    - { ISO8601From: '1976-09-15', ISO8601To: '', ISO3166Code: ET }

@@ -1,0 +1,7 @@
+ISO4217Code: LUF
+minorUnit: 1
+ISO4217Number: '442'
+sign: ¤
+title: 'Luxembourg franc'
+usage:
+    - { ISO8601From: '1944-09-4', ISO8601To: '2002-02-28', ISO3166Code: LU }

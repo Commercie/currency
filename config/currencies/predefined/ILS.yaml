@@ -1,0 +1,8 @@
+ISO4217Code: ILS
+minorUnit: 2
+ISO4217Number: '376'
+sign: ¤
+title: 'New Israeli Sheqel'
+usage:
+    - { ISO8601From: '1985-09-04', ISO8601To: '', ISO3166Code: IL }
+    - { ISO8601From: '1985-09-04', ISO8601To: '', ISO3166Code: PS }

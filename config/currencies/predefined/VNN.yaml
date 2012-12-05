@@ -1,0 +1,7 @@
+ISO4217Code: VNN
+minorUnit: null
+ISO4217Number: null
+sign: ¤
+title: null
+usage:
+    - { ISO8601From: '1978-05-03', ISO8601To: '1985-09-14', ISO3166Code: VN }

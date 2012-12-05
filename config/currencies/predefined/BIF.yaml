@@ -1,0 +1,7 @@
+ISO4217Code: BIF
+minorUnit: 0
+ISO4217Number: '108'
+sign: ¤
+title: 'Burundi Franc'
+usage:
+    - { ISO8601From: '1964-05-19', ISO8601To: '', ISO3166Code: BI }

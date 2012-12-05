@@ -1,0 +1,7 @@
+ISO4217Code: YUR
+minorUnit: 2
+ISO4217Number: null
+sign: ¤
+title: 'Yugoslav dinar'
+usage:
+    - { ISO8601From: '1992-07-01', ISO8601To: '1993-10-01', ISO3166Code: BA }

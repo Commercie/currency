@@ -1,0 +1,7 @@
+ISO4217Code: ZAL
+minorUnit: 0
+ISO4217Number: '991'
+sign: ¤
+title: 'South African financial rand'
+usage:
+    - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZA }

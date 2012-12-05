@@ -1,0 +1,7 @@
+ISO4217Code: BGL
+minorUnit: 2
+ISO4217Number: '100'
+sign: ¤
+title: 'Bulgarian lev A/99'
+usage:
+    - { ISO8601From: '1962-01-01', ISO8601To: '1999-07-05', ISO3166Code: BG }

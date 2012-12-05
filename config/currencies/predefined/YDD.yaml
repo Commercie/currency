@@ -1,0 +1,7 @@
+ISO4217Code: YDD
+minorUnit: null
+ISO4217Number: '720'
+sign: ¤
+title: 'South Yemeni dinar'
+usage:
+    - { ISO8601From: '1965-04-01', ISO8601To: '1996-01-01', ISO3166Code: YD }

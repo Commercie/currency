@@ -1,0 +1,7 @@
+ISO4217Code: KWD
+minorUnit: 3
+ISO4217Number: '414'
+sign: ¤
+title: 'Kuwaiti Dinar'
+usage:
+    - { ISO8601From: '1961-04-01', ISO8601To: '', ISO3166Code: KW }

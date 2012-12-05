@@ -1,0 +1,7 @@
+ISO4217Code: LVL
+minorUnit: 2
+ISO4217Number: '428'
+sign: ¤
+title: 'Latvian Lats'
+usage:
+    - { ISO8601From: '1993-06-28', ISO8601To: '', ISO3166Code: LV }

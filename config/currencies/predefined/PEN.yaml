@@ -1,0 +1,7 @@
+ISO4217Code: PEN
+minorUnit: 2
+ISO4217Number: '604'
+sign: ¤
+title: 'Nuevo Sol'
+usage:
+    - { ISO8601From: '1991-07-01', ISO8601To: '', ISO3166Code: PE }

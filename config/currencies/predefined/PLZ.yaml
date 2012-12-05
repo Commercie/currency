@@ -1,0 +1,7 @@
+ISO4217Code: PLZ
+minorUnit: null
+ISO4217Number: '616'
+sign: ¤
+title: 'Polish zloty A/94'
+usage:
+    - { ISO8601From: '1950-10-28', ISO8601To: '1994-12-31', ISO3166Code: PL }

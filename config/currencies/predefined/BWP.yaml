@@ -1,0 +1,7 @@
+ISO4217Code: BWP
+minorUnit: 2
+ISO4217Number: '072'
+sign: ¤
+title: Pula
+usage:
+    - { ISO8601From: '1976-08-23', ISO8601To: '', ISO3166Code: BW }

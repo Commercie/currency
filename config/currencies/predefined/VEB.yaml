@@ -1,0 +1,7 @@
+ISO4217Code: VEB
+minorUnit: 2
+ISO4217Number: '862'
+sign: ¤
+title: 'Venezuelan bolÃ­var'
+usage:
+    - { ISO8601From: '1871-05-11', ISO8601To: '2008-06-30', ISO3166Code: VE }

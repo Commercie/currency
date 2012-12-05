@@ -1,0 +1,7 @@
+ISO4217Code: MXV
+minorUnit: 2
+ISO4217Number: '979'
+sign: ¤
+title: 'Mexican Unidad de Inversion (UDI)'
+usage:
+    - { ISO8601From: '', ISO8601To: '', ISO3166Code: MX }

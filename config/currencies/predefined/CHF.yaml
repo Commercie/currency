@@ -1,0 +1,8 @@
+ISO4217Code: CHF
+minorUnit: 2
+ISO4217Number: '756'
+sign: ¤
+title: 'Swiss Franc'
+usage:
+    - { ISO8601From: '1799-03-17', ISO8601To: '', ISO3166Code: CH }
+    - { ISO8601From: '1921-02-01', ISO8601To: '', ISO3166Code: LI }

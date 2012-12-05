@@ -1,0 +1,8 @@
+ISO4217Code: ANG
+minorUnit: 2
+ISO4217Number: '532'
+sign: ¤
+title: 'Netherlands Antillean Guilder'
+usage:
+    - { ISO8601From: '1940-05-10', ISO8601To: '', ISO3166Code: AN }
+    - { ISO8601From: '1940-05-10', ISO8601To: '1986-01-01', ISO3166Code: AW }

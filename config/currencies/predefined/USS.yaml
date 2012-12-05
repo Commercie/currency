@@ -1,0 +1,7 @@
+ISO4217Code: USS
+minorUnit: 2
+ISO4217Number: '998'
+sign: ¤
+title: 'US Dollar (Same day)'
+usage:
+    - { ISO8601From: '', ISO8601To: '', ISO3166Code: US }

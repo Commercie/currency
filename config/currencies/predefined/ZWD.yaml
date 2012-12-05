@@ -1,0 +1,7 @@
+ISO4217Code: ZWD
+minorUnit: 2
+ISO4217Number: '716'
+sign: ¤
+title: 'Zimbabwean dollar A/06'
+usage:
+    - { ISO8601From: '1980-04-18', ISO8601To: '2008-08-01', ISO3166Code: ZW }

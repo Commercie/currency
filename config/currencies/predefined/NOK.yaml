@@ -1,0 +1,9 @@
+ISO4217Code: NOK
+minorUnit: 2
+ISO4217Number: '578'
+sign: ¤
+title: 'Norwegian Krone'
+usage:
+    - { ISO8601From: '1905-06-07', ISO8601To: '', ISO3166Code: BV }
+    - { ISO8601From: '1905-06-07', ISO8601To: '', ISO3166Code: NO }
+    - { ISO8601From: '1905-06-07', ISO8601To: '', ISO3166Code: SJ }

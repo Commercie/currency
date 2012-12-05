@@ -1,0 +1,7 @@
+ISO4217Code: XAG
+minorUnit: 0
+ISO4217Number: '961'
+sign: ¤
+title: Silver
+usage:
+    - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

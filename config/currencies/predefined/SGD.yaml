@@ -1,0 +1,7 @@
+ISO4217Code: SGD
+minorUnit: 2
+ISO4217Number: '702'
+sign: ¤
+title: 'Singapore Dollar'
+usage:
+    - { ISO8601From: '1967-06-12', ISO8601To: '', ISO3166Code: SG }

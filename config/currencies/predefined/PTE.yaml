@@ -1,0 +1,8 @@
+ISO4217Code: PTE
+minorUnit: 0
+ISO4217Number: '620'
+sign: ¤
+title: 'Portuguese escudo'
+usage:
+    - { ISO8601From: '1911-05-22', ISO8601To: '1975-07-05', ISO3166Code: CV }
+    - { ISO8601From: '1911-05-22', ISO8601To: '2002-02-28', ISO3166Code: PT }

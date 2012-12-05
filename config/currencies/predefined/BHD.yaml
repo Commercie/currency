@@ -1,0 +1,7 @@
+ISO4217Code: BHD
+minorUnit: 3
+ISO4217Number: '048'
+sign: ¤
+title: 'Bahraini Dinar'
+usage:
+    - { ISO8601From: '1965-10-16', ISO8601To: '', ISO3166Code: BH }

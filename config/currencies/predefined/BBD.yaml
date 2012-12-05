@@ -1,0 +1,7 @@
+ISO4217Code: BBD
+minorUnit: 2
+ISO4217Number: '052'
+sign: ¤
+title: 'Barbados Dollar'
+usage:
+    - { ISO8601From: '1973-12-03', ISO8601To: '', ISO3166Code: BB }

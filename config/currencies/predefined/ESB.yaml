@@ -1,0 +1,7 @@
+ISO4217Code: ESB
+minorUnit: null
+ISO4217Number: '995'
+sign: ¤
+title: 'Spanish peseta'
+usage:
+    - { ISO8601From: '', ISO8601To: '', ISO3166Code: ES }
