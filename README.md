@@ -5,6 +5,7 @@ Currency
 A PHP library that provides metadata for current and historic currencies:
 * ISO 4217 currency codes and numbers
 * Currency signs
+* The number of decimals a currency has
 * Where (ISO 3166 country codes) and when (ISO 8601 dates) currencies were and
   are used
 
