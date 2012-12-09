@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: LYD
 minorUnit: 3
 ISO4217Number: '434'
-sign: ¤
+sign: ل.د
 title: 'Libyan Dinar'
 usage:
     - { ISO8601From: '1971-09-01', ISO8601To: '', ISO3166Code: LY }

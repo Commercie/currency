@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: LAK
 minorUnit: 2
 ISO4217Number: '418'
-sign: ¤
+sign: ₭
 title: Kip
 usage:
     - { ISO8601From: '1979-12-10', ISO8601To: '', ISO3166Code: LA }

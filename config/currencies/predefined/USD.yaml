@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: USD
 minorUnit: 2
 ISO4217Number: '840'
-sign: ¤
+sign: $
 title: 'US Dollar'
 usage:
     - { ISO8601From: '1904-07-16', ISO8601To: '', ISO3166Code: AS }

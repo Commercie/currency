@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: IDR
 minorUnit: 2
 ISO4217Number: '360'
-sign: ¤
+sign: Rp
 title: Rupiah
 usage:
     - { ISO8601From: '1965-12-13', ISO8601To: '', ISO3166Code: ID }

@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: GTQ
 minorUnit: 2
 ISO4217Number: '320'
-sign: ¤
+sign: Q
 title: Quetzal
 usage:
     - { ISO8601From: '1925-05-27', ISO8601To: '', ISO3166Code: GT }

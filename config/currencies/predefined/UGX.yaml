@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: UGX
 minorUnit: 0
 ISO4217Number: '800'
-sign: ¤
+sign: USh
 title: 'Uganda Shilling'
 usage:
     - { ISO8601From: '1987-05-15', ISO8601To: '', ISO3166Code: UG }

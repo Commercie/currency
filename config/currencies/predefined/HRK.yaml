@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: HRK
 minorUnit: 2
 ISO4217Number: '191'
-sign: ¤
+sign: kn
 title: 'Croatian Kuna'
 usage:
     - { ISO8601From: '1994-05-30', ISO8601To: '', ISO3166Code: HR }

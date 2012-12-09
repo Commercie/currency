@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: GIP
 minorUnit: 2
 ISO4217Number: '292'
-sign: ¤
+sign: £
 title: 'Gibraltar Pound'
 usage:
     - { ISO8601From: '1713-01-01', ISO8601To: '', ISO3166Code: GI }

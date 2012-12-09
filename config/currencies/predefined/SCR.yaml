@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: SCR
 minorUnit: 2
 ISO4217Number: '690'
-sign: ¤
+sign: SR
 title: 'Seychelles Rupee'
 usage:
     - { ISO8601From: '1903-11-01', ISO8601To: '', ISO3166Code: SC }

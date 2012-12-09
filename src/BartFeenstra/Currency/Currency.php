@@ -13,6 +13,14 @@ namespace BartFeenstra\Currency;
 class Currency extends CommonAbstract {
 
   /**
+   * Alternative (non-official) currency signs.
+   *
+   * @var array
+   *   An array of strings that are similar to Currency::sign.
+   */
+  public $alternative_signs = array();
+
+  /**
    * ISO 4217 currency code.
    *
    * @var string

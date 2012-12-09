@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: JMD
 minorUnit: 2
 ISO4217Number: '388'
-sign: ¤
+sign: $
 title: 'Jamaican Dollar'
 usage:
     - { ISO8601From: '1969-09-08', ISO8601To: '', ISO3166Code: JM }

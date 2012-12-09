@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: PGK
 minorUnit: 2
 ISO4217Number: '598'
-sign: ¤
+sign: K
 title: Kina
 usage:
     - { ISO8601From: '1975-09-16', ISO8601To: '', ISO3166Code: PG }

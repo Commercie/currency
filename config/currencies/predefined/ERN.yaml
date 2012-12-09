@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: ERN
 minorUnit: 2
 ISO4217Number: '232'
-sign: ¤
+sign: Nfk
 title: Nakfa
 usage:
     - { ISO8601From: '1997-11-08', ISO8601To: '', ISO3166Code: ER }

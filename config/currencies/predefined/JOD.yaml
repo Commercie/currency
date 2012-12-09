@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: JOD
 minorUnit: 3
 ISO4217Number: '400'
-sign: ¤
+sign: JD
 title: 'Jordanian Dinar'
 usage:
     - { ISO8601From: '1950-07-01', ISO8601To: '', ISO3166Code: JO }

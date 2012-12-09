@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: KES
 minorUnit: 2
 ISO4217Number: '404'
-sign: ¤
+sign: KSh
 title: 'Kenyan Shilling'
 usage:
     - { ISO8601From: '1966-09-14', ISO8601To: '', ISO3166Code: KE }

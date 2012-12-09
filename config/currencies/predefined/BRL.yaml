@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: BRL
 minorUnit: 2
 ISO4217Number: '986'
-sign: ¤
+sign: R$
 title: 'Brazilian Real'
 usage:
     - { ISO8601From: '1994-07-01', ISO8601To: '', ISO3166Code: BR }

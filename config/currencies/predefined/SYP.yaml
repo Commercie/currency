@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: SYP
 minorUnit: 2
 ISO4217Number: '760'
-sign: ¤
+sign: £S
 title: 'Syrian Pound'
 usage:
     - { ISO8601From: '1948-01-01', ISO8601To: '', ISO3166Code: SY }

@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: KYD
 minorUnit: 2
 ISO4217Number: '136'
-sign: ¤
+sign: $
 title: 'Cayman Islands Dollar'
 usage:
     - { ISO8601From: '1971-01-01', ISO8601To: '', ISO3166Code: KY }

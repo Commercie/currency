@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: ARS
 minorUnit: 2
 ISO4217Number: '032'
-sign: ¤
+sign: $
 title: 'Argentine Peso'
 usage:
     - { ISO8601From: '1992-01-01', ISO8601To: '', ISO3166Code: AR }

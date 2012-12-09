@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: AED
 minorUnit: 2
 ISO4217Number: '784'
-sign: ¤
+sign: د.إ
 title: 'UAE Dirham'
 usage:
     - { ISO8601From: '1973-05-19', ISO8601To: '', ISO3166Code: AE }

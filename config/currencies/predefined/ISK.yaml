@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: ISK
 minorUnit: 0
 ISO4217Number: '352'
-sign: ¤
+sign: kr
 title: 'Iceland Krona'
 usage:
     - { ISO8601From: '1981-01-01', ISO8601To: '', ISO3166Code: IS }

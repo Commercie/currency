@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: SLL
 minorUnit: 2
 ISO4217Number: '694'
-sign: ¤
+sign: Le
 title: Leone
 usage:
     - { ISO8601From: '1964-08-04', ISO8601To: '', ISO3166Code: SL }

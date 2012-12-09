@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: VEF
 minorUnit: 2
 ISO4217Number: '937'
-sign: ¤
+sign: Bs
 title: 'Bolivar '
 usage:
     - { ISO8601From: '2008-01-01', ISO8601To: '', ISO3166Code: VE }

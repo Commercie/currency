@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: GNF
 minorUnit: 0
 ISO4217Number: '324'
-sign: ¤
+sign: ₣
 title: 'Guinea Franc'
 usage:
     - { ISO8601From: '1986-01-06', ISO8601To: '', ISO3166Code: GN }

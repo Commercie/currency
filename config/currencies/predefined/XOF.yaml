@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: XOF
 minorUnit: 0
 ISO4217Number: '952'
-sign: ¤
+sign: ₣
 title: 'CFA Franc BCEAO'
 usage:
     - { ISO8601From: '1984-08-04', ISO8601To: '', ISO3166Code: BF }

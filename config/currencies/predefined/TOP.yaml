@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: TOP
 minorUnit: 2
 ISO4217Number: '776'
-sign: ¤
+sign: $
 title: Pa’anga
 usage:
     - { ISO8601From: '1966-02-14', ISO8601To: '', ISO3166Code: TO }

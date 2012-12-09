@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: OMR
 minorUnit: 3
 ISO4217Number: '512'
-sign: ¤
+sign: ر.ع.
 title: 'Rial Omani'
 usage:
     - { ISO8601From: '1972-11-11', ISO8601To: '', ISO3166Code: OM }

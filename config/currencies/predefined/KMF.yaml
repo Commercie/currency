@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: KMF
 minorUnit: 0
 ISO4217Number: '174'
-sign: ¤
+sign: ₣
 title: 'Comoro Franc'
 usage:
     - { ISO8601From: '1975-07-06', ISO8601To: '', ISO3166Code: KM }

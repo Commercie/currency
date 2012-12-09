@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: CAD
 minorUnit: 2
 ISO4217Number: '124'
-sign: ¤
+sign: $
 title: 'Canadian Dollar'
 usage:
     - { ISO8601From: '1858-01-01', ISO8601To: '', ISO3166Code: CA }

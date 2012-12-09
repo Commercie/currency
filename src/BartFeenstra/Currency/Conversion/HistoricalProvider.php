@@ -30,6 +30,8 @@ class HistoricalProvider implements ProviderInterface {
    */
   private static $rates = array(
     'EUR' => array(
+      'LVL' => 0,702804,
+      'LTL' => 3,45280,
       'NLG' => 2.20371,
     ),
     'UAH' => array(

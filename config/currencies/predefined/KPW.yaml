@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: KPW
 minorUnit: 2
 ISO4217Number: '408'
-sign: ¤
+sign: ₩
 title: 'North Korean Won'
 usage:
     - { ISO8601From: '1959-04-17', ISO8601To: '', ISO3166Code: KP }

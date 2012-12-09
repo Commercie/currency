@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: AUD
 minorUnit: 2
 ISO4217Number: '036'
-sign: ¤
+sign: $
 title: 'Australian Dollar'
 usage:
     - { ISO8601From: '1966-02-14', ISO8601To: '', ISO3166Code: AU }

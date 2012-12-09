@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: GMD
 minorUnit: 2
 ISO4217Number: '270'
-sign: ¤
+sign: D
 title: Dalasi
 usage:
     - { ISO8601From: '1971-07-01', ISO8601To: '', ISO3166Code: GM }

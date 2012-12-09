@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: MWK
 minorUnit: 2
 ISO4217Number: '454'
-sign: ¤
+sign: MK
 title: Kwacha
 usage:
     - { ISO8601From: '1971-02-15', ISO8601To: '', ISO3166Code: MW }

@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: BOB
 minorUnit: 2
 ISO4217Number: '068'
-sign: ¤
+sign: Bs
 title: Boliviano
 usage:
     - { ISO8601From: '1987-01-01', ISO8601To: '', ISO3166Code: BO }

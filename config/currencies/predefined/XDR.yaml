@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: XDR
 minorUnit: 0
 ISO4217Number: '960'
-sign: ¤
-title: 'SDR (Special Drawing Right)'
+sign: SDR
+title: 'Special Drawing Right'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

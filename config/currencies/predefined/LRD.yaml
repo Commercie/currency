@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: LRD
 minorUnit: 2
 ISO4217Number: '430'
-sign: ¤
+sign: $
 title: 'Liberian Dollar'
 usage:
     - { ISO8601From: '1944-01-01', ISO8601To: '', ISO3166Code: LR }

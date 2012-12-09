@@ -1,7 +1,8 @@
+alternative_signs: {  }
 ISO4217Code: FKP
 minorUnit: 2
 ISO4217Number: '238'
-sign: ¤
+sign: £
 title: 'Falkland Islands Pound'
 usage:
     - { ISO8601From: '1901-01-01', ISO8601To: '', ISO3166Code: FK }
