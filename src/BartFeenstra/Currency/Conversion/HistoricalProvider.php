@@ -21,7 +21,7 @@ class HistoricalProvider implements ProviderInterface {
    *
    * @var array
    *   Keys are ISO 4217 currency codes of source currencies, values are
-   *   arrays, of which the keys are ISO 4217 codes o destination currencies,
+   *   arrays, of which the keys are ISO 4217 codes of destination currencies,
    *   and of which values are the exchange rates. Because the rate XXX:YYY is
    *   the same as 1/YYY:XXX, we only keep one rate here for every combination
    *   of two currencies. For every combination, we keep the rate from the
