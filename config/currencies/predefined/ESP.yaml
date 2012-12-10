@@ -2,7 +2,7 @@ alternative_signs: {  }
 ISO4217Code: ESP
 minorUnit: 0
 ISO4217Number: '724'
-sign: ¤
+sign: ₧
 title: 'Spanish peseta'
 usage:
     - { ISO8601From: '1873-01-01', ISO8601To: '2002-02-28', ISO3166Code: AD }

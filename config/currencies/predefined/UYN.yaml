@@ -4,4 +4,5 @@ minorUnit: null
 ISO4217Number: null
 sign: ¤
 title: 'Uruguay old peso'
-usage: {  }
+usage:
+    - { ISO8601From: '', ISO8601To: 1993-03-01, ISO3166Code: ZR }

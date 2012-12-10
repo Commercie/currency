@@ -1,8 +1,8 @@
 alternative_signs: {  }
 ISO4217Code: PTE
-minorUnit: 0
+minorUnit: 100
 ISO4217Number: '620'
-sign: ¤
+sign: 
 title: 'Portuguese escudo'
 usage:
     - { ISO8601From: '1911-05-22', ISO8601To: '1975-07-05', ISO3166Code: CV }

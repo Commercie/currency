@@ -2,7 +2,7 @@ alternative_signs: {  }
 ISO4217Code: ECS
 minorUnit: 0
 ISO4217Number: '218'
-sign: ¤
+sign: S/.
 title: 'Ecuadorian sucre'
 usage:
     - { ISO8601From: '1884-04-01', ISO8601To: '2000-10-02', ISO3166Code: EC }

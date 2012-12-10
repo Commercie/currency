@@ -2,7 +2,7 @@ alternative_signs: {  }
 ISO4217Code: NLG
 minorUnit: 2
 ISO4217Number: '528'
-sign: ¤
+sign: ƒ
 title: 'Netherlands guilder'
 usage:
     - { ISO8601From: '1816-12-15', ISO8601To: '1831-02-07', ISO3166Code: BE }

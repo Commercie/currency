@@ -1,8 +1,8 @@
 alternative_signs: {  }
 ISO4217Code: CSK
-minorUnit: null
+minorUnit: 2
 ISO4217Number: '200'
-sign: ¤
+sign: Kčs
 title: 'Czechoslovak koruna'
 usage:
     - { ISO8601From: '1953-06-01', ISO8601To: '1993-03-01', ISO3166Code: CZ }

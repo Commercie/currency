@@ -2,7 +2,7 @@ alternative_signs: {  }
 ISO4217Code: GHC
 minorUnit: 0
 ISO4217Number: '288'
-sign: ¤
+sign: GH¢
 title: 'Ghanaian cedi'
 usage:
     - { ISO8601From: '1979-03-09', ISO8601To: '2007-12-31', ISO3166Code: GH }

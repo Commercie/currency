@@ -2,7 +2,7 @@ alternative_signs: {  }
 ISO4217Code: DEM
 minorUnit: 2
 ISO4217Number: '276'
-sign: ¤
+sign: DM
 title: 'German mark'
 usage:
     - { ISO8601From: '1948-06-20', ISO8601To: '2002-02-28', ISO3166Code: DE }
