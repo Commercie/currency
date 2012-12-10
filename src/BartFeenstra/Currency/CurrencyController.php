@@ -125,7 +125,7 @@ class CurrencyController {
    *
    * @return boolean
    */
-  function delete($iso_4217_code) {
+  public static function delete($iso_4217_code) {
     $result = unlink(__DIR__ . '/' . self::DIRECTORY_ROOT . self::DIRECTORY_CUSTOM . "$iso_4217_code.yaml");
     if ($result) {
       unset(self::$ISO4217Codes[array_search($iso_4217_code, self::$ISO4217Codes)]);
