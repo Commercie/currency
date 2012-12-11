@@ -8,6 +8,7 @@ A PHP library that provides metadata for current and historic currencies:
 * The number of decimals a currency has
 * Where (ISO 3166 country codes) and when (ISO 8601 dates) currencies were and
   are used
+* Fixed exchange rates (usually historic)
 
 # Usage
 The class `CurrencyController` is the central CRUD controller. Predefined
