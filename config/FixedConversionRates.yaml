@@ -1,0 +1,94 @@
+BGN:
+    BGL: 1000
+BRB:
+    BRZ: 1000
+BRC:
+    BRB: 1000
+BRE:
+    BRN: 1
+BRL:
+    BRR: 2750
+BRN:
+    BRC: 1000
+BRR:
+    BRE: 1000
+CAD:
+    NFD: 1
+CLP:
+    CLE: 1000
+EUR:
+    ATS: 13.7603
+    BEF: 40.3399
+    CYP: 0.585274
+    DEM: 1.95583
+    EEK: 15.6466
+    ESP: 166.386
+    FIM: 5.94573
+    FRF: 6.55957
+    GRD: 340.75
+    IEP: 0.787564
+    ITL: 1.93627
+    LUF: 40.3399
+    LVL: 0.702804
+    LTL: 3.4528
+    MCF: 6.55957
+    MTL: 0.4293
+    NLG: 2.20371
+    PTE: 200.482
+    SIT: 239.64
+    SKK: 30.126
+    SML: 1.93627
+    VAL: 1.93627
+ILS:
+    ILR: 1000
+ISK:
+    ISJ: 100
+KGS:
+    SUR: 200
+MGA:
+    MGF: 5
+PEI:
+    PEH: 1000
+PEN:
+    PEI: 1000000
+PLN:
+    PLZ: 10000
+RON:
+    ROL: 10000
+RUB:
+    SUR: 1000
+    RUR: 1000
+SDD:
+    SDP: 10
+SDG:
+    SDD: 100
+TJS:
+    TJR: 1000
+TRY:
+    TRL: 1000000
+UAH:
+    UAK: 100000
+UGX:
+    UGS: 100
+USD:
+    ECS: 25000
+UYU:
+    UYN: 1000
+VEF:
+    VEB: 1000
+YUR:
+    YUN: 10
+YUO:
+    YUR: 1000000
+YUG:
+    YUO: 1000000000
+ZRN:
+    ZRZ: 3000000
+ZWD:
+    ZWC: 1
+ZWN:
+    ZWD: 1000
+ZWR:
+    ZWN: 10000000000
+ZWL:
+    ZWR: 1000000000000
