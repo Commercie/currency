@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    UGS: 100
 ISO4217Code: UGX
 minorUnit: 0
 ISO4217Number: '800'

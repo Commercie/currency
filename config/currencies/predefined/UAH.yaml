@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    UAK: 100000
 ISO4217Code: UAH
 minorUnit: 2
 ISO4217Number: '980'

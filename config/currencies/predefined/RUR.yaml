@@ -1,5 +1,6 @@
 alternativeSigns:
     - руб
+conversionRates: {  }
 ISO4217Code: RUR
 minorUnit: null
 ISO4217Number: '810'

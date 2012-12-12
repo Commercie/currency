@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    ZWD: 1000
 ISO4217Code: ZWN
 minorUnit: 2
 ISO4217Number: '942'

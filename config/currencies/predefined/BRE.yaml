@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    BRN: 1
 ISO4217Code: BRE
 minorUnit: 2
 ISO4217Number: null

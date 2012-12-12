@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    ECS: 25000
 ISO4217Code: USD
 minorUnit: 2
 ISO4217Number: '840'

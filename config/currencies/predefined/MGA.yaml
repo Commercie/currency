@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    MGF: 5
 ISO4217Code: MGA
 minorUnit: 2
 ISO4217Number: '969'

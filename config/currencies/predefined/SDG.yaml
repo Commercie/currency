@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    SDD: 100
 ISO4217Code: SDG
 minorUnit: 2
 ISO4217Number: '938'

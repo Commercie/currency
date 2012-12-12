@@ -21,6 +21,14 @@ class Currency extends CommonAbstract {
   public $alternativeSigns = array();
 
   /**
+   * Conversion rates to other currencies.
+   *
+   * @var array
+   *   Keys are ISO 4217 codes, values are integers or floats.
+   */
+  public $conversionRates = array();
+
+  /**
    * ISO 4217 currency code.
    *
    * @var string

@@ -1,5 +1,8 @@
 alternativeSigns:
     - руб
+conversionRates:
+    SUR: 1000
+    RUR: 1000
 ISO4217Code: RUB
 minorUnit: 2
 ISO4217Number: '643'

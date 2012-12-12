@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    ROL: 10000
 ISO4217Code: RON
 minorUnit: 2
 ISO4217Number: '946'

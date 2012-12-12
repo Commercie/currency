@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    SUR: 200
 ISO4217Code: KGS
 minorUnit: 2
 ISO4217Number: '417'

@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    BRZ: 1000
 ISO4217Code: BRB
 minorUnit: 2
 ISO4217Number: null

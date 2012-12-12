@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    ZWR: 1000000000000
 ISO4217Code: ZWL
 minorUnit: 2
 ISO4217Number: '932'

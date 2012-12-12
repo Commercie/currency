@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    TRL: 1000000
 ISO4217Code: TRY
 minorUnit: 2
 ISO4217Number: '949'

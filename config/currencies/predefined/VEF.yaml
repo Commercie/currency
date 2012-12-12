@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    VEB: 1000
 ISO4217Code: VEF
 minorUnit: 2
 ISO4217Number: '937'

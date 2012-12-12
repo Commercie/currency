@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    ZWC: 1
 ISO4217Code: ZWD
 minorUnit: 2
 ISO4217Number: '716'

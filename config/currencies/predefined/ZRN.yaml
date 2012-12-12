@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    ZRZ: 3000000
 ISO4217Code: ZRN
 minorUnit: 2
 ISO4217Number: '180'

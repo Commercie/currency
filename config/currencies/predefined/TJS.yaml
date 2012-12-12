@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    TJR: 1000
 ISO4217Code: TJS
 minorUnit: 2
 ISO4217Number: '972'

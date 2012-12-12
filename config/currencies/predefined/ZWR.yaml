@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    ZWN: 10000000000
 ISO4217Code: ZWR
 minorUnit: 2
 ISO4217Number: '935'

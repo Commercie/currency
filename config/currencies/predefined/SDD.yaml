@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    SDP: 10
 ISO4217Code: SDD
 minorUnit: null
 ISO4217Number: '736'

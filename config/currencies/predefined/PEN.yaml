@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    PEI: 1000000
 ISO4217Code: PEN
 minorUnit: 2
 ISO4217Number: '604'

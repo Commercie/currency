@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    YUN: 10
 ISO4217Code: YUR
 minorUnit: 2
 ISO4217Number: null

@@ -1,4 +1,27 @@
 alternativeSigns: {  }
+conversionRates:
+    ATS: 13.7603
+    BEF: 40.3399
+    CYP: 0.585274
+    DEM: 1.95583
+    EEK: 15.6466
+    ESP: 166.386
+    FIM: 5.94573
+    FRF: 6.55957
+    GRD: 340.75
+    IEP: 0.787564
+    ITL: 1.93627
+    LUF: 40.3399
+    LVL: 0.702804
+    LTL: 3.4528
+    MCF: 6.55957
+    MTL: 0.4293
+    NLG: 2.20371
+    PTE: 200.482
+    SIT: 239.64
+    SKK: 30.126
+    SML: 1.93627
+    VAL: 1.93627
 ISO4217Code: EUR
 minorUnit: 2
 ISO4217Number: '978'

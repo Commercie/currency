@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    NFD: 1
 ISO4217Code: CAD
 minorUnit: 2
 ISO4217Number: '124'

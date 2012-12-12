@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    PLZ: 10000
 ISO4217Code: PLN
 minorUnit: 2
 ISO4217Number: '985'

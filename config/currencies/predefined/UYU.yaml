@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    UYN: 1000
 ISO4217Code: UYU
 minorUnit: 2
 ISO4217Number: '858'

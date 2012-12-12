@@ -1,4 +1,6 @@
 alternativeSigns: {  }
+conversionRates:
+    BGL: 1000
 ISO4217Code: BGN
 minorUnit: 2
 ISO4217Number: '975'
