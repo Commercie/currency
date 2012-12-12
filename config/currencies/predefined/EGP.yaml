@@ -2,7 +2,7 @@ alternative_signs: {  }
 ISO4217Code: EGP
 minorUnit: 2
 ISO4217Number: '818'
-sign: ج.م
+sign: 'ج.م'
 title: 'Egyptian Pound'
 usage:
     - { ISO8601From: '1885-11-14', ISO8601To: '', ISO3166Code: EG }

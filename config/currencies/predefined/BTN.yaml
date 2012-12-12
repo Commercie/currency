@@ -2,7 +2,7 @@ alternative_signs: {  }
 ISO4217Code: BTN
 minorUnit: 2
 ISO4217Number: '064'
-sign: 'Nu.'
+sign: Nu.
 title: Ngultrum
 usage:
     - { ISO8601From: '1974-04-16', ISO8601To: '', ISO3166Code: BT }
