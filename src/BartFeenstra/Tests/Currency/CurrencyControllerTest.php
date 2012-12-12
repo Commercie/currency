@@ -35,7 +35,7 @@ class CurrencyControllerTest extends \PHPUnit_Framework_TestCase {
    */
   function yaml() {
     return <<<'EOD'
-alternative_signs: {  }
+alternativeSigns: {  }
 ISO4217Code: EUR
 minorUnit: 2
 ISO4217Number: '978'

@@ -18,7 +18,7 @@ class Currency extends CommonAbstract {
    * @var array
    *   An array of strings that are similar to Currency::sign.
    */
-  public $alternative_signs = array();
+  public $alternativeSigns = array();
 
   /**
    * ISO 4217 currency code.
