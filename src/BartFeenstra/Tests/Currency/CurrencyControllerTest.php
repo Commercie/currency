@@ -116,6 +116,15 @@ EOD;
   }
 
   /**
+   * Tests loading all currencies.
+   *
+   * @depends testParse
+   */
+  function testLoadAll() {
+    CurrencyController::loadAll();
+  }
+
+  /**
    * Tests deleting a custom currency.
    *
    * @depends testSave

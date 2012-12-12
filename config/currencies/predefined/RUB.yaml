@@ -1,4 +1,5 @@
-alternative_signs: { руб }
+alternative_signs:
+    - руб
 ISO4217Code: RUB
 minorUnit: 2
 ISO4217Number: '643'
