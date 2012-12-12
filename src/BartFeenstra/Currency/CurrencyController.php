@@ -15,19 +15,9 @@ use Symfony\Component\Yaml\Yaml;
 class CurrencyController {
 
   /**
-   * The path from the root to the directory with predefined currencies.
+   * The path to the configuration directory.
    */
-  const DIRECTORY_PREDEFINED = 'config/currencies/predefined/';
-
-  /**
-   * The path from the root to the directory with custom currencies.
-   */
-  const DIRECTORY_CUSTOM = 'config/currencies/custom/';
-
-  /**
-   * The path to the root directory.
-   */
-  const DIRECTORY_ROOT = '../../../';
+  const CONFIG = '../../../config/';
 
   /**
    * A list of the ISO 4217 codes of all known currencies in the library.
@@ -42,18 +32,16 @@ class CurrencyController {
    */
   public static function getList() {
     if (!self::$ISO4217Codes) {
-      $paths = array(__DIR__ . '/' . self::DIRECTORY_ROOT . self::DIRECTORY_PREDEFINED, __DIR__ . '/' . self::DIRECTORY_ROOT . self::DIRECTORY_CUSTOM);
-      foreach ($paths as $path) {
-        $directory = new \RecursiveDirectoryIterator($path);
-        foreach ($directory as $item) {
-          if (preg_match('#^...\.yaml$#', $item->getFilename())) {
-            self::$ISO4217Codes[] = substr($item->getFilename(), 0, 3);
-          }
+      $path = __DIR__ . '/' . self::CONFIG;
+      $directory = new \RecursiveDirectoryIterator($path);
+      foreach ($directory as $item) {
+        if (preg_match('#^...\.yaml$#', $item->getFilename())) {
+          self::$ISO4217Codes[] = substr($item->getFilename(), 0, 3);
         }
       }
     }
 
-    return array_unique(self::$ISO4217Codes);
+    return self::$ISO4217Codes;
   }
 
   /**
@@ -67,71 +55,29 @@ class CurrencyController {
    * Loads a currency.
    *
    * @param string $iso_4217_code
-   * @param boolean $custom
-   *   Whether to look for a custom currency definition first.
    *
    * @return Currency|false
    */
-  public static function load($iso_4217_code, $custom = TRUE) {
-    $directories = array(self::DIRECTORY_PREDEFINED);
-    if ($custom) {
-      array_unshift($directories, self::DIRECTORY_CUSTOM);
-    }
-    foreach ($directories as $directory) {
-      $filepath = __DIR__ . '/' . self::DIRECTORY_ROOT . "$directory/$iso_4217_code.yaml";
-      if (file_exists($filepath)) {
-        return self::parse(file_get_contents($filepath));
-      }
+  public static function load($iso_4217_code) {
+    $filepath = __DIR__ . '/' . self::CONFIG . "$iso_4217_code.yaml";
+    if (file_exists($filepath)) {
+      return self::parse(file_get_contents($filepath));
     }
     return FALSE;
   }
 
   /**
    * Loads all currencies.
-   * @param boolean $custom
-   *   Whether to look for custom currency definitions first.
    *
    * @return array
    */
-  public static function loadAll($custom = TRUE) {
+  public static function loadAll() {
     $currencies = array();
     foreach (self::getList() as $iso_4217_code) {
-      $currencies[$iso_4217_code] = self::load($iso_4217_code, $custom);
+      $currencies[$iso_4217_code] = self::load($iso_4217_code);
     }
 
     return $currencies;
-  }
-
-  /**
-   * Saves a custom currency.
-   *
-   * @param Currency $currency
-   *
-   * @return boolean
-   */
-  public static function save(Currency $currency) {
-    $result = file_put_contents(__DIR__ . '/' . self::DIRECTORY_ROOT . self::DIRECTORY_CUSTOM . $currency->ISO4217Code . '.yaml', self::dump($currency));
-    if ($result) {
-      self::$ISO4217Codes[] = $currency->ISO4217Code;
-    }
-
-    return $result;
-  }
-
-  /**
-   * Deletes a custom currency.
-   *
-   * @param string $iso_4217_code
-   *
-   * @return boolean
-   */
-  public static function delete($iso_4217_code) {
-    $result = unlink(__DIR__ . '/' . self::DIRECTORY_ROOT . self::DIRECTORY_CUSTOM . "$iso_4217_code.yaml");
-    if ($result) {
-      unset(self::$ISO4217Codes[array_search($iso_4217_code, self::$ISO4217Codes)]);
-    }
-
-    return $result;
   }
 
   /**
@@ -153,22 +99,5 @@ class CurrencyController {
       return $currency;
     }
     return FALSE;
-  }
-
-  /**
-   * Dumps a Currency object to YAML code.
-   *
-   * @param string $filepath
-   *
-   * @return Currency|false
-   */
-  public static function dump(Currency $currency) {
-    $currency_data = get_object_vars($currency);
-    $currency_data['usage'] = array();
-    foreach ($currency->usage as $usage) {
-      $currency_data['usage'][] = get_object_vars($usage);
-    }
-
-    return Yaml::dump($currency_data);
   }
 }

@@ -2,7 +2,8 @@ Currency
 ========
 
 # Introduction
-A PHP library that provides metadata for current and historic currencies:
+A language-independent library that provides metadata for current and historic
+currencies:
 * ISO 4217 currency codes and numbers
 * Currency signs
 * The number of decimals a currency has
@@ -11,15 +12,18 @@ A PHP library that provides metadata for current and historic currencies:
 * Fixed exchange rates (usually historic)
 
 # Usage
-The class `CurrencyController` is the central CRUD controller. Predefined
-currencies are stored as YAML files in /config/currencies/predefined. You can
-put your own YAML files in /config/currencies/custom. If predefined currencies
-with the same ISO 4217 code exist, custom ones will override them.
+Currency information is stored in YAML files in /config. The PHP class
+`CurrencyController` is the central CRUD controller which servers as a helper
+for handling the currency information, but it is not required to make use of
+the library.
 
 # Requirements
+* Any YAML parser.
+* PHPUnit 3.7.* (for running tests only)
+
+# Suggested packages
 * PHP 5.3.x or higher
 * Symfony YAML 2.1.*
-* PHPUnit 3.7.* (for running tests only)
 
 # Integrates with
 * [Composer](http://getcomposer.org) (as

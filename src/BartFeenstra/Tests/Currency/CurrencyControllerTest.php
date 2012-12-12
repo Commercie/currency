@@ -83,57 +83,19 @@ EOD;
   }
 
   /**
-   * Test Currency dumping .
-   */
-  function testDump() {
-    $currency = $this->currency();
-    $yaml_dumped = CurrencyController::dump($currency);
-    $this->assertInternalType('string', $yaml_dumped, 'CurrencyController::dump() returns a string.');
-    $yaml = $this->yaml();
-    $this->assertSame(trim($yaml), trim($yaml_dumped), 'CurrencyController::dump() correctly dumps a Currency object to YAML.');
-  }
-
-  /**
-   * Tests saving a custom currency.
-   *
-   * @depends testDump
-   */
-  function testSave() {
-    $currency = $this->currency();
-    $currency->ISO4217Code = 'ZZZ';
-    CurrencyController::save($currency);
-    $this->assertFileExists(__DIR__ . '/../' . CurrencyController::DIRECTORY_ROOT . CurrencyController::DIRECTORY_CUSTOM . $currency->ISO4217Code . '.yaml');
-    $this->assertContains($currency->ISO4217Code, CurrencyController::getList());
-  }
-
-  /**
-   * Tests loading a custom currency.
-   *
-   * @depends testSave
+   * Tests loading a single currency.
    */
   function testLoad() {
-    $currency = CurrencyController::load('ZZZ', TRUE);
-    $this->assertInstanceOf('BartFeenstra\Currency\Currency', $currency, 'CurrencyController::load() loads a custom currency from file.');
+    $currency = CurrencyController::load('EUR');
+    $this->assertInstanceOf('BartFeenstra\Currency\Currency', $currency, 'CurrencyController::load() loads a single currency from file.');
   }
 
   /**
    * Tests loading all currencies.
    *
-   * @depends testParse
+   * @depends testLoad
    */
   function testLoadAll() {
     CurrencyController::loadAll();
-  }
-
-  /**
-   * Tests deleting a custom currency.
-   *
-   * @depends testSave
-   */
-  function testDelete() {
-    $iso_4217_code = 'ZZZ';
-    CurrencyController::delete($iso_4217_code);
-    $this->assertFileNotExists(__DIR__ . '/../' . CurrencyController::DIRECTORY_ROOT . CurrencyController::DIRECTORY_CUSTOM . $iso_4217_code . '.yaml');
-    $this->assertNotContains($iso_4217_code, CurrencyController::getList());
   }
 }
