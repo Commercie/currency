@@ -25,28 +25,26 @@ class Parse {
   /**
    * Parses an amount.
    *
-   * @throws AmountIllegalCharactersException
-   * @throws AmountInvalidFormatException
+   * @throws AmountNotNumericException
    *
    * @param integer|float|string $amount
    *   Any numeric value, or a string in an optionally localized format.
    *
    * @return float
    */
-	public static function amount($amount) {
+  public static function amount($amount) {
     if (is_numeric($amount)) {
       return (float) $amount;
     }
-
     $amount = self::amountParseDecimalSeparator($amount);
     $amount = self::amountParseNegative($amount);
     if (is_numeric($amount)) {
       return (float) $amount;
     }
     else {
-      throw new AmountNotNumericException();
+      throw new AmountNotNumericException('The amount could not be interpreted as a numeric string.');
     }
-	}
+  }
 
   /**
    * Parses an amount's decimal separator.
@@ -58,20 +56,20 @@ class Parse {
    * @return string
    *   The amount with its decimal separator replaced by a period.
    */
-	public static function amountParseDecimalSeparator($amount) {
-	  $decimal_separator_counts = array();
-	  foreach (self::$decimalSeparators as $decimal_separator) {
-	    $decimal_separator_counts[$decimal_separator] = \mb_substr_count($amount, $decimal_separator);
-	  }
-	  $decimal_separator_counts_filtered = array_filter($decimal_separator_counts);
-	  if (count($decimal_separator_counts_filtered) > 1 || reset($decimal_separator_counts_filtered) !== FALSE && reset($decimal_separator_counts_filtered) != 1) {
-	    throw new AmountInvalidDecimalSeparatorException(strtr('The amount can only have no or one decimal separator and it must be one of "decimalSeparators".', array(
-	     'decimalSeparators' => implode(self::$decimalSeparators),
-	    )));
-	  }
-	  $amount = str_replace(self::$decimalSeparators, '.', $amount);
+  public static function amountParseDecimalSeparator($amount) {
+    $decimal_separator_counts = array();
+    foreach (self::$decimalSeparators as $decimal_separator) {
+      $decimal_separator_counts[$decimal_separator] = \mb_substr_count($amount, $decimal_separator);
+    }
+    $decimal_separator_counts_filtered = array_filter($decimal_separator_counts);
+    if (count($decimal_separator_counts_filtered) > 1 || reset($decimal_separator_counts_filtered) !== FALSE && reset($decimal_separator_counts_filtered) != 1) {
+      throw new AmountInvalidDecimalSeparatorException(strtr('The amount can only have no or one decimal separator and it must be one of "decimalSeparators".', array(
+       'decimalSeparators' => implode(self::$decimalSeparators),
+      )));
+    }
+    $amount = str_replace(self::$decimalSeparators, '.', $amount);
 
-	  return $amount;
+    return $amount;
   }
 
   /**
@@ -80,9 +78,9 @@ class Parse {
    * @param string $amount
    *
    * @return string
-   *   The amount with a negative format replaced by a minus sign prefix.
+   *   The amount with negative formatting replaced by a minus sign prefix.
    */
-	public static function amountParseNegative($amount) {
+  public static function amountParseNegative($amount) {
     // An amount wrapped in parentheses.
     $amount = preg_replace('/^\((.*?)\)$/', '-\\1', $amount);
     // An amount suffixed by a minus sign.
