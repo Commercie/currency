@@ -5,7 +5,7 @@
  * Contains class \BartFeenstra\Tests\Currency\CurrencyControllerTest.
  */
 
-namespace BartFeenstra\Tests\CLDR;
+namespace BartFeenstra\Tests\Currency;
 
 use BartFeenstra\Currency\Currency;
 use BartFeenstra\Currency\CurrencyController;

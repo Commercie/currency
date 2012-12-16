@@ -5,7 +5,7 @@
  * Contains class \BartFeenstra\Tests\Currency\ParseTest.
  */
 
-namespace BartFeenstra\Tests\CLDR;
+namespace BartFeenstra\Tests\Currency;
 
 use BartFeenstra\Currency\Parse;
 
