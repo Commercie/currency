@@ -15,9 +15,9 @@ use Symfony\Component\Yaml\Yaml;
 class CurrencyController {
 
   /**
-   * The path to the configuration directory.
+   * The path to the resources directory.
    */
-  const CONFIG = '../../../config/';
+  const RESOURCES = '../../../../resources/';
 
   /**
    * A list of the ISO 4217 codes of all known currencies in the library.
@@ -32,7 +32,7 @@ class CurrencyController {
    */
   public static function getList() {
     if (!self::$ISO4217Codes) {
-      $path = __DIR__ . '/' . self::CONFIG;
+      $path = __DIR__ . '/' . self::RESOURCES;
       $directory = new \RecursiveDirectoryIterator($path);
       foreach ($directory as $item) {
         if (preg_match('#^...\.yaml$#', $item->getFilename())) {
@@ -59,7 +59,7 @@ class CurrencyController {
    * @return Currency|false
    */
   public static function load($iso_4217_code) {
-    $filepath = __DIR__ . '/' . self::CONFIG . "$iso_4217_code.yaml";
+    $filepath = __DIR__ . '/' . self::RESOURCES . "$iso_4217_code.yaml";
     if (file_exists($filepath)) {
       return self::parse(file_get_contents($filepath));
     }

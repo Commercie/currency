@@ -12,7 +12,7 @@ currencies:
 * Fixed exchange rates (usually historic)
 
 # Usage
-Currency information is stored in YAML files in /config. The PHP class
+Currency information is stored in YAML files in /resources. The PHP class
 `CurrencyController` is the central CRUD controller which servers as a helper
 for handling the currency information, but it is not required to make use of
 the library.

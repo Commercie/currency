@@ -9,7 +9,7 @@ namespace BartFeenstra\Tests\CLDR;
 
 use BartFeenstra\Currency\Parse;
 
-require_once __DIR__ . '/../../../../vendor/autoload.php';
+require_once __DIR__ . '/../../../../../vendor/autoload.php';
 
 /**
  * Tests \BartFeenstra\Currency\Validate
