@@ -7,7 +7,7 @@
 
 namespace BartFeenstra\Currency;
 
-class Usage extends CommonAbstract  {
+class Usage  {
 
   /**
    * The ISO 8601 datetime of the moment this usage started.
