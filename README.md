@@ -12,10 +12,10 @@ currencies:
 * Fixed exchange rates (usually historic)
 
 # Usage
-* Currency information is stored in YAML files in /resources.
+* Currency information is stored in YAML files in `/resources`.
 * PHP helpers:
   * `Currency` is a basic class that serves as a container and a controller for
-  * working with the YAML resources
+working with the YAML resources
   * `Input` contains parses to handle user input.
 
 # Requirements
