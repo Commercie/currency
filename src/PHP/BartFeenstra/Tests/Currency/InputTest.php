@@ -7,19 +7,19 @@
 
 namespace BartFeenstra\Tests\Currency;
 
-use BartFeenstra\Currency\Parse;
+use BartFeenstra\Currency\Input;
 
 require_once __DIR__ . '/../../../../../vendor/autoload.php';
 
 /**
- * Tests \BartFeenstra\Currency\Validate
+ * Tests \BartFeenstra\Currency\Input
  */
-class ValidateTest extends \PHPUnit_Framework_TestCase {
+class InputTest extends \PHPUnit_Framework_TestCase {
 
   /**
    * Tests amount().
    */
-  function testAmount() {
+  function testParseAmount() {
     $amounts_invalid = array(
       'BartFeenstra\Currency\AmountNotNumericException' => array(
         'a',
@@ -35,7 +35,7 @@ class ValidateTest extends \PHPUnit_Framework_TestCase {
       foreach ($amounts as $amount) {
         $valid = TRUE;
         try {
-          Parse::amount($amount);
+          Input::parseAmount($amount);
         }
         catch (\Exception $e) {
           if ($e instanceof $exception_class) {
@@ -67,7 +67,7 @@ class ValidateTest extends \PHPUnit_Framework_TestCase {
     );
     foreach ($amounts_valid as $amount) {
       $amount_validated = NULL;
-      $amount_validated = Parse::amount($amount[0]);
+      $amount_validated = Input::parseAmount($amount[0]);
       $this->assertSame($amount_validated, $amount[1]);
     }
   }

@@ -2,15 +2,15 @@
 
 /**
  * @file
- * Contains class \BartFeenstra\Currency\Parse.
+ * Contains class \BartFeenstra\Currency\Input.
  */
 
 namespace BartFeenstra\Currency;
 
 /**
- * Currency (amount) parsing functions.
+ * Helpers for parsing user input.
  */
-class Parse {
+class Input {
 
   protected static $decimalSeparators = array(
     // A comma.
@@ -32,12 +32,12 @@ class Parse {
    *
    * @return float
    */
-  public static function amount($amount) {
+  public static function parseAmount($amount) {
     if (is_numeric($amount)) {
       return (float) $amount;
     }
-    $amount = self::amountParseDecimalSeparator($amount);
-    $amount = self::amountParseNegative($amount);
+    $amount = self::parseAmountDecimalSeparator($amount);
+    $amount = self::parseAmountNegativeFormat($amount);
     if (is_numeric($amount)) {
       return (float) $amount;
     }
@@ -56,7 +56,7 @@ class Parse {
    * @return string
    *   The amount with its decimal separator replaced by a period.
    */
-  public static function amountParseDecimalSeparator($amount) {
+  public static function parseAmountDecimalSeparator($amount) {
     $decimal_separator_counts = array();
     foreach (self::$decimalSeparators as $decimal_separator) {
       $decimal_separator_counts[$decimal_separator] = \mb_substr_count($amount, $decimal_separator);
@@ -80,7 +80,7 @@ class Parse {
    * @return string
    *   The amount with negative formatting replaced by a minus sign prefix.
    */
-  public static function amountParseNegative($amount) {
+  public static function parseAmountNegativeFormat($amount) {
     // An amount wrapped in parentheses.
     $amount = preg_replace('/^\((.*?)\)$/', '-\\1', $amount);
     // An amount suffixed by a minus sign.
