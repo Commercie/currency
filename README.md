@@ -12,16 +12,22 @@ currencies:
 * Fixed exchange rates (usually historic)
 
 # Usage
-Currency information is stored in YAML files in /resources. The PHP class
-`CurrencyController` is the central CRUD controller which servers as a helper
-for handling the currency information, but it is not required to make use of
-the library.
+* Currency information is stored in YAML files in /resources.
+* PHP helpers:
+  * `Currency` is a basic class that serves as a container and a controller for
+  * working with the YAML resources
+  * `Input` contains parses to handle user input.
 
 # Requirements
-* Any YAML parser.
-* PHPUnit 3.7.* (for running tests only)
+The library does not have any global requirements.
 
-# Suggested packages
+## Testing
+* PHPUnit 3.7.*
+
+## Resources
+* Any YAML parser.
+
+## PHP
 * PHP 5.3.x or higher
 * Symfony YAML 2.1.*
 
