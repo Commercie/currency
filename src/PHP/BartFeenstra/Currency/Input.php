@@ -12,7 +12,7 @@ namespace BartFeenstra\Currency;
  */
 class Input {
 
-  protected static $decimalSeparators = array(
+  public static $decimalSeparators = array(
     // A comma.
     ',',
     // A period (full stop).
