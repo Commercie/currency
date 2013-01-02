@@ -4,7 +4,7 @@ ISO4217Code: NLG
 minorUnit: 2
 ISO4217Number: '528'
 sign: ƒ
-title: 'Netherlands guilder'
+title: 'Dutch guilder'
 usage:
     - { ISO8601From: '1816-12-15', ISO8601To: '1831-02-07', ISO3166Code: BE }
     - { ISO8601From: '1813-01-01', ISO8601To: '2002-02-28', ISO3166Code: NL }

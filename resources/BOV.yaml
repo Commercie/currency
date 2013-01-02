@@ -4,6 +4,6 @@ ISO4217Code: BOV
 minorUnit: 2
 ISO4217Number: '984'
 sign: ¤
-title: Mvdol
+title: 'Bolivian Mvdol'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: BO }

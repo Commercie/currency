@@ -5,6 +5,6 @@ ISO4217Code: KGS
 minorUnit: 2
 ISO4217Number: '417'
 sign: ¤
-title: Som
+title: 'Kyrgyzstani Som'
 usage:
     - { ISO8601From: '1993-05-10', ISO8601To: '', ISO3166Code: KG }

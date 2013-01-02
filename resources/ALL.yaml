@@ -4,6 +4,6 @@ ISO4217Code: ALL
 minorUnit: 2
 ISO4217Number: '008'
 sign: Lek
-title: Lek
+title: 'Albanian Lek'
 usage:
     - { ISO8601From: '1965-08-16', ISO8601To: '', ISO3166Code: AL }

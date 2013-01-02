@@ -4,7 +4,7 @@ ISO4217Code: JPY
 minorUnit: 0
 ISO4217Number: '392'
 sign: ¥
-title: Yen
+title: 'Japanese Yen'
 usage:
     - { ISO8601From: '1914-10-03', ISO8601To: '1944-01-01', ISO3166Code: FM }
     - { ISO8601From: '1871-06-01', ISO8601To: '', ISO3166Code: JP }

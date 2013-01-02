@@ -4,6 +4,6 @@ ISO4217Code: KZT
 minorUnit: 2
 ISO4217Number: '398'
 sign: ₸
-title: Tenge
+title: 'Kazakhstani Tenge'
 usage:
     - { ISO8601From: '1993-11-05', ISO8601To: '', ISO3166Code: KZ }
