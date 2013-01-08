@@ -7,6 +7,9 @@
 
 namespace BartFeenstra\Currency;
 
+/**
+ * Describes a currency's usage in a country.
+ */
 class Usage  {
 
   /**
