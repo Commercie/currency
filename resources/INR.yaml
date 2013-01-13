@@ -1,4 +1,5 @@
-alternativeSigns: {  }
+alternativeSigns:
+    - ₨
 conversionRates: {  }
 ISO4217Code: INR
 minorUnit: 2
