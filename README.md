@@ -34,3 +34,4 @@ The library does not have any global requirements.
 # Integrates with
 * [Composer](http://getcomposer.org) (as
 [bartfeenstra/currency](https://packagist.org/packages/bartfeenstra/currency))
+* [Drupal](http://drupal.org) (through [Currency](http://drupal.org/project/currency))
