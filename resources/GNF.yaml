@@ -1,5 +1,6 @@
 alternativeSigns: {  }
-conversionRates: {  }
+conversionRates:
+    GNS: 1
 ISO4217Code: GNF
 minorUnit: 0
 ISO4217Number: '324'

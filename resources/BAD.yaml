@@ -1,9 +1,0 @@
-alternativeSigns: {  }
-conversionRates: {  }
-ISO4217Code: BAD
-minorUnit: null
-ISO4217Number: null
-sign: ¤
-title: null
-usage:
-    - { ISO8601From: '1992-07-01', ISO8601To: '1994-08-15', ISO3166Code: BA }

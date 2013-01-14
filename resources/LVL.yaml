@@ -1,5 +1,6 @@
 alternativeSigns: {  }
-conversionRates: {  }
+conversionRates:
+    LVR: 200
 ISO4217Code: LVL
 minorUnit: 2
 ISO4217Number: '428'

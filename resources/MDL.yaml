@@ -1,5 +1,6 @@
 alternativeSigns: {  }
-conversionRates: {  }
+conversionRates:
+    MDC: 1000
 ISO4217Code: MDL
 minorUnit: 2
 ISO4217Number: '498'

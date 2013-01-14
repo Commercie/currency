@@ -1,5 +1,6 @@
 alternativeSigns: {  }
-conversionRates: {  }
+conversionRates:
+    KRH: 10
 ISO4217Code: KRW
 minorUnit: 0
 ISO4217Number: '410'

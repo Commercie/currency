@@ -1,9 +1,0 @@
-alternativeSigns: {  }
-conversionRates: {  }
-ISO4217Code: UYP
-minorUnit: null
-ISO4217Number: null
-sign: ¤
-title: null
-usage:
-    - { ISO8601From: '1975-07-01', ISO8601To: '1993-03-01', ISO3166Code: UY }

@@ -1,9 +1,0 @@
-alternativeSigns: {  }
-conversionRates: {  }
-ISO4217Code: NIC
-minorUnit: null
-ISO4217Number: null
-sign: ¤
-title: null
-usage:
-    - { ISO8601From: '1988-02-15', ISO8601To: '1991-04-30', ISO3166Code: NI }

@@ -1,9 +1,0 @@
-alternativeSigns: {  }
-conversionRates: {  }
-ISO4217Code: GEK
-minorUnit: null
-ISO4217Number: null
-sign: ¤
-title: null
-usage:
-    - { ISO8601From: '1993-04-05', ISO8601To: '1995-09-25', ISO3166Code: GE }

@@ -1,5 +1,6 @@
 alternativeSigns: {  }
-conversionRates: {  }
+conversionRates:
+    LTT: 100
 ISO4217Code: LTL
 minorUnit: 2
 ISO4217Number: '440'

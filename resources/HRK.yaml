@@ -1,5 +1,6 @@
 alternativeSigns: {  }
-conversionRates: {  }
+conversionRates:
+    HRD: 1000
 ISO4217Code: HRK
 minorUnit: 2
 ISO4217Number: '191'
