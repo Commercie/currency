@@ -4,7 +4,7 @@ ISO4217Code: XXX
 minorUnit: 0
 ISO4217Number: '999'
 sign: ¤
-title: 'The codes assigned for transactions where no currency is involved'
+title: 'No currency'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: AQ }
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }
