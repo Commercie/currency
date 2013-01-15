@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: UYN
-minorUnit: null
+minorUnit: 2
 ISO4217Number: null
-sign: ¤
-title: 'Uruguay old peso'
+sign: $
+title: 'Uruguayan peso'
 usage:
     - { ISO8601From: '', ISO8601To: '1993-03-01', ISO3166Code: ZR }

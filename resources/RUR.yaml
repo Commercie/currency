@@ -2,7 +2,7 @@ alternativeSigns:
     - руб
 conversionRates: {  }
 ISO4217Code: RUR
-minorUnit: null
+minorUnit: 2
 ISO4217Number: '810'
 sign: ''
 title: 'Russian rouble A/97'

@@ -2,7 +2,7 @@ alternativeSigns: {  }
 conversionRates:
     YUN: 1
 ISO4217Code: HRD
-minorUnit: null
+minorUnit: 0
 ISO4217Number: null
 sign: ¤
 title: 'Croatian dinar'

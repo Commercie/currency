@@ -2,7 +2,7 @@ alternativeSigns: {  }
 conversionRates:
     MGF: 5
 ISO4217Code: MGA
-minorUnit: 2
+minorUnit: 1
 ISO4217Number: '969'
 sign: Ar
 title: 'Malagasy Ariary'

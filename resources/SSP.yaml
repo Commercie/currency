@@ -1,5 +1,6 @@
 alternativeSigns: {  }
-conversionRates: {  }
+conversionRates:
+    SDG: 1
 ISO4217Code: SSP
 minorUnit: 2
 ISO4217Number: '728'

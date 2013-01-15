@@ -2,7 +2,7 @@ alternativeSigns: {  }
 conversionRates:
     UGS: 100
 ISO4217Code: UGX
-minorUnit: 0
+minorUnit: 2
 ISO4217Number: '800'
 sign: USh
 title: 'Uganda Shilling'

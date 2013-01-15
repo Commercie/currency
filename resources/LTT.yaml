@@ -2,7 +2,7 @@ alternativeSigns: {  }
 conversionRates:
     SUR: 1
 ISO4217Code: LTT
-minorUnit: null
+minorUnit: 2
 ISO4217Number: null
 sign: ¤
 title: 'Lithuanian talonas'

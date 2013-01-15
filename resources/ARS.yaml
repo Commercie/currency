@@ -1,5 +1,6 @@
 alternativeSigns: {  }
-conversionRates: {  }
+conversionRates:
+    ARA: 10000
 ISO4217Code: ARS
 minorUnit: 2
 ISO4217Number: '032'

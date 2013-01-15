@@ -1,5 +1,7 @@
-alternativeSigns: {  }
-conversionRates: {  }
+alternativeSigns:
+    - N$
+conversionRates:
+    MXP: 1000
 ISO4217Code: MXN
 minorUnit: 2
 ISO4217Number: '484'

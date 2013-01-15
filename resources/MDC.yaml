@@ -2,7 +2,7 @@ alternativeSigns: {  }
 conversionRates:
     SUR: 1
 ISO4217Code: MDC
-minorUnit: null
+minorUnit: 0
 ISO4217Number: null
 sign: ¤
 title: 'Moldovan cupon'

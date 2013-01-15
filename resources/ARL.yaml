@@ -1,9 +1,11 @@
-alternativeSigns: {  }
-conversionRates: {  }
+alternativeSigns:
+    - $L
+conversionRates:
+    ARM: 100
 ISO4217Code: ARL
 minorUnit: 2
 ISO4217Number: null
-sign: ¤
+sign: $
 title: 'Argentine peso ley'
 usage:
     - { ISO8601From: '1970-01-01', ISO8601To: '1983-06-01', ISO3166Code: AR }
