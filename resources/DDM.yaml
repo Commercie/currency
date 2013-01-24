@@ -4,6 +4,6 @@ ISO4217Code: DDM
 minorUnit: 2
 ISO4217Number: '278'
 sign: M
-title: 'East German Mark of the GDR'
+title: 'German Democratic Republican mark'
 usage:
     - { ISO8601From: '1948-07-20', ISO8601To: '1990-10-02', ISO3166Code: DD }

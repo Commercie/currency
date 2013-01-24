@@ -4,7 +4,7 @@ ISO4217Code: XCD
 minorUnit: 2
 ISO4217Number: '951'
 sign: $
-title: 'East Caribbean Dollar'
+title: 'East Caribbean dollar'
 usage:
     - { ISO8601From: '1965-10-06', ISO8601To: '', ISO3166Code: AG }
     - { ISO8601From: '1965-10-06', ISO8601To: '', ISO3166Code: AI }

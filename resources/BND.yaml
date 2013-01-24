@@ -4,6 +4,6 @@ ISO4217Code: BND
 minorUnit: 2
 ISO4217Number: '096'
 sign: $
-title: 'Brunei Dollar'
+title: 'Bruneian dollar'
 usage:
     - { ISO8601From: '1967-06-12', ISO8601To: '', ISO3166Code: BN }

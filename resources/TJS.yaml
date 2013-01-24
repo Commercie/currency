@@ -5,6 +5,6 @@ ISO4217Code: TJS
 minorUnit: 2
 ISO4217Number: '972'
 sign: ¤
-title: 'Tajikistani Somoni'
+title: 'Tajikistani somoni'
 usage:
     - { ISO8601From: '2000-10-26', ISO8601To: '', ISO3166Code: TJ }

@@ -5,7 +5,7 @@ ISO4217Code: INR
 minorUnit: 2
 ISO4217Number: '356'
 sign: ₹
-title: 'Indian Rupee'
+title: 'Indian rupee'
 usage:
     - { ISO8601From: '1835-08-17', ISO8601To: '1948-04-01', ISO3166Code: BD }
     - { ISO8601From: '1907-01-01', ISO8601To: '', ISO3166Code: BT }

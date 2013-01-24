@@ -4,6 +4,6 @@ ISO4217Code: PLZ
 minorUnit: 2
 ISO4217Number: '616'
 sign: zł
-title: 'Polish zloty A/94'
+title: 'Polish złoty'
 usage:
     - { ISO8601From: '1950-10-28', ISO8601To: '1994-12-31', ISO3166Code: PL }

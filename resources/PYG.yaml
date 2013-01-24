@@ -4,6 +4,6 @@ ISO4217Code: PYG
 minorUnit: 0
 ISO4217Number: '600'
 sign: ₲
-title: 'Paraguayan Guaraní'
+title: 'Paraguayan guaraní'
 usage:
     - { ISO8601From: '1943-11-01', ISO8601To: '', ISO3166Code: PY }

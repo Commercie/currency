@@ -4,6 +4,6 @@ ISO4217Code: IRR
 minorUnit: 2
 ISO4217Number: '364'
 sign: ریال
-title: 'Iranian Rial'
+title: 'Iranian rial'
 usage:
     - { ISO8601From: '1932-05-13', ISO8601To: '', ISO3166Code: IR }

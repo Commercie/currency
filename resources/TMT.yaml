@@ -4,6 +4,6 @@ ISO4217Code: TMT
 minorUnit: 2
 ISO4217Number: '934'
 sign: m
-title: 'Turkmenistan New Manat'
+title: 'Turkmenistani new manat'
 usage:
     - { ISO8601From: '2009-01-01', ISO8601To: '', ISO3166Code: TM }

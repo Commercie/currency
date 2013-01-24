@@ -5,7 +5,7 @@ ISO4217Code: USD
 minorUnit: 2
 ISO4217Number: '840'
 sign: $
-title: 'US Dollar'
+title: 'U.S. dollar'
 usage:
     - { ISO8601From: '1904-07-16', ISO8601To: '', ISO3166Code: AS }
     - { ISO8601From: '1899-01-01', ISO8601To: '1959-01-01', ISO3166Code: CU }

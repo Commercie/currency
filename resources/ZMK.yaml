@@ -4,6 +4,6 @@ ISO4217Code: ZMK
 minorUnit: 2
 ISO4217Number: '894'
 sign: ZK
-title: 'Zambian Kwacha'
+title: 'Zambian kwacha'
 usage:
     - { ISO8601From: '1968-01-16', ISO8601To: '', ISO3166Code: ZM }

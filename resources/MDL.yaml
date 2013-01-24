@@ -5,6 +5,6 @@ ISO4217Code: MDL
 minorUnit: 2
 ISO4217Number: '498'
 sign: ¤
-title: 'Moldovan Leu'
+title: 'Moldovan leu'
 usage:
     - { ISO8601From: '1993-11-29', ISO8601To: '', ISO3166Code: MD }

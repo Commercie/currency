@@ -5,6 +5,6 @@ ISO4217Code: LVL
 minorUnit: 2
 ISO4217Number: '428'
 sign: Ls
-title: 'Latvian Lats'
+title: 'Latvian lats'
 usage:
     - { ISO8601From: '1993-06-28', ISO8601To: '', ISO3166Code: LV }

@@ -4,6 +4,6 @@ ISO4217Code: GYD
 minorUnit: 2
 ISO4217Number: '328'
 sign: $
-title: 'Guyana Dollar'
+title: 'Guyanese dollar'
 usage:
     - { ISO8601From: '1966-05-26', ISO8601To: '', ISO3166Code: GY }

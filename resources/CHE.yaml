@@ -4,6 +4,6 @@ ISO4217Code: CHE
 minorUnit: 2
 ISO4217Number: '947'
 sign: ¤
-title: 'WIR Euro'
+title: 'WIR euro'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: CH }

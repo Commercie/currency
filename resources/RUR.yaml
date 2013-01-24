@@ -5,7 +5,7 @@ ISO4217Code: RUR
 minorUnit: 2
 ISO4217Number: '810'
 sign: ''
-title: 'Russian rouble A/97'
+title: 'Russian rouble'
 usage:
     - { ISO8601From: '1991-12-25', ISO8601To: '1993-11-22', ISO3166Code: AM }
     - { ISO8601From: '1991-12-25', ISO8601To: '1994-01-01', ISO3166Code: AZ }

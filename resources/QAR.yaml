@@ -4,6 +4,6 @@ ISO4217Code: QAR
 minorUnit: 2
 ISO4217Number: '634'
 sign: ر.ق
-title: 'Qatari Rial'
+title: 'Qatari rial'
 usage:
     - { ISO8601From: '1973-05-19', ISO8601To: '', ISO3166Code: QA }

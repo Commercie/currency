@@ -4,6 +4,6 @@ ISO4217Code: XTS
 minorUnit: 0
 ISO4217Number: '963'
 sign: ¤
-title: 'Codes specifically reserved for testing purposes'
+title: 'Testing currency'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

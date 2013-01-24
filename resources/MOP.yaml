@@ -4,6 +4,6 @@ ISO4217Code: MOP
 minorUnit: 2
 ISO4217Number: '446'
 sign: MOP$
-title: 'Macanese Pataca'
+title: 'Macanese pataca'
 usage:
     - { ISO8601From: '1901-01-01', ISO8601To: '', ISO3166Code: MO }

@@ -4,6 +4,6 @@ ISO4217Code: PAB
 minorUnit: 2
 ISO4217Number: '590'
 sign: B/.
-title: 'Panamanian Balboa'
+title: 'Panamanian balboa'
 usage:
     - { ISO8601From: '1903-11-04', ISO8601To: '', ISO3166Code: PA }

@@ -1,9 +1,0 @@
-alternativeSigns: {  }
-conversionRates: {  }
-ISO4217Code: XUA
-minorUnit: 0
-ISO4217Number: '965'
-sign: ¤
-title: 'ADB Unit of Account'
-usage:
-    - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

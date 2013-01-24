@@ -4,6 +4,6 @@ ISO4217Code: SVC
 minorUnit: 2
 ISO4217Number: '222'
 sign: ₡
-title: 'El Salvador Colon'
+title: 'Salvadoran colon'
 usage:
     - { ISO8601From: '1919-11-11', ISO8601To: '2001-01-01', ISO3166Code: SV }

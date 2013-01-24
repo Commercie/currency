@@ -4,7 +4,7 @@ ISO4217Code: XOF
 minorUnit: 2
 ISO4217Number: '952'
 sign: ₣
-title: 'CFA Franc BCEAO'
+title: 'West African franc'
 usage:
     - { ISO8601From: '1984-08-04', ISO8601To: '', ISO3166Code: BF }
     - { ISO8601From: '1975-11-30', ISO8601To: '', ISO3166Code: BJ }

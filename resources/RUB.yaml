@@ -7,6 +7,6 @@ ISO4217Code: RUB
 minorUnit: 2
 ISO4217Number: '643'
 sign: ''
-title: 'Russian Ruble'
+title: 'Russian ruble'
 usage:
     - { ISO8601From: '1999-01-01', ISO8601To: '', ISO3166Code: RU }

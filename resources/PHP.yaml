@@ -4,6 +4,6 @@ ISO4217Code: PHP
 minorUnit: 2
 ISO4217Number: '608'
 sign: ₱
-title: 'Philippine Peso'
+title: 'Philippine peso'
 usage:
     - { ISO8601From: '1946-07-04', ISO8601To: '', ISO3166Code: PH }

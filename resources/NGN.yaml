@@ -4,6 +4,6 @@ ISO4217Code: NGN
 minorUnit: 2
 ISO4217Number: '566'
 sign: ₦
-title: 'Nigerian Naira'
+title: 'Nigerian naira'
 usage:
     - { ISO8601From: '1973-01-01', ISO8601To: '', ISO3166Code: NG }

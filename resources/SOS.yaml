@@ -4,6 +4,6 @@ ISO4217Code: SOS
 minorUnit: 2
 ISO4217Number: '706'
 sign: Sh.So.
-title: 'Somali Shilling'
+title: 'Somali shilling'
 usage:
     - { ISO8601From: '1960-07-01', ISO8601To: '', ISO3166Code: SO }

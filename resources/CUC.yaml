@@ -4,6 +4,6 @@ ISO4217Code: CUC
 minorUnit: 2
 ISO4217Number: '931'
 sign: $
-title: 'Peso Convertible'
+title: 'Cuban convertible peso'
 usage:
     - { ISO8601From: '1994-01-01', ISO8601To: '', ISO3166Code: CU }

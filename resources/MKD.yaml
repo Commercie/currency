@@ -4,6 +4,6 @@ ISO4217Code: MKD
 minorUnit: 2
 ISO4217Number: '807'
 sign: ден
-title: 'Macedonian Denar'
+title: 'Macedonian denar'
 usage:
     - { ISO8601From: '1993-05-20', ISO8601To: '', ISO3166Code: MK }

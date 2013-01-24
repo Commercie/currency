@@ -4,6 +4,6 @@ ISO4217Code: CRC
 minorUnit: 2
 ISO4217Number: '188'
 sign: ₡
-title: 'Costa Rican Colon'
+title: 'Costa Rican colon'
 usage:
     - { ISO8601From: '1896-10-26', ISO8601To: '', ISO3166Code: CR }

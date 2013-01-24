@@ -4,6 +4,6 @@ ISO4217Code: LKR
 minorUnit: 2
 ISO4217Number: '144'
 sign: ₨
-title: 'Sri Lanka Rupee'
+title: 'Sri Lankan rupee'
 usage:
     - { ISO8601From: '1978-05-22', ISO8601To: '', ISO3166Code: LK }

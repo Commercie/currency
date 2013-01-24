@@ -4,6 +4,6 @@ ISO4217Code: BZD
 minorUnit: 2
 ISO4217Number: '084'
 sign: $
-title: 'Belize Dollar'
+title: 'Belizean dollar'
 usage:
     - { ISO8601From: '1974-01-01', ISO8601To: '', ISO3166Code: BZ }

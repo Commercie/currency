@@ -1,9 +1,0 @@
-alternativeSigns: {  }
-conversionRates: {  }
-ISO4217Code: XSU
-minorUnit: 0
-ISO4217Number: '994'
-sign: ¤
-title: Sucre
-usage:
-    - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

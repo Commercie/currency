@@ -5,6 +5,6 @@ ISO4217Code: KRW
 minorUnit: 0
 ISO4217Number: '410'
 sign: ₩
-title: 'South Korean Won'
+title: 'South Korean won'
 usage:
     - { ISO8601From: '1962-06-10', ISO8601To: '', ISO3166Code: KR }

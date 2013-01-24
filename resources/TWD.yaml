@@ -4,6 +4,6 @@ ISO4217Code: TWD
 minorUnit: 2
 ISO4217Number: '901'
 sign: $
-title: 'New Taiwan Dollar'
+title: 'Taiwanese new dollar'
 usage:
     - { ISO8601From: '1949-06-15', ISO8601To: '', ISO3166Code: TW }

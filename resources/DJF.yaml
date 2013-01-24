@@ -4,6 +4,6 @@ ISO4217Code: DJF
 minorUnit: 0
 ISO4217Number: '262'
 sign: ₣
-title: 'Djibouti Franc'
+title: 'Djiboutian Franc'
 usage:
     - { ISO8601From: '1977-06-27', ISO8601To: '', ISO3166Code: DJ }

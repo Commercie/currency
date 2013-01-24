@@ -4,6 +4,6 @@ ISO4217Code: CLF
 minorUnit: 0
 ISO4217Number: '990'
 sign: ¤
-title: 'Unidades de fomento'
+title: 'Chilean Unidad de Fomento'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: CL }

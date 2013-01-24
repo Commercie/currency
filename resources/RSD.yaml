@@ -4,6 +4,6 @@ ISO4217Code: RSD
 minorUnit: 2
 ISO4217Number: '941'
 sign: 'РСД'
-title: 'Serbian Dinar'
+title: 'Serbian dinar'
 usage:
     - { ISO8601From: '2006-10-25', ISO8601To: '', ISO3166Code: RS }

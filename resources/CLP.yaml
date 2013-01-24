@@ -5,6 +5,6 @@ ISO4217Code: CLP
 minorUnit: 0
 ISO4217Number: '152'
 sign: $
-title: 'Chilean Peso'
+title: 'Chilean peso'
 usage:
     - { ISO8601From: '1975-09-29', ISO8601To: '', ISO3166Code: CL }

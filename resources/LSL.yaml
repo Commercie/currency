@@ -4,6 +4,6 @@ ISO4217Code: LSL
 minorUnit: 2
 ISO4217Number: '426'
 sign: L
-title: 'Lesotho Loti'
+title: 'Basotho loti'
 usage:
     - { ISO8601From: '1980-01-22', ISO8601To: '', ISO3166Code: LS }

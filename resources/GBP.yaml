@@ -4,7 +4,7 @@ ISO4217Code: GBP
 minorUnit: 2
 ISO4217Number: '826'
 sign: £
-title: 'Pound Sterling'
+title: 'British pound sterling'
 usage:
     - { ISO8601From: '1694-07-27', ISO8601To: '', ISO3166Code: GB }
     - { ISO8601From: '1830-01-01', ISO8601To: '', ISO3166Code: GG }

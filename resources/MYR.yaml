@@ -4,7 +4,7 @@ ISO4217Code: MYR
 minorUnit: 2
 ISO4217Number: '458'
 sign: RM
-title: 'Malaysian Ringgit'
+title: 'Malaysian ringgit'
 usage:
     - { ISO8601From: '1963-09-16', ISO8601To: '1967-06-12', ISO3166Code: BN }
     - { ISO8601From: '1963-09-16', ISO8601To: '', ISO3166Code: MY }

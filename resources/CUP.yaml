@@ -4,6 +4,6 @@ ISO4217Code: CUP
 minorUnit: 2
 ISO4217Number: '192'
 sign: $
-title: 'Cuban Peso'
+title: 'Cuban peso'
 usage:
     - { ISO8601From: '1859-01-01', ISO8601To: '', ISO3166Code: CU }
