@@ -4,7 +4,7 @@ ISO4217Code: SUR
 minorUnit: 2
 ISO4217Number: null
 sign: руб
-title: 'Soviet rouble'
+title: 'Soviet ruble'
 usage:
     - { ISO8601From: '1961-01-01', ISO8601To: '1991-12-25', ISO3166Code: AM }
     - { ISO8601From: '1961-01-01', ISO8601To: '1991-12-25', ISO3166Code: AZ }
