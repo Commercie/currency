@@ -3,7 +3,6 @@ conversionRates: {  }
 ISO4217Code: XEU
 minorUnit: 0
 ISO4217Number: '954'
-sign: ¤
+sign: ₠
 title: 'European Currency Unit'
-usage:
-    - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }
+usage: {  }
