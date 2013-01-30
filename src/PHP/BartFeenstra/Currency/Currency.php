@@ -178,4 +178,19 @@ class Currency {
     }
     return FALSE;
   }
+
+  /**
+   * Dumps this object to YAML code.
+   *
+   * @return string
+   */
+  public function resourceDump() {
+    $currency_data = get_object_vars($this);
+    $currency_data['usage'] = array();
+    foreach ($this->usage as $usage) {
+      $currency_data['usage'][] = get_object_vars($usage);
+    }
+
+    return Yaml::dump($currency_data);
+  }
 }

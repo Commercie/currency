@@ -43,6 +43,7 @@ sign: ¤
 title: Euro
 usage:
     - { ISO8601From: '2003-02-04', ISO8601To: '2006-06-03', ISO3166Code: CS }
+
 EOD;
   }
 
@@ -68,7 +69,7 @@ EOD;
   }
 
   /**
-   * Test YAML parsing .
+   * Test YAML parsing.
    */
   function testResourceParse() {
     $yaml = $this->yaml();
@@ -80,6 +81,16 @@ EOD;
     unset($currency->usage);
     unset($currency_parsed->usage);
     $this->assertSame(get_object_vars($currency), get_object_vars($currency_parsed), 'Currency::parse() parses YAML code to an identical currency object.');
+  }
+
+  /**
+   * Test dumping to YAML.
+   */
+  function testResourceDump() {
+    $currency = $this->currency();
+    $yaml = $this->yaml();
+    $yaml_dumped = $currency->resourceDump();
+    $this->assertSame($yaml, $yaml_dumped);
   }
 
   /**
