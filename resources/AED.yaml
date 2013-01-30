@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: AED
-minorUnit: 2
 ISO4217Number: '784'
 sign: د.إ
+subUnits: 100
 title: 'Emirati dirham'
 usage:
     - { ISO8601From: '1973-05-19', ISO8601To: '', ISO3166Code: AE }

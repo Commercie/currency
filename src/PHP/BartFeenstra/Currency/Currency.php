@@ -38,14 +38,6 @@ class Currency {
   public $ISO4217Code = NULL;
 
   /**
-   * The minor unit, or exponent (as in 10^$minor_unit) that results in the
-   * number of minor units.
-   *
-   * @var integer
-   */
-  public $minorUnit = NULL;
-
-  /**
    * ISO 4217 currency number.
    *
    * @var string
@@ -58,6 +50,13 @@ class Currency {
    * @var string
    */
   public $sign = '¤';
+
+  /**
+   * The number of subunits this currency has.
+   *
+   * @var integer|null
+   */
+  public $subUnits = NULL;
 
   /**
    * Human-readable title in US English.

@@ -1,8 +1,8 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: XEU
-minorUnit: 0
 ISO4217Number: '954'
-sign: ₠
+sign: '₠'
+subUnits: 0
 title: 'European Currency Unit'
 usage: {  }

@@ -2,9 +2,9 @@ alternativeSigns: {  }
 conversionRates:
     MZM: 1000
 ISO4217Code: MZN
-minorUnit: 2
 ISO4217Number: '943'
 sign: MT
+subUnits: 100
 title: 'Mozambican metical'
 usage:
     - { ISO8601From: '2006-07-01', ISO8601To: '', ISO3166Code: MZ }

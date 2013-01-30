@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: YUM
-minorUnit: 2
 ISO4217Number: '891'
 sign: дин
+subUnits: 100
 title: 'Yugoslav dinar'
 usage:
     - { ISO8601From: '1994-01-24', ISO8601To: '2002-05-15', ISO3166Code: CS }

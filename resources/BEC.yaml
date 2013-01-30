@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: BEC
-minorUnit: null
 ISO4217Number: '993'
 sign: ¤
+subUnits: null
 title: 'Belgian convertible franc'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: BE }

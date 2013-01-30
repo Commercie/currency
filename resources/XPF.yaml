@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: XPF
-minorUnit: 0
 ISO4217Number: '953'
 sign: ¤
+subUnits: 0
 title: 'CFP franc'
 usage:
     - { ISO8601From: '1985-01-01', ISO8601To: '', ISO3166Code: NC }

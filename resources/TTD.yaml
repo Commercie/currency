@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: TTD
-minorUnit: 2
 ISO4217Number: '780'
 sign: $
+subUnits: 100
 title: 'Trinidadian dollar'
 usage:
     - { ISO8601From: '1964-01-01', ISO8601To: '', ISO3166Code: TT }

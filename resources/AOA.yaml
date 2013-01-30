@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: AOA
-minorUnit: 2
 ISO4217Number: '973'
 sign: Kz
+subUnits: 100
 title: 'Angolan kwanza'
 usage:
     - { ISO8601From: '1999-12-13', ISO8601To: '', ISO3166Code: AO }

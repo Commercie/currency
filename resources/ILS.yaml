@@ -2,9 +2,9 @@ alternativeSigns: {  }
 conversionRates:
     ILR: 1000
 ISO4217Code: ILS
-minorUnit: 2
 ISO4217Number: '376'
 sign: ₪
+subUnits: 100
 title: 'Israeli new shekel'
 usage:
     - { ISO8601From: '1985-09-04', ISO8601To: '', ISO3166Code: IL }

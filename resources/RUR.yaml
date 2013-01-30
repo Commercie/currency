@@ -2,9 +2,9 @@ alternativeSigns:
     - руб
 conversionRates: {  }
 ISO4217Code: RUR
-minorUnit: 2
 ISO4217Number: '810'
 sign: ''
+subUnits: 100
 title: 'Russian ruble'
 usage:
     - { ISO8601From: '1991-12-25', ISO8601To: '1993-11-22', ISO3166Code: AM }

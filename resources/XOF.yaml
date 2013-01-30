@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: XOF
-minorUnit: 2
 ISO4217Number: '952'
 sign: ₣
+subUnits: 100
 title: 'West African franc'
 usage:
     - { ISO8601From: '1984-08-04', ISO8601To: '', ISO3166Code: BF }

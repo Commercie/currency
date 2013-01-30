@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: CHW
-minorUnit: 2
 ISO4217Number: '948'
 sign: ¤
+subUnits: 100
 title: 'WIR franc'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: CH }

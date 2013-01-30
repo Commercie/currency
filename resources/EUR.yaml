@@ -24,9 +24,9 @@ conversionRates:
     VAL: 1.93627
     XEU: 1
 ISO4217Code: EUR
-minorUnit: 2
 ISO4217Number: '978'
 sign: €
+subUnits: 100
 title: euro
 usage:
     - { ISO8601From: '1999-01-01', ISO8601To: '', ISO3166Code: AD }

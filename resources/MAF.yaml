@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: MAF
-minorUnit: 0
 ISO4217Number: null
 sign: ¤
+subUnits: 0
 title: 'Moroccan franc'
 usage:
     - { ISO8601From: '1881-01-01', ISO8601To: '1959-10-17', ISO3166Code: MA }

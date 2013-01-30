@@ -2,9 +2,9 @@ alternativeSigns: {  }
 conversionRates:
     CLE: 1000
 ISO4217Code: CLP
-minorUnit: 0
 ISO4217Number: '152'
 sign: $
+subUnits: 0
 title: 'Chilean peso'
 usage:
     - { ISO8601From: '1975-09-29', ISO8601To: '', ISO3166Code: CL }

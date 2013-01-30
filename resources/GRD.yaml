@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: GRD
-minorUnit: 0
 ISO4217Number: '300'
 sign: ₯
+subUnits: 0
 title: 'Greek drachma'
 usage:
     - { ISO8601From: '1954-05-01', ISO8601To: '2002-02-28', ISO3166Code: GR }

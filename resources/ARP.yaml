@@ -2,9 +2,9 @@ alternativeSigns: {  }
 conversionRates:
     ARL: 10000
 ISO4217Code: ARP
-minorUnit: 2
 ISO4217Number: null
 sign: $a
+subUnits: 100
 title: 'Argentine peso argentino'
 usage:
     - { ISO8601From: '1983-06-01', ISO8601To: '1985-06-14', ISO3166Code: AR }

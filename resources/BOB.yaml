@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: BOB
-minorUnit: 2
 ISO4217Number: '068'
 sign: Bs
+subUnits: 100
 title: 'Bolivian boliviano'
 usage:
     - { ISO8601From: '1987-01-01', ISO8601To: '', ISO3166Code: BO }

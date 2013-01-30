@@ -2,9 +2,9 @@ alternativeSigns: {  }
 conversionRates:
     VEB: 1000
 ISO4217Code: VEF
-minorUnit: 2
 ISO4217Number: '937'
 sign: Bs
+subUnits: 100
 title: 'Venezuelan bolívar'
 usage:
     - { ISO8601From: '2008-01-01', ISO8601To: '', ISO3166Code: VE }

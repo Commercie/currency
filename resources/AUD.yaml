@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: AUD
-minorUnit: 2
 ISO4217Number: '036'
 sign: $
+subUnits: 100
 title: 'Australian dollar'
 usage:
     - { ISO8601From: '1966-02-14', ISO8601To: '', ISO3166Code: AU }

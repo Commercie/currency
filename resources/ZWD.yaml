@@ -2,9 +2,9 @@ alternativeSigns: {  }
 conversionRates:
     RHD: 1
 ISO4217Code: ZWD
-minorUnit: 2
 ISO4217Number: '716'
 sign: $
+subUnits: 100
 title: 'Zimbabwean dollar'
 usage:
     - { ISO8601From: '1980-04-18', ISO8601To: '2008-08-01', ISO3166Code: ZW }

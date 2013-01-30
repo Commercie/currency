@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: IQD
-minorUnit: 3
 ISO4217Number: '368'
 sign: ع.د
+subUnits: 1000
 title: 'Iraqi dinar'
 usage:
     - { ISO8601From: '1931-04-19', ISO8601To: '', ISO3166Code: IQ }

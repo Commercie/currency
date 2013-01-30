@@ -2,9 +2,9 @@ alternativeSigns: {  }
 conversionRates:
     SDG: 1
 ISO4217Code: SSP
-minorUnit: 2
 ISO4217Number: '728'
 sign: ₤
+subUnits: 100
 title: 'South Sudanese pound'
 usage:
     - { ISO8601From: '2011-07-18', ISO8601To: '', ISO3166Code: SS }

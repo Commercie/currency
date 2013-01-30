@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: AZN
-minorUnit: 2
 ISO4217Number: '944'
 sign: m
+subUnits: 100
 title: 'Azerbaijani manat'
 usage:
     - { ISO8601From: '2006-01-01', ISO8601To: '', ISO3166Code: AZ }

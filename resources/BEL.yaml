@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: BEL
-minorUnit: null
 ISO4217Number: '992'
 sign: ¤
+subUnits: null
 title: 'Belgian financial franc'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: BE }

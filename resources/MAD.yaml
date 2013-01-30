@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: MAD
-minorUnit: 2
 ISO4217Number: '504'
 sign: 'د.م.'
+subUnits: 100
 title: 'Moroccan dirham'
 usage:
     - { ISO8601From: '1976-02-26', ISO8601To: '', ISO3166Code: EH }

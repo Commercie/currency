@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: AFN
-minorUnit: 2
 ISO4217Number: '971'
 sign: ؋
+subUnits: 100
 title: 'Afghan afghani'
 usage:
     - { ISO8601From: '2002-10-07', ISO8601To: '', ISO3166Code: AF }

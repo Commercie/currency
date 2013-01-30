@@ -2,9 +2,9 @@ alternativeSigns:
     - $m/n
 conversionRates: {  }
 ISO4217Code: ARM
-minorUnit: 2
 ISO4217Number: null
 sign: m$n
+subUnits: 100
 title: 'Argentine peso moneda nacional'
 usage:
     - { ISO8601From: '1881-11-05', ISO8601To: '1970-01-01', ISO3166Code: AR }

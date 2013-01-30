@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: YUN
-minorUnit: 2
 ISO4217Number: null
 sign: дин
+subUnits: 100
 title: 'Yugoslav dinar'
 usage:
     - { ISO8601From: '1990-01-01', ISO8601To: '1992-07-01', ISO3166Code: BA }

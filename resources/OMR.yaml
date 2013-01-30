@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: OMR
-minorUnit: 3
 ISO4217Number: '512'
 sign: ر.ع.
+subUnits: 1000
 title: 'Omani rial'
 usage:
     - { ISO8601From: '1972-11-11', ISO8601To: '', ISO3166Code: OM }

@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: MWK
-minorUnit: 2
 ISO4217Number: '454'
 sign: MK
+subUnits: 100
 title: 'Malawian kwacha'
 usage:
     - { ISO8601From: '1971-02-15', ISO8601To: '', ISO3166Code: MW }

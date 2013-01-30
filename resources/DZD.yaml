@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: DZD
-minorUnit: 2
 ISO4217Number: '012'
 sign: دج
+subUnits: 100
 title: 'Algerian dinar'
 usage:
     - { ISO8601From: '1964-04-01', ISO8601To: '', ISO3166Code: DZ }

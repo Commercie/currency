@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: XBA
-minorUnit: 0
 ISO4217Number: '955'
 sign: ¤
+subUnits: 0
 title: 'Bond Markets Unit European Composite Unit (EURCO)'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

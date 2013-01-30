@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: ALK
-minorUnit: 2
 ISO4217Number: null
 sign: ¤
-title: Albanian lek
+subUnits: 100
+title: 'Albanian lek'
 usage:
     - { ISO8601From: '1946-11-01', ISO8601To: '1965-08-16', ISO3166Code: AL }

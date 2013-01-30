@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: RWF
-minorUnit: 0
 ISO4217Number: '646'
 sign: ₣
+subUnits: 0
 title: 'Rwandan franc'
 usage:
     - { ISO8601From: '1964-05-19', ISO8601To: '', ISO3166Code: RW }

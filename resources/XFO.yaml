@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: XFO
-minorUnit: null
 ISO4217Number: null
 sign: ¤
+subUnits: null
 title: 'Gold franc'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

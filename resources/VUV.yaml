@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: VUV
-minorUnit: 0
 ISO4217Number: '548'
 sign: VT
+subUnits: 0
 title: 'Vanuatu vatu'
 usage:
     - { ISO8601From: '1981-01-01', ISO8601To: '', ISO3166Code: VU }

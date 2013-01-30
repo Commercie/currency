@@ -2,9 +2,9 @@ alternativeSigns: {  }
 conversionRates:
     LTT: 100
 ISO4217Code: LTL
-minorUnit: 2
 ISO4217Number: '440'
 sign: Lt
+subUnits: 100
 title: 'Lithuanian litas'
 usage:
     - { ISO8601From: '1993-06-25', ISO8601To: '', ISO3166Code: LT }

@@ -2,9 +2,9 @@ alternativeSigns: {  }
 conversionRates:
     ARP: 1000
 ISO4217Code: ARA
-minorUnit: 2
 ISO4217Number: null
 sign: ₳
+subUnits: 100
 title: 'Argentine austral'
 usage:
     - { ISO8601From: '1985-06-14', ISO8601To: '1992-01-01', ISO3166Code: AR }

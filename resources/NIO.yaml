@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: NIO
-minorUnit: 2
 ISO4217Number: '558'
 sign: $
+subUnits: 100
 title: 'Nicaraguan córdoba oro'
 usage:
     - { ISO8601From: '1991-04-30', ISO8601To: '', ISO3166Code: NI }

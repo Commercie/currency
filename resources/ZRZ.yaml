@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: ZRZ
-minorUnit: 3
 ISO4217Number: null
 sign: Ƶ
+subUnits: 1000
 title: 'Zaïrean zaïre'
 usage:
     - { ISO8601From: '1971-10-27', ISO8601To: '1993-11-01', ISO3166Code: CD }

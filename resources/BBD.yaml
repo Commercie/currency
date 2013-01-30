@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: BBD
-minorUnit: 2
 ISO4217Number: '052'
 sign: $
+subUnits: 100
 title: 'Barbadian dollar'
 usage:
     - { ISO8601From: '1973-12-03', ISO8601To: '', ISO3166Code: BB }

@@ -1,9 +1,9 @@
 alternativeSigns: {  }
 conversionRates: {  }
 ISO4217Code: MXP
-minorUnit: 2
 ISO4217Number: null
 sign: $
+subUnits: 100
 title: 'Mexican peso'
 usage:
     - { ISO8601From: '1822-01-01', ISO8601To: '1992-12-31', ISO3166Code: MX }

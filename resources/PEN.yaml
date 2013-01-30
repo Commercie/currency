@@ -2,9 +2,9 @@ alternativeSigns: {  }
 conversionRates:
     PEI: 1000000
 ISO4217Code: PEN
-minorUnit: 2
 ISO4217Number: '604'
 sign: S/.
+subUnits: 100
 title: 'Peruvian nuevo sol'
 usage:
     - { ISO8601From: '1991-07-01', ISO8601To: '', ISO3166Code: PE }

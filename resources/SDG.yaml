@@ -2,9 +2,9 @@ alternativeSigns: {  }
 conversionRates:
     SDD: 100
 ISO4217Code: SDG
-minorUnit: 2
 ISO4217Number: '938'
 sign: ₤
+subUnits: 100
 title: 'Sudanese pound'
 usage:
     - { ISO8601From: '2007-01-10', ISO8601To: '', ISO3166Code: SD }
