@@ -85,14 +85,6 @@ class Currency {
   public static $resourceISO4217Codes = array();
 
   /**
-   * The name of the currency usage class.
-   *
-   * @var string
-   *   The class must extend BartFeenstra\Currency\Usage.
-   */
-  public static $resourceUsageClass = 'BartFeenstra\Currency\Usage';
-
-  /**
    * Returns the directory that contains the currency resources.
    *
    * @return string
@@ -121,62 +113,40 @@ class Currency {
   }
 
   /**
-   * Loads a currency resource.
+   * Loads a currency resource into this object.
    *
    * @param string $iso_4217_code
-   *
-   * @return Currency|false
    */
-  public static function resourceLoad($iso_4217_code) {
+  public function resourceLoad($iso_4217_code) {
     $filepath = self::resourceDir() . "$iso_4217_code.yaml";
-    if (file_exists($filepath)) {
-      return self::resourceParse(file_get_contents($filepath));
+    if (is_readable($filepath)) {
+      $this->resourceParse(file_get_contents($filepath));
     }
-    return FALSE;
+    else {
+      throw new InvalidArgumentException('The currency resource file %s does not exist or is not readable.', $filepath);
+    }
   }
 
   /**
-   * Loads all currency resources.
-   *
-   * @return array
-   *   An array of Currency objects.
-   */
-  public static function resourceLoadAll() {
-    $currencies = array();
-    foreach (self::resourceListAll() as $iso_4217_code) {
-      $currencies[$iso_4217_code] = self::resourceLoad($iso_4217_code);
-    }
-
-    return $currencies;
-  }
-
-  /**
-   * Parses a YAML file into an object of this class.
+   * Parses a YAML file into this object.
    *
    * @param string $yaml
-   *
-   * @return Currency|false
    */
-  public static function resourceParse($yaml) {
-    if ($currency_data = Yaml::parse($yaml)) {
-      $usages_data = $currency_data['usage'];
-      $currency_data['usage'] = array();
-      $class = get_called_class();
-      $currency = new $class();
-      foreach ($currency_data as $property => $value) {
-        $currency->$property = $value;
-      }
-      foreach ($usages_data as $usage_data) {
-        $usage = new self::$resourceUsageClass();
-        foreach ($usage_data as $property => $value) {
-          $usage->$property = $value;
-        }
-        $currency->usage[] = $usage;
-      }
-      unset($currency_data);
-      return $currency;
+  public function resourceParse($yaml) {
+    $currency_data = Yaml::parse($yaml);
+    $usages_data = $currency_data['usage'];
+    $currency_data['usage'] = array();
+    foreach ($currency_data as $property => $value) {
+      $this->$property = $value;
     }
-    return FALSE;
+    foreach ($usages_data as $usage_data) {
+      $usage = new Usage;
+      foreach ($usage_data as $property => $value) {
+        $usage->$property = $value;
+      }
+      $this->usage[] = $usage;
+    }
+    unset($currency_data);
   }
 
   /**

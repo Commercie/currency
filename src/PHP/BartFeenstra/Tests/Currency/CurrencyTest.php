@@ -73,8 +73,9 @@ EOD;
    */
   function testResourceParse() {
     $yaml = $this->yaml();
-    $currency_parsed = Currency::resourceParse($yaml);
-    $this->assertInstanceOf('BartFeenstra\Currency\Currency', $currency_parsed, 'Currency::parse() parses YAML code to a Currency object.');
+    $currency_parsed = new Currency();
+    $currency_parsed->resourceParse($yaml);
+    $this->assertInstanceOf('BartFeenstra\Currency\Currency', $currency_parsed);
     $this->assertInstanceOf('BartFeenstra\Currency\Usage', $currency_parsed->usage[0], 'Currency::parse() parses YAML code to a Usage object.');
     $currency = $this->currency();
     $this->assertSame(get_object_vars($currency->usage[0]), get_object_vars($currency_parsed->usage[0]), 'Currency::parse() parses YAML code to an identical Usage object.');
@@ -97,16 +98,8 @@ EOD;
    * Tests loading a single currency.
    */
   function testResourceLoad() {
-    $currency = Currency::resourceLoad('EUR');
+    $currency = new Currency();
+    $currency->resourceLoad('EUR');
     $this->assertInstanceOf('BartFeenstra\Currency\Currency', $currency, 'Currency::load() loads a single currency from file.');
-  }
-
-  /**
-   * Tests loading all currencies.
-   *
-   * @depends testResourceLoad
-   */
-  function testResourceLoadAll() {
-    Currency::resourceLoadAll();
   }
 }
