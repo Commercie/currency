@@ -5,6 +5,6 @@ ISO4217Code: RON
 ISO4217Number: '946'
 sign: ¤
 subunits: 100
-title: 'Romanian new leu'
+title: 'Romanian leu'
 usage:
     - { ISO8601From: '2005-07-01', ISO8601To: '', ISO3166Code: RO }
