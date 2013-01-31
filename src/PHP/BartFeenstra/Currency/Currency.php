@@ -122,7 +122,7 @@ class Currency {
       $this->resourceParse(file_get_contents($filepath));
     }
     else {
-      throw new InvalidArgumentException('The currency resource file %s does not exist or is not readable.', $filepath);
+      throw new \InvalidArgumentException('The currency resource file %s does not exist or is not readable.', $filepath);
     }
   }
 
