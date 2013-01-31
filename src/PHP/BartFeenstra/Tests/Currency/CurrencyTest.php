@@ -39,7 +39,7 @@ conversionRates: {  }
 ISO4217Code: EUR
 ISO4217Number: '978'
 sign: ¤
-subUnits: 100
+subunuts: 100
 title: Euro
 usage:
     - { ISO8601From: '2003-02-04', ISO8601To: '2006-06-03', ISO3166Code: CS }
@@ -61,7 +61,7 @@ EOD;
     $currency->ISO4217Code = 'EUR';
     $currency->ISO4217Number = '978';
     $currency->sign = '¤';
-    $currency->subUnits = 100;
+    $currency->subunuts = 100;
     $currency->title = 'Euro';
     $currency->usage = array($usage);
 
