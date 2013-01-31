@@ -56,7 +56,7 @@ class Currency {
    *
    * @var integer|null
    */
-  public $subunuts = NULL;
+  public $subunits = NULL;
 
   /**
    * Human-readable title in US English.
