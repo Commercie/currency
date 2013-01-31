@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: JOD
 ISO4217Number: '400'
 sign: JD
-subUnits: 1000
+subunits: 1000
 title: 'Jordanian dinar'
 usage:
     - { ISO8601From: '1950-07-01', ISO8601To: '', ISO3166Code: JO }

@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: KYD
 ISO4217Number: '136'
 sign: $
-subUnits: 100
+subunits: 100
 title: 'Caymanian dollar'
 usage:
     - { ISO8601From: '1971-01-01', ISO8601To: '', ISO3166Code: KY }

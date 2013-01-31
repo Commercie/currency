@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: RHD
 ISO4217Number: null
 sign: $
-subUnits: 100
+subunits: 100
 title: 'Rhodesian dollar'
 usage:
     - { ISO8601From: '1970-02-17', ISO8601To: '1980-04-18', ISO3166Code: ZW }

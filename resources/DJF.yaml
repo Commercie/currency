@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: DJF
 ISO4217Number: '262'
 sign: ₣
-subUnits: 0
+subunits: 0
 title: 'Djiboutian franc'
 usage:
     - { ISO8601From: '1977-06-27', ISO8601To: '', ISO3166Code: DJ }

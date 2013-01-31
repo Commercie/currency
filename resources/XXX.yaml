@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: XXX
 ISO4217Number: '999'
 sign: ¤
-subUnits: 0
+subunits: 0
 title: 'No currency'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: AQ }

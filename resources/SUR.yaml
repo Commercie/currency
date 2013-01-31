@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: SUR
 ISO4217Number: null
 sign: руб
-subUnits: 100
+subunits: 100
 title: 'Soviet ruble'
 usage:
     - { ISO8601From: '1961-01-01', ISO8601To: '1991-12-25', ISO3166Code: AM }

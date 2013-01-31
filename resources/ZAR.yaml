@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: ZAR
 ISO4217Number: '710'
 sign: R
-subUnits: 100
+subunits: 100
 title: 'South African rand'
 usage:
     - { ISO8601From: '1961-02-14', ISO8601To: '1976-08-23', ISO3166Code: BW }

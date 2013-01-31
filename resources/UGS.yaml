@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: UGS
 ISO4217Number: null
 sign: USh
-subUnits: 100
+subunits: 100
 title: 'Ugandan shilling'
 usage:
     - { ISO8601From: '1966-08-15', ISO8601To: '1987-05-15', ISO3166Code: UG }

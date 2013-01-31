@@ -4,7 +4,7 @@ conversionRates:
 ISO4217Code: USD
 ISO4217Number: '840'
 sign: $
-subUnits: 100
+subunits: 100
 title: 'U.S. dollar'
 usage:
     - { ISO8601From: '1904-07-16', ISO8601To: '', ISO3166Code: AS }

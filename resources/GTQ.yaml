@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: GTQ
 ISO4217Number: '320'
 sign: Q
-subUnits: 100
+subunits: 100
 title: 'Guatamalan quetzal'
 usage:
     - { ISO8601From: '1925-05-27', ISO8601To: '', ISO3166Code: GT }

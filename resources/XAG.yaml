@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: XAG
 ISO4217Number: '961'
 sign: ¤
-subUnits: 0
+subunits: 0
 title: Silver
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

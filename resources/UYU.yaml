@@ -5,7 +5,7 @@ conversionRates:
 ISO4217Code: UYU
 ISO4217Number: '858'
 sign: $
-subUnits: 100
+subunits: 100
 title: 'Uruguayan peso'
 usage:
     - { ISO8601From: '1993-03-01', ISO8601To: '', ISO3166Code: UY }

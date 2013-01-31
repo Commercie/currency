@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: XPT
 ISO4217Number: '962'
 sign: ¤
-subUnits: 0
+subunits: 0
 title: Platinum
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

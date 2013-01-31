@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: CUC
 ISO4217Number: '931'
 sign: $
-subUnits: 100
+subunits: 100
 title: 'Cuban convertible peso'
 usage:
     - { ISO8601From: '1994-01-01', ISO8601To: '', ISO3166Code: CU }

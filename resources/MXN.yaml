@@ -5,7 +5,7 @@ conversionRates:
 ISO4217Code: MXN
 ISO4217Number: '484'
 sign: $
-subUnits: 100
+subunits: 100
 title: 'Mexican peso'
 usage:
     - { ISO8601From: '1993-01-01', ISO8601To: '', ISO3166Code: MX }

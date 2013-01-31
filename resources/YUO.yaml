@@ -4,6 +4,6 @@ conversionRates:
 ISO4217Code: YUO
 ISO4217Number: null
 sign: дин
-subUnits: 100
+subunits: 100
 title: 'Yugoslav dinar'
 usage: {  }

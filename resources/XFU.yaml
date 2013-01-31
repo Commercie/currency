@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: XFU
 ISO4217Number: Nil
 sign: ¤
-subUnits: 0
+subunits: 0
 title: 'UIC franc'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: ZZ }

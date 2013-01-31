@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: IRR
 ISO4217Number: '364'
 sign: ریال
-subUnits: 100
+subunits: 100
 title: 'Iranian rial'
 usage:
     - { ISO8601From: '1932-05-13', ISO8601To: '', ISO3166Code: IR }

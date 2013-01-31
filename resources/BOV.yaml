@@ -3,7 +3,7 @@ conversionRates: {  }
 ISO4217Code: BOV
 ISO4217Number: '984'
 sign: ¤
-subUnits: 100
+subunits: 100
 title: 'Bolivian mvdol'
 usage:
     - { ISO8601From: '', ISO8601To: '', ISO3166Code: BO }
