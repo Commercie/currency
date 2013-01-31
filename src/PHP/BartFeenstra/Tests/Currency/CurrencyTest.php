@@ -101,5 +101,13 @@ EOD;
     $currency = new Currency();
     $currency->resourceLoad('EUR');
     $this->assertInstanceOf('BartFeenstra\Currency\Currency', $currency, 'Currency::load() loads a single currency from file.');
+    $error = FALSE;
+    try {
+      $currency->resourceLoad('123');
+    }
+    catch (\RuntimeException $e) {
+      $error = TRUE;
+    }
+    $this->assertTrue($error);
   }
 }
