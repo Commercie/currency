@@ -76,7 +76,7 @@ class Currency {
   /**
    * The path to the resources directory.
    */
-  public static $resourcePath = '/../../../../resources/';
+  public static $resourcePath = '/../../../resources/';
 
   /**
    * A list of the ISO 4217 codes of all known currency resources.

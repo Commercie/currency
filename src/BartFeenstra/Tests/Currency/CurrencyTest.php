@@ -10,7 +10,7 @@ namespace BartFeenstra\Tests\Currency;
 use BartFeenstra\Currency\Currency;
 use BartFeenstra\Currency\Usage;
 
-require_once __DIR__ . '/../../../../../vendor/autoload.php';
+require_once __DIR__ . '/../../../../vendor/autoload.php';
 
 /**
  * Tests \BartFeenstra\Currency\Currency

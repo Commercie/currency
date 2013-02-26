@@ -9,7 +9,7 @@ namespace BartFeenstra\Tests\Currency;
 
 use BartFeenstra\Currency\Input;
 
-require_once __DIR__ . '/../../../../../vendor/autoload.php';
+require_once __DIR__ . '/../../../../vendor/autoload.php';
 
 /**
  * Tests \BartFeenstra\Currency\Input
