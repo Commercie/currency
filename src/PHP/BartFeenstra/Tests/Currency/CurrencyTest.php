@@ -35,7 +35,7 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase {
   function yaml() {
     return <<<'EOD'
 alternativeSigns: {  }
-conversionRates: {  }
+exchangeRates: {  }
 ISO4217Code: EUR
 ISO4217Number: '978'
 sign: ¤

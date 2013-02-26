@@ -1,6 +1,6 @@
 alternativeSigns:
     - $L
-conversionRates:
+exchangeRates:
     ARM: 100
 ISO4217Code: ARL
 ISO4217Number: null

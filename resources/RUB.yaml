@@ -1,6 +1,6 @@
 alternativeSigns:
     - руб
-conversionRates:
+exchangeRates:
     SUR: 1000
     RUR: 1000
 ISO4217Code: RUB
