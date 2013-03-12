@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    SDP: 10
+    SDP: '10'
 ISO4217Code: SDD
 ISO4217Number: '736'
 sign: ₤Sd

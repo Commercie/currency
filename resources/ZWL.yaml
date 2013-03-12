@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    ZWR: 1000000000000
+    ZWR: '1000000000000'
 ISO4217Code: ZWL
 ISO4217Number: '932'
 sign: $

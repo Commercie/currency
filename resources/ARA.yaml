@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    ARP: 1000
+    ARP: '1000'
 ISO4217Code: ARA
 ISO4217Number: null
 sign: ₳

@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    MZE: 1
+    MZE: '1'
 ISO4217Code: MZM
 ISO4217Number: '508'
 sign: MT

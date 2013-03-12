@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    PEH: 1000
+    PEH: '1000'
 ISO4217Code: PEI
 ISO4217Number: null
 sign: I/.

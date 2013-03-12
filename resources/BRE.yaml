@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    BRN: 1
+    BRN: '1'
 ISO4217Code: BRE
 ISO4217Number: null
 sign: ₢

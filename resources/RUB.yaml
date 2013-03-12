@@ -1,8 +1,8 @@
 alternativeSigns:
     - руб
 exchangeRates:
-    SUR: 1000
-    RUR: 1000
+    SUR: '1000'
+    RUR: '1000'
 ISO4217Code: RUB
 ISO4217Number: '643'
 sign: ''

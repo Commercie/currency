@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    YUN: 10
+    YUN: '10'
 ISO4217Code: YUR
 ISO4217Number: null
 sign: дин

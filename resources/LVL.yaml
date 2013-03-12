@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    LVR: 200
+    LVR: '200'
 ISO4217Code: LVL
 ISO4217Number: '428'
 sign: Ls

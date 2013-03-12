@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    BYB: 1000
+    BYB: '1000'
 ISO4217Code: BYR
 ISO4217Number: '974'
 sign: Br

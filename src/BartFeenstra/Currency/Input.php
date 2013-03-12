@@ -27,23 +27,22 @@ class Input {
    *
    * @throws AmountNotNumericException
    *
-   * @param integer|float|string $amount
-   *   Any numeric value, or a string in an optionally localized format.
+   * @param string|int|float $amount
+   *   Any optionally localized numeric value.
    *
-   * @return float
+   * @return string
+   *   A numeric string.
    */
   public static function parseAmount($amount) {
-    if (is_numeric($amount)) {
-      return (float) $amount;
+    if (!is_numeric($amount)) {
+      $amount = self::parseAmountDecimalSeparator($amount);
+      $amount = self::parseAmountNegativeFormat($amount);
     }
-    $amount = self::parseAmountDecimalSeparator($amount);
-    $amount = self::parseAmountNegativeFormat($amount);
-    if (is_numeric($amount)) {
-      return (float) $amount;
-    }
-    else {
+    if (!is_numeric($amount)) {
       throw new AmountNotNumericException('The amount could not be interpreted as a numeric string.');
     }
+
+    return (string) $amount;
   }
 
   /**
@@ -52,6 +51,7 @@ class Input {
    * @throws AmountInvalidDecimalSeparatorException
    *
    * @param string $amount
+   *   Any optionally localized numeric value.
    *
    * @return string
    *   The amount with its decimal separator replaced by a period.

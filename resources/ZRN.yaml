@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    ZRZ: 3000000
+    ZRZ: '3000000'
 ISO4217Code: ZRN
 ISO4217Number: '180'
 sign: Ƶ

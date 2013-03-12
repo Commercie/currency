@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    SDD: 100
+    SDD: '100'
 ISO4217Code: SDG
 ISO4217Number: '938'
 sign: ₤

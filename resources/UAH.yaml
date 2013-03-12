@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    UAK: 100000
+    UAK: '100000'
 ISO4217Code: UAH
 ISO4217Number: '980'
 sign: ₴

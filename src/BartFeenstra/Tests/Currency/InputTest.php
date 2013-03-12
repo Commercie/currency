@@ -47,23 +47,23 @@ class InputTest extends \PHPUnit_Framework_TestCase {
     }
     $amounts_valid = array(
       // Integers.
-      array(123, 123.0),
+      array(123, '123'),
       // Floats.
-      array(123.456, 123.456),
-      array(-123.456, -123.456),
+      array(123.456, '123.456'),
+      array(-123.456, '-123.456'),
       // Integer strings.
-      array('123', 123.0),
-      // Float strings using different decimal separators.
-      array('123.456', 123.456),
-      array('123,456', 123.456),
-      array('123٫456', 123.456),
-      array('123/456', 123.456),
+      array('123', '123'),
+      // Decimal strings using different decimal separators.
+      array('123.456', '123.456'),
+      array('123,456', '123.456'),
+      array('123٫456', '123.456'),
+      array('123/456', '123.456'),
       // Negative strings.
-      array('-123', -123.0),
-      array('(123)', -123.0),
-      array('123-', -123.0),
-      array('--123', 123.0),
-      array('(--123-)', 123.0),
+      array('-123', '-123'),
+      array('(123)', '-123'),
+      array('123-', '-123'),
+      array('--123', '123'),
+      array('(--123-)', '123'),
     );
     foreach ($amounts_valid as $amount) {
       $amount_validated = NULL;

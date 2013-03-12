@@ -1,7 +1,7 @@
 alternativeSigns:
     - $L
 exchangeRates:
-    ARM: 100
+    ARM: '100'
 ISO4217Code: ARL
 ISO4217Number: null
 sign: $

@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    UGS: 100
+    UGS: '100'
 ISO4217Code: UGX
 ISO4217Number: '800'
 sign: USh

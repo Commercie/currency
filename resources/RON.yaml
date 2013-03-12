@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    ROL: 10000
+    ROL: '10000'
 ISO4217Code: RON
 ISO4217Number: '946'
 sign: ¤

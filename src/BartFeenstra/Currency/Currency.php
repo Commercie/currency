@@ -26,7 +26,7 @@ class Currency {
    * Exchange rates to other currencies.
    *
    * @var array
-   *   Keys are ISO 4217 codes, values are integers or floats.
+   *   Keys are ISO 4217 codes, values are numeric strings.
    */
   public $exchangeRates = array();
 

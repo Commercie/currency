@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    BRR: 2750
+    BRR: '2750'
 ISO4217Code: BRL
 ISO4217Number: '986'
 sign: R$

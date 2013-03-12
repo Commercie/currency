@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    HRD: 1000
+    HRD: '1000'
 ISO4217Code: HRK
 ISO4217Number: '191'
 sign: kn

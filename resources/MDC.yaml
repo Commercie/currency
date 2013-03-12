@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    SUR: 1
+    SUR: '1'
 ISO4217Code: MDC
 ISO4217Number: null
 sign: ¤

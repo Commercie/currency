@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    KRH: 10
+    KRH: '10'
 ISO4217Code: KRW
 ISO4217Number: '410'
 sign: ₩

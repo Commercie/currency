@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    PEI: 1000000
+    PEI: '1000000'
 ISO4217Code: PEN
 ISO4217Number: '604'
 sign: S/.

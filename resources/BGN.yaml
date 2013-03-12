@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    BGL: 1000
+    BGL: '1000'
 ISO4217Code: BGN
 ISO4217Number: '975'
 sign: лв

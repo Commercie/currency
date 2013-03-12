@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    ARA: 10000
+    ARA: '10000'
 ISO4217Code: ARS
 ISO4217Number: '032'
 sign: $

@@ -1,6 +1,6 @@
 alternativeSigns: {  }
 exchangeRates:
-    RHD: 1
+    RHD: '1'
 ISO4217Code: ZWD
 ISO4217Number: '716'
 sign: $
