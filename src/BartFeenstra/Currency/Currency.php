@@ -102,7 +102,7 @@ class Currency {
     if (!self::$resourceISO4217Codes) {
       $directory = new \RecursiveDirectoryIterator(self::resourceDir());
       foreach ($directory as $item) {
-        if (preg_match('#^...\.yaml$#', $item->getFilename())) {
+        if (preg_match('#^...\.yml$#', $item->getFilename())) {
           self::$resourceISO4217Codes[] = substr($item->getFilename(), 0, 3);
         }
       }
@@ -117,7 +117,7 @@ class Currency {
    * @param string $iso_4217_code
    */
   public function resourceLoad($iso_4217_code) {
-    $filepath = self::resourceDir() . "$iso_4217_code.yaml";
+    $filepath = self::resourceDir() . "$iso_4217_code.yml";
     if (is_readable($filepath)) {
       $this->resourceParse(file_get_contents($filepath));
     }
