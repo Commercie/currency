@@ -162,4 +162,21 @@ class Currency {
 
     return Yaml::dump($currency_data);
   }
+
+  /**
+   * Returns the number of decimals.
+   *
+   * @return int
+   */
+  function getDecimals() {
+    $decimals = 0;
+    if ($this->subunits > 0) {
+      $decimals = 1;
+      while (pow(10, $decimals) < $this->subunits) {
+        $decimals++;
+      }
+    }
+
+    return $decimals;
+  }
 }

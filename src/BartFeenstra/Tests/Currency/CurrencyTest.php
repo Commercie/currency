@@ -110,4 +110,20 @@ EOD;
     }
     $this->assertTrue($error);
   }
+
+  /**
+   * Tests getDecimals().
+   */
+  function testGetDecimals() {
+    $currencies = array(
+      'MGA' => 1,
+      'EUR' => 2,
+      'JPY' => 3,
+    );
+    foreach ($currencies as $currency_code => $decimals) {
+      $currency = new Currency();
+      $currency->resourceLoad($currency_code);
+      $this->assertSame($currency->getDecimals(), $decimals);
+    }
+  }
 }
