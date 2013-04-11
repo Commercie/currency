@@ -1,5 +1,6 @@
 alternativeSigns: {  }
-exchangeRates: {  }
+exchangeRates:
+    VAL: '1'
 ISO4217Code: ITL
 ISO4217Number: '380'
 sign: ₤

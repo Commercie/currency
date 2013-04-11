@@ -6,4 +6,5 @@ ISO4217Number: null
 sign: дин
 subunits: 100
 title: 'Yugoslav dinar'
-usage: {  }
+usage:
+    - { ISO8601From: '1994-01-01', ISO8601To: '1994-01-23', ISO3166Code: YU }
