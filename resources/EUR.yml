@@ -47,6 +47,7 @@ usage:
     - { ISO8601From: '1999-01-01', ISO8601To: '', ISO3166Code: IE }
     - { ISO8601From: '1999-01-01', ISO8601To: '', ISO3166Code: IT }
     - { ISO8601From: '1999-01-01', ISO8601To: '', ISO3166Code: LU }
+    - { ISO8601From: '2014-01-01', ISO8601To: '', ISO3166Code: LV }
     - { ISO8601From: '1999-01-01', ISO8601To: '', ISO3166Code: MC }
     - { ISO8601From: '2002-01-01', ISO8601To: '', ISO3166Code: ME }
     - { ISO8601From: '1999-01-01', ISO8601To: '', ISO3166Code: MF }
