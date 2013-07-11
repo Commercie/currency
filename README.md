@@ -14,9 +14,9 @@ currencies:
 # Usage
 * Currency information is stored in YAML files in `/resources`.
 * PHP helpers:
-  * `Currency` is a basic class that serves as a container and a controller for
-working with the YAML resources
-  * `Input` contains parses to handle user input.
+  * `\BartFeenstra\Currency\Currency` is a basic class that serves as a container and a controller for
+working with the YAML resources.
+  * `\BartFeenstra\Curency\Input` contains a parser for user input.
 
 # Requirements
 The library does not have any global requirements.
