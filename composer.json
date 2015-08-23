@@ -9,9 +9,14 @@
       "role" : "Developer"
     }
   ],
-  "autoload" : {
-    "psr-0" : {
-      "BartFeenstra" : "src"
+  "autoload": {
+    "psr-4": {
+      "BartFeenstra\\Currency\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BartFeenstra\\Tests\\Currency\\": "tests/src"
     }
   },
   "require" : {

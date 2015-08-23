@@ -9,8 +9,6 @@ namespace BartFeenstra\Tests\Currency;
 
 use BartFeenstra\Currency\Currency;
 
-require_once __DIR__ . '/../../../../vendor/autoload.php';
-
 /**
  * Tests resource files.
  */

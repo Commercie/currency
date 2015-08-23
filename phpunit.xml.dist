@@ -8,16 +8,13 @@
     </php>
     <testsuites>
         <testsuite name="bartfeenstra/currency">
-            <directory>./src/BartFeenstra/Tests</directory>
+            <directory>./tests</directory>
         </testsuite>
     </testsuites>
     <!-- Filter for coverage reports. -->
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory>./src</directory>
-            <exclude>
-                <directory>./src/BartFeenstra/Tests</directory>
-            </exclude>
         </whitelist>
     </filter>
 </phpunit>
