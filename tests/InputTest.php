@@ -16,6 +16,8 @@ class InputTest extends \PHPUnit_Framework_TestCase {
 
   /**
    * @covers ::parseAmount
+   * @covers ::parseAmountDecimalSeparator
+   * @covers ::parseAmountNegativeFormat
    */
   function testParseAmount() {
     $amounts_invalid = array(
