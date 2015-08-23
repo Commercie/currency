@@ -11,12 +11,12 @@ use BartFeenstra\Currency\Currency;
 use BartFeenstra\Currency\Usage;
 
 /**
- * Tests \BartFeenstra\Currency\Currency
+ * @coversDefaultClass \BartFeenstra\Currency\Currency
  */
 class CurrencyTest extends \PHPUnit_Framework_TestCase {
 
   /**
-   * Test listing .
+   * @covers ::resourceListAll
    */
   function testResourceList() {
     $list = Currency::resourceListAll();
@@ -67,7 +67,7 @@ EOD;
   }
 
   /**
-   * Test YAML parsing.
+   * @covers ::resourceParse
    */
   function testResourceParse() {
     $yaml = $this->yaml();
@@ -83,7 +83,7 @@ EOD;
   }
 
   /**
-   * Test dumping to YAML.
+   * @covers ::resourceDump
    */
   function testResourceDump() {
     $currency = $this->currency();
@@ -93,7 +93,7 @@ EOD;
   }
 
   /**
-   * Tests loading a single currency.
+   * @covers ::resourceLoad
    */
   function testResourceLoad() {
     $currency = new Currency();
@@ -110,7 +110,7 @@ EOD;
   }
 
   /**
-   * Tests getDecimals().
+   * @covers ::getDecimals
    */
   function testGetDecimals() {
     $currencies = array(

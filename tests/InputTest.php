@@ -10,12 +10,12 @@ namespace BartFeenstra\Tests\Currency;
 use BartFeenstra\Currency\Input;
 
 /**
- * Tests \BartFeenstra\Currency\Input
+ * @coversDefaultClass \BartFeenstra\Currency\Input
  */
 class InputTest extends \PHPUnit_Framework_TestCase {
 
   /**
-   * Tests amount().
+   * @covers ::parseAmount
    */
   function testParseAmount() {
     $amounts_invalid = array(
