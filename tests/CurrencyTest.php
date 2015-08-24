@@ -9,6 +9,7 @@ namespace BartFeenstra\Tests\Currency;
 
 use BartFeenstra\Currency\Currency;
 use BartFeenstra\Currency\Usage;
+use BartFeenstra\Currency\UsageInterface;
 
 /**
  * @coversDefaultClass \BartFeenstra\Currency\Currency
@@ -59,9 +60,9 @@ EOD;
    */
   function currency() {
     $usage = new Usage();
-    $usage->ISO8601From = '2003-02-04';
-    $usage->ISO8601To = '2006-06-03';
-    $usage->ISO3166Code = 'CS';
+    $usage->setStart('2003-02-04');
+    $usage->setEnd('2006-06-03');
+    $usage->setCountryCode('CS');
     $currency = new Currency();
     $currency->ISO4217Code = 'EUR';
     $currency->ISO4217Number = '978';
@@ -81,8 +82,13 @@ EOD;
     $currency_parsed = new Currency();
     $currency_parsed->resourceParse($json);
     $this->assertInstanceOf('BartFeenstra\Currency\Currency', $currency_parsed);
-    $this->assertInstanceOf('BartFeenstra\Currency\Usage', $currency_parsed->usage[0], 'Currency::parse() parses YAML code to a Usage object.');
+    foreach ($currency_parsed->usage as $usage) {
+      $this->assertInstanceOf(UsageInterface::class, $usage);
+    }
     $currency = $this->currency();
+    $this->assertSame($currency->usage[0]->getStart(), $currency_parsed->usage[0]->getStart());
+    $this->assertSame($currency->usage[0]->getEnd(), $currency_parsed->usage[0]->getEnd());
+    $this->assertSame($currency->usage[0]->getCountryCode(), $currency_parsed->usage[0]->getCountryCode());
     $this->assertSame(get_object_vars($currency->usage[0]), get_object_vars($currency_parsed->usage[0]), 'Currency::parse() parses YAML code to an identical Usage object.');
     unset($currency->usage);
     unset($currency_parsed->usage);

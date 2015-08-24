@@ -58,8 +58,7 @@ class Currency {
   /**
    * This currency's usage.
    *
-   * @var array
-   *   An array of \BartFeenstra\Currency\Usage objects.
+   * @var \BartFeenstra\Currency\UsageInterface[]
    */
   public $usage = [];
 
@@ -129,9 +128,15 @@ class Currency {
       $this->$property = $value;
     }
     foreach ($usages_data as $usage_data) {
-      $usage = new Usage;
-      foreach ($usage_data as $property => $value) {
-        $usage->$property = $value;
+      $usage = new Usage();
+      if (isset($usage_data->ISO8601From)) {
+        $usage->setStart($usage_data->ISO8601From);
+      }
+      if (isset($usage_data->ISO8601To)) {
+        $usage->setEnd($usage_data->ISO8601To);
+      }
+      if (isset($usage_data->ISO3166Code)) {
+        $usage->setCountryCode($usage_data->ISO3166Code);
       }
       $this->usage[] = $usage;
     }
@@ -147,7 +152,11 @@ class Currency {
     $currency_data = get_object_vars($this);
     $currency_data['usage'] = [];
     foreach ($this->usage as $usage) {
-      $currency_data['usage'][] = get_object_vars($usage);
+      $currency_data['usage'][] = (object) [
+        'ISO8601From' => $usage->getStart(),
+        'ISO8601To' => $usage->getEnd(),
+        'ISO3166Code' => $usage->getCountryCode(),
+      ];
     }
 
     return json_encode($currency_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
