@@ -26,5 +26,8 @@
   "require-dev" : {
     "justinrainbow/json-schema": "~1.4",
     "phpunit/phpunit" : "~4.0"
+  },
+  "suggest": {
+    "drupal/currency": "Integrates this package with Drupal."
   }
 }
