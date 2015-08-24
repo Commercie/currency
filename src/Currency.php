@@ -2,180 +2,218 @@
 
 /**
  * @file
- * Contains class \BartFeenstra\Currency\Currency.
+ * Contains of \BartFeenstra\Currency\Currency.
  */
 
 namespace BartFeenstra\Currency;
 
 /**
- * Describes a currency.
+ * Provides a currency.
  */
-class Currency {
+class Currency implements CurrencyInterface
+{
 
-  /**
-   * Alternative (non-official) currency signs.
-   *
-   * @var array
-   *   An array of strings that are similar to Currency::sign.
-   */
-  public $alternativeSigns = [];
+    /**
+     * Alternative (non-official) currency signs.
+     *
+     * @var array
+     *   An array of strings that are similar to self::sign.
+     */
+    protected $alternativeSigns = [];
 
-  /**
-   * ISO 4217 currency code.
-   *
-   * @var string
-   */
-  public $ISO4217Code = NULL;
+    /**
+     * ISO 4217 currency code.
+     *
+     * @var string
+     */
+    public $currencyCode;
 
-  /**
-   * ISO 4217 currency number.
-   *
-   * @var string
-   */
-  public $ISO4217Number = NULL;
+    /**
+     * ISO 4217 currency number.
+     *
+     * @var string
+     */
+    protected $currencyNumber;
 
-  /**
-   * The currency's official sign, such as '€' or '$'.
-   *
-   * @var string
-   */
-  public $sign = '¤';
+    /**
+     * The human-readable name.
+     *
+     * @var string
+     */
+    public $label;
 
-  /**
-   * The number of subunits this currency has.
-   *
-   * @var integer|null
-   */
-  public $subunits = NULL;
+    /**
+     * The number of subunits to round amounts in this currency to.
+     *
+     * @see Currency::getRoundingStep()
+     *
+     * @var integer
+     */
+    protected $roundingStep;
 
-  /**
-   * Human-readable title in US English.
-   *
-   * @var string
-   */
-  public $title = NULL;
+    /**
+     * The currency's official sign, such as '€' or '$'.
+     *
+     * @var string
+     */
+    protected $sign = '¤';
 
-  /**
-   * This currency's usage.
-   *
-   * @var \BartFeenstra\Currency\UsageInterface[]
-   */
-  public $usage = [];
+    /**
+     * The number of subunits this currency has.
+     *
+     * @var integer|null
+     */
+    protected $subunits;
 
-  /**
-   * The path to the resources directory.
-   */
-  public static $resourcePath = '/../resources/currency/';
+    /**
+     * This currency's usages.
+     *
+     * @var \BartFeenstra\Currency\UsageInterface[]
+     */
+    protected $usages = [];
 
-  /**
-   * A list of the ISO 4217 codes of all known currency resources.
-   */
-  public static $resourceISO4217Codes = [];
+    public function setAlternativeSigns(array $signs)
+    {
+        $this->alternativeSigns = $signs;
 
-  /**
-   * Returns the directory that contains the currency resources.
-   *
-   * @return string
-   */
-  public static function resourceDir() {
-    return __DIR__ . self::$resourcePath;
-  }
+        return $this;
+    }
 
-  /**
-   * Lists all currency resources in the library.
-   *
-   * @return array
-   *   An array with ISO 4217 currency codes.
-   */
-  public static function resourceListAll() {
-    if (!self::$resourceISO4217Codes) {
-      $directory = new \RecursiveDirectoryIterator(self::resourceDir());
-      foreach ($directory as $item) {
-        if (preg_match('#^...\.json$#', $item->getFilename())) {
-          self::$resourceISO4217Codes[] = substr($item->getFilename(), 0, 3);
+    public function getAlternativeSigns()
+    {
+        return $this->alternativeSigns;
+    }
+
+    public function setCurrencyCode($code)
+    {
+        $this->currencyCode = $code;
+
+        return $this;
+    }
+
+    public function getCurrencyCode()
+    {
+        return $this->currencyCode;
+    }
+
+    public function setCurrencyNumber($number)
+    {
+        $this->currencyNumber = $number;
+
+        return $this;
+    }
+
+    public function getCurrencyNumber()
+    {
+        return $this->currencyNumber;
+    }
+
+    public function setLabel($label)
+    {
+        $this->label = $label;
+
+        return $this;
+    }
+
+    public function setRoundingStep($step)
+    {
+        $this->roundingStep = $step;
+
+        return $this;
+    }
+
+    public function setSign($sign)
+    {
+        $this->sign = $sign;
+
+        return $this;
+    }
+
+    public function getSign()
+    {
+        return $this->sign;
+    }
+
+    public function setSubunits($subunits)
+    {
+        $this->subunits = $subunits;
+
+        return $this;
+    }
+
+    public function getSubunits()
+    {
+        return $this->subunits;
+    }
+
+    public function setUsages(array $usages)
+    {
+        $this->usages = $usages;
+
+        return $this;
+    }
+
+    public function getUsages()
+    {
+        return $this->usages;
+    }
+
+    public function id()
+    {
+        return $this->currencyCode;
+    }
+
+    public function getDecimals()
+    {
+        $decimals = 0;
+        if ($this->getSubunits() > 0) {
+            $decimals = 1;
+            while (pow(10, $decimals) < $this->getSubunits()) {
+                $decimals++;
+            }
         }
-      }
+
+        return $decimals;
     }
 
-    return self::$resourceISO4217Codes;
-  }
-
-  /**
-   * Loads a currency resource into this object.
-   *
-   * @param string $iso_4217_code
-   */
-  public function resourceLoad($iso_4217_code) {
-    $filepath = self::resourceDir() . "$iso_4217_code.json";
-    if (is_readable($filepath)) {
-      $this->resourceParse(file_get_contents($filepath));
-    }
-    else {
-      throw new \RuntimeException(sprintf('The currency resource file %s does not exist or is not readable.', $filepath));
-    }
-  }
-
-  /**
-   * Parses a YAML file into this object.
-   *
-   * @param string $json
-   */
-  public function resourceParse($json) {
-    $currency_data = json_decode($json);
-    $usages_data = $currency_data->usage;
-    $currency_data->usage = [];
-    foreach ($currency_data as $property => $value) {
-      $this->$property = $value;
-    }
-    foreach ($usages_data as $usage_data) {
-      $usage = new Usage();
-      if (isset($usage_data->ISO8601From)) {
-        $usage->setStart($usage_data->ISO8601From);
-      }
-      if (isset($usage_data->ISO8601To)) {
-        $usage->setEnd($usage_data->ISO8601To);
-      }
-      if (isset($usage_data->ISO3166Code)) {
-        $usage->setCountryCode($usage_data->ISO3166Code);
-      }
-      $this->usage[] = $usage;
-    }
-    unset($currency_data);
-  }
-
-  /**
-   * Dumps this object to JSON code.
-   *
-   * @return string
-   */
-  public function resourceDump() {
-    $currency_data = get_object_vars($this);
-    $currency_data['usage'] = [];
-    foreach ($this->usage as $usage) {
-      $currency_data['usage'][] = (object) [
-        'ISO8601From' => $usage->getStart(),
-        'ISO8601To' => $usage->getEnd(),
-        'ISO3166Code' => $usage->getCountryCode(),
-      ];
+    function getRoundingStep()
+    {
+        if (is_numeric($this->roundingStep)) {
+            return $this->roundingStep;
+        }
+        // If a rounding step was not set explicitly, the rounding step is equal
+        // to one subunit.
+        elseif (is_numeric($this->getSubunits())) {
+            return $this->getSubunits() > 0 ? bcdiv(1, $this->getSubunits(),
+              6) : 1;
+        }
+        return null;
     }
 
-    return json_encode($currency_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-  }
+    function isObsolete($reference = null)
+    {
+        // Without usage information, we cannot know if the currency is obsolete.
+        if (!$this->getUsages()) {
+            return false;
+        }
 
-  /**
-   * Returns the number of decimals.
-   *
-   * @return int
-   */
-  function getDecimals() {
-    $decimals = 0;
-    if ($this->subunits > 0) {
-      $decimals = 1;
-      while (pow(10, $decimals) < $this->subunits) {
-        $decimals++;
-      }
+        // Default to the current date and time.
+        if (is_null($reference)) {
+            $reference = time();
+        }
+
+        // Mark the currency obsolete if all usages have an end date that comes
+        // before $reference.
+        $obsolete = 0;
+        foreach ($this->getUsages() as $usage) {
+            if ($usage->getEnd()) {
+                $to = strtotime($usage->getEnd());
+                if ($to !== false && $to < $reference) {
+                    $obsolete++;
+                }
+            }
+        }
+        return $obsolete == count($this->getUsages());
     }
 
-    return $decimals;
-  }
 }

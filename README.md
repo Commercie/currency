@@ -2,21 +2,17 @@ Currency
 ========
 
 # Introduction
-A language-independent library that provides metadata for current and historic
-currencies:
+A library that provides metadata for current and historic currencies:
 * ISO 4217 currency codes and numbers
-* Currency signs
+* Currency signs, both official and unofficial
 * The number of decimals a currency has
 * Where (ISO 3166 country codes) and when (ISO 8601 dates) currencies were and
   are used
 * Fixed exchange rates (usually historic)
 
 # Usage
-* Currency information is stored in JSON files in `/resources/currency`.
-* PHP helpers:
-  * `\BartFeenstra\Currency\Currency` is a basic class that serves as a container and a controller for
-working with the currency resources.
-  * `\BartFeenstra\Curency\Input` contains a parser for user input.
+* Currencies can be loaded through `\BartFeenstra\Currency\ResourceRepository`.
+* `\BartFeenstra\Currency\InputInterface` is capable of parsing user-input numbers.
 
 # Requirements
 The library does not have any global requirements.

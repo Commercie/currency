@@ -2,140 +2,172 @@
 
 /**
  * @file
- * Contains class \BartFeenstra\Tests\Currency\CurrencyTest.
+ * Contains \BartFeenstra\Tests\Currency\CurrencyTest.
  */
 
 namespace BartFeenstra\Tests\Currency;
 
 use BartFeenstra\Currency\Currency;
 use BartFeenstra\Currency\Usage;
-use BartFeenstra\Currency\UsageInterface;
 
 /**
  * @coversDefaultClass \BartFeenstra\Currency\Currency
+ *
+ * @group Currency
  */
-class CurrencyTest extends \PHPUnit_Framework_TestCase {
-
-  /**
-   * @covers ::resourceListAll
-   * @covers ::resourceDir
-   */
-  function testResourceList() {
-    $list = Currency::resourceListAll();
-    foreach ($list as $iso_4217_code) {
-      $this->assertSame(strlen($iso_4217_code), 3, 'Currency::getList() returns an array with three-letter strings (ISO 4217 codes).');
-    }
-  }
-
-  /**
-   * Returns JSON for a Currency object.
-   *
-   * @return string
-   */
-  function json() {
-    return <<<'EOD'
+class CurrencyTest extends \PHPUnit_Framework_TestCase
 {
-    "alternativeSigns": [],
-    "ISO4217Code": "EUR",
-    "ISO4217Number": "978",
-    "sign": "€",
-    "subunits": 100,
-    "title": "euro",
-    "usage": [
-        {
-            "ISO8601From": "2003-02-04",
-            "ISO8601To": "2006-06-03",
-            "ISO3166Code": "CS"
+
+    /**
+     * The subject under test.
+     *
+     * @var \BartFeenstra\Currency\Currency
+     */
+    protected $sut;
+
+    public function setUp()
+    {
+        $this->sut = new Currency();
+    }
+
+    /**
+     * @covers ::getRoundingStep
+     * @covers ::setRoundingStep
+     */
+    public function testGetRoundingStep()
+    {
+        $roundingStep = mt_rand();
+
+        $this->assertSame($this->sut,
+          $this->sut->setRoundingStep($roundingStep));
+        $this->assertSame($roundingStep, $this->sut->getRoundingStep());
+    }
+
+    /**
+     * @covers ::getRoundingStep
+     */
+    public function testGetRoundingStepBySubunits()
+    {
+        $subunits = 5;
+        $roundingStep = '0.200000';
+
+        $this->sut->setSubunits($subunits);
+
+        $this->assertSame($roundingStep, $this->sut->getRoundingStep());
+    }
+
+    /**
+     * @covers ::getRoundingStep
+     */
+    public function testGetRoundingStepUnavailable()
+    {
+        $this->assertNull($this->sut->getRoundingStep());
+    }
+
+    /**
+     * @covers ::getDecimals
+     */
+    public function testGetDecimals()
+    {
+        foreach ([1, 2, 3] as $decimals) {
+            $this->sut->setSubunits(pow(10, $decimals));
+            $this->assertSame($decimals, $this->sut->getDecimals());
         }
-    ]
-}
-
-EOD;
-  }
-
-  /**
-   * Returns a Currency object.
-   *
-   * @return Currency
-   */
-  function currency() {
-    $usage = new Usage();
-    $usage->setStart('2003-02-04');
-    $usage->setEnd('2006-06-03');
-    $usage->setCountryCode('CS');
-    $currency = new Currency();
-    $currency->ISO4217Code = 'EUR';
-    $currency->ISO4217Number = '978';
-    $currency->sign = '€';
-    $currency->subunits = 100;
-    $currency->title = 'euro';
-    $currency->usage = [$usage];
-
-    return $currency;
-  }
-
-  /**
-   * @covers ::resourceParse
-   */
-  function testResourceParse() {
-    $json = $this->json();
-    $currency_parsed = new Currency();
-    $currency_parsed->resourceParse($json);
-    $this->assertInstanceOf('BartFeenstra\Currency\Currency', $currency_parsed);
-    foreach ($currency_parsed->usage as $usage) {
-      $this->assertInstanceOf(UsageInterface::class, $usage);
     }
-    $currency = $this->currency();
-    $this->assertSame($currency->usage[0]->getStart(), $currency_parsed->usage[0]->getStart());
-    $this->assertSame($currency->usage[0]->getEnd(), $currency_parsed->usage[0]->getEnd());
-    $this->assertSame($currency->usage[0]->getCountryCode(), $currency_parsed->usage[0]->getCountryCode());
-    $this->assertSame(get_object_vars($currency->usage[0]), get_object_vars($currency_parsed->usage[0]), 'Currency::parse() parses YAML code to an identical Usage object.');
-    unset($currency->usage);
-    unset($currency_parsed->usage);
-    $this->assertSame(get_object_vars($currency), get_object_vars($currency_parsed), 'Currency::parse() parses YAML code to an identical currency object.');
-  }
 
-  /**
-   * @covers ::resourceDump
-   */
-  function testResourceDump() {
-    $currency = $this->currency();
-    $json = $this->json();
-    $json_dumped = $currency->resourceDump();
-    $this->assertSame(trim($json), trim($json_dumped));
-  }
+    /**
+     * @covers ::isObsolete
+     */
+    public function testIsObsolete()
+    {
+        // A currency without usage data.
+        $this->assertFalse($this->sut->isObsolete());
 
-  /**
-   * @covers ::resourceLoad
-   * @covers ::resourceDir
-   */
-  function testResourceLoad() {
-    $currency = new Currency();
-    $currency->resourceLoad('EUR');
-    $this->assertInstanceOf('BartFeenstra\Currency\Currency', $currency, 'Currency::load() loads a single currency from file.');
-    $error = FALSE;
-    try {
-      $currency->resourceLoad('123');
-    }
-    catch (\RuntimeException $e) {
-      $error = TRUE;
-    }
-    $this->assertTrue($error);
-  }
+        // A currency that is no longer being used.
+        $usage = new Usage();
+        $usage->setStart('1813-01-01')
+          ->setEnd('2002-02-28');
+        $this->sut->setUsages([$usage]);
+        $this->assertTrue($this->sut->isObsolete());
 
-  /**
-   * @covers ::getDecimals
-   */
-  function testGetDecimals() {
-    $currencies = [
-      'MGA' => 1,
-      'EUR' => 2,
-      'JPY' => 3,
-    ];
-    foreach ($currencies as $currency_code => $decimals) {
-      $currency = new Currency();
-      $currency->resourceLoad($currency_code);
-      $this->assertSame($currency->getDecimals(), $decimals);
+        // A currency that will become obsolete next year.
+        $usage = new Usage();
+        $usage->setStart('1813-01-01')
+          ->setEnd(date('o') + 1 . '-02-28');
+        $this->sut->setUsages([$usage]);
+        $this->assertFalse($this->sut->isObsolete());
     }
-  }
+
+    /**
+     * @covers ::getAlternativeSigns
+     * @covers ::setAlternativeSigns
+     */
+    public function testGetAlternativeSigns()
+    {
+        $alternative_signs = ['A', 'B'];
+        $this->assertSame($this->sut,
+          $this->sut->setAlternativeSigns($alternative_signs));
+        $this->assertSame($alternative_signs,
+          $this->sut->getAlternativeSigns());
+    }
+
+    /**
+     * @covers ::getCurrencyCode
+     * @covers ::setCurrencyCode
+     */
+    public function testGetCurrencyCode()
+    {
+        $currency_code = 'FOO';
+        $this->assertSame($this->sut,
+          $this->sut->setCurrencyCode($currency_code));
+        $this->assertSame($currency_code, $this->sut->getCurrencyCode());
+    }
+
+    /**
+     * @covers ::getCurrencyNumber
+     * @covers ::setCurrencyNumber
+     */
+    public function testGetCurrencyNumber()
+    {
+        $currency_number = mt_rand();
+        $this->assertSame($this->sut,
+          $this->sut->setCurrencyNumber($currency_number));
+        $this->assertSame($currency_number, $this->sut->getCurrencyNumber());
+    }
+
+    /**
+     * @covers ::getSign
+     * @covers ::setSign
+     */
+    public function testGetSign()
+    {
+        $sign = mt_rand();
+        $this->assertSame($this->sut, $this->sut->setSign($sign));
+        $this->assertSame($sign, $this->sut->getSign());
+    }
+
+    /**
+     * @covers ::setSubunits
+     * @covers ::getSubunits
+     */
+    public function testGetSubunits()
+    {
+        $subunits = mt_rand();
+        $this->assertSame($this->sut, $this->sut->setSubunits($subunits));
+        $this->assertSame($subunits, $this->sut->getSubunits());
+    }
+
+    /**
+     * @covers ::setUsages
+     * @covers ::getUsages
+     */
+    public function testGetUsage()
+    {
+        $usage = new Usage();
+        $usage->setStart('1813-01-01')
+          ->setEnd(date('o') + 1 . '-02-28');
+        $this->assertSame($this->sut, $this->sut->setUsages([$usage]));
+        $this->assertSame([$usage], $this->sut->getUsages());
+    }
+
 }
