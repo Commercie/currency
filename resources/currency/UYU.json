@@ -1,0 +1,16 @@
+{
+    "alternativeSigns": [
+        "$U"
+    ],
+    "ISO4217Code": "UYU",
+    "ISO4217Number": "858",
+    "sign": "$",
+    "subunits": 100,
+    "title": "Uruguayan peso",
+    "usage": [
+        {
+            "ISO8601From": "1993-03-01",
+            "ISO3166Code": "UY"
+        }
+    ]
+}

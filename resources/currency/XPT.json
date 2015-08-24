@@ -1,0 +1,13 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "XPT",
+    "ISO4217Number": "962",
+    "sign": "¤",
+    "subunits": 0,
+    "title": "Platinum",
+    "usage": [
+        {
+            "ISO3166Code": "ZZ"
+        }
+    ]
+}

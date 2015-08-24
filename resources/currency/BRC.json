@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "BRC",
+    "sign": "Cz$",
+    "subunits": 100,
+    "title": "Brazilian cruzado",
+    "usage": [
+        {
+            "ISO8601From": "1986-02-28",
+            "ISO8601To": "1989-01-15",
+            "ISO3166Code": "BR"
+        }
+    ]
+}

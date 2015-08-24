@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "LTT",
+    "sign": "¤",
+    "subunits": 100,
+    "title": "Lithuanian talonas",
+    "usage": [
+        {
+            "ISO8601From": "1992-10-01",
+            "ISO8601To": "1993-06-25",
+            "ISO3166Code": "LT"
+        }
+    ]
+}

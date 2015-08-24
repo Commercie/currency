@@ -12,10 +12,10 @@ currencies:
 * Fixed exchange rates (usually historic)
 
 # Usage
-* Currency information is stored in YAML files in `/resources`.
+* Currency information is stored in JSON files in `/resources/currency`.
 * PHP helpers:
   * `\BartFeenstra\Currency\Currency` is a basic class that serves as a container and a controller for
-working with the YAML resources.
+working with the currency resources.
   * `\BartFeenstra\Curency\Input` contains a parser for user input.
 
 # Requirements
@@ -24,12 +24,8 @@ The library does not have any global requirements.
 ## Testing
 * PHPUnit 3.7.*
 
-## Resources
-* Any YAML parser.
-
 ## PHP
 * PHP 5.3.x or higher
-* Symfony YAML 2.1.*
 
 # Integrates with
 * [Composer](http://getcomposer.org) (as

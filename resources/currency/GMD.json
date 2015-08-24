@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "GMD",
+    "ISO4217Number": "270",
+    "sign": "D",
+    "subunits": 100,
+    "title": "Gambian dalasi",
+    "usage": [
+        {
+            "ISO8601From": "1971-07-01",
+            "ISO3166Code": "GM"
+        }
+    ]
+}

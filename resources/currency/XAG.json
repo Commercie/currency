@@ -1,0 +1,13 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "XAG",
+    "ISO4217Number": "961",
+    "sign": "¤",
+    "subunits": 0,
+    "title": "Silver",
+    "usage": [
+        {
+            "ISO3166Code": "ZZ"
+        }
+    ]
+}

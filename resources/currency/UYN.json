@@ -1,0 +1,13 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "UYN",
+    "sign": "$",
+    "subunits": 100,
+    "title": "Uruguayan peso",
+    "usage": [
+        {
+            "ISO8601To": "1993-03-01",
+            "ISO3166Code": "ZR"
+        }
+    ]
+}

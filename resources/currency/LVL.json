@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "LVL",
+    "ISO4217Number": "428",
+    "sign": "Ls",
+    "subunits": 100,
+    "title": "Latvian lats",
+    "usage": [
+        {
+            "ISO8601From": "1993-06-28",
+            "ISO3166Code": "LV"
+        }
+    ]
+}

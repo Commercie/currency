@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "ARP",
+    "sign": "$a",
+    "subunits": 100,
+    "title": "Argentine peso argentino",
+    "usage": [
+        {
+            "ISO8601From": "1983-06-01",
+            "ISO8601To": "1985-06-14",
+            "ISO3166Code": "AR"
+        }
+    ]
+}

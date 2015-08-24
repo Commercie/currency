@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "BOB",
+    "ISO4217Number": "068",
+    "sign": "Bs",
+    "subunits": 100,
+    "title": "Bolivian boliviano",
+    "usage": [
+        {
+            "ISO8601From": "1987-01-01",
+            "ISO3166Code": "BO"
+        }
+    ]
+}

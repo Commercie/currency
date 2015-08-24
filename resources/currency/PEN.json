@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "PEN",
+    "ISO4217Number": "604",
+    "sign": "S\/.",
+    "subunits": 100,
+    "title": "Peruvian nuevo sol",
+    "usage": [
+        {
+            "ISO8601From": "1991-07-01",
+            "ISO3166Code": "PE"
+        }
+    ]
+}

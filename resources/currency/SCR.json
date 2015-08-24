@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "SCR",
+    "ISO4217Number": "690",
+    "sign": "SR",
+    "subunits": 100,
+    "title": "Seychellois rupee",
+    "usage": [
+        {
+            "ISO8601From": "1903-11-01",
+            "ISO3166Code": "SC"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "XFU",
+    "sign": "¤",
+    "subunits": 0,
+    "title": "UIC franc",
+    "usage": [
+        {
+            "ISO3166Code": "ZZ"
+        }
+    ]
+}

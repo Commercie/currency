@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "BYR",
+    "ISO4217Number": "974",
+    "sign": "Br",
+    "subunits": 100,
+    "title": "Belarussian ruble",
+    "usage": [
+        {
+            "ISO8601From": "2000-01-01",
+            "ISO3166Code": "BY"
+        }
+    ]
+}

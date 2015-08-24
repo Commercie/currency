@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "RON",
+    "ISO4217Number": "946",
+    "sign": "¤",
+    "subunits": 100,
+    "title": "Romanian leu",
+    "usage": [
+        {
+            "ISO8601From": "2005-07-01",
+            "ISO3166Code": "RO"
+        }
+    ]
+}

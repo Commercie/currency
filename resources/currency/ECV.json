@@ -1,0 +1,13 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "ECV",
+    "ISO4217Number": "983",
+    "sign": "¤",
+    "subunits": 0,
+    "title": "Ecuadorian Unidad de Valor Constante",
+    "usage": [
+        {
+            "ISO3166Code": "EC"
+        }
+    ]
+}

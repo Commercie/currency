@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "UZS",
+    "ISO4217Number": "860",
+    "sign": "¤",
+    "subunits": 100,
+    "title": "Uzbekistani sum",
+    "usage": [
+        {
+            "ISO8601From": "1994-07-01",
+            "ISO3166Code": "UZ"
+        }
+    ]
+}

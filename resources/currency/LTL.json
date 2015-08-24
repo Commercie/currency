@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "LTL",
+    "ISO4217Number": "440",
+    "sign": "Lt",
+    "subunits": 100,
+    "title": "Lithuanian litas",
+    "usage": [
+        {
+            "ISO8601From": "1993-06-25",
+            "ISO3166Code": "LT"
+        }
+    ]
+}

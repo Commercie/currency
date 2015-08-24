@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "MGA",
+    "ISO4217Number": "969",
+    "sign": "Ar",
+    "subunits": 5,
+    "title": "Malagasy ariary",
+    "usage": [
+        {
+            "ISO8601From": "1983-11-01",
+            "ISO3166Code": "MG"
+        }
+    ]
+}

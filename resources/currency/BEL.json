@@ -1,0 +1,13 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "BEL",
+    "ISO4217Number": "992",
+    "sign": "¤",
+    "title": "Belgian financial franc",
+    "usage": [
+        {
+            "ISO8601To": "2001-12-31",
+            "ISO3166Code": "BE"
+        }
+    ]
+}

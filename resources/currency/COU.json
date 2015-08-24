@@ -1,0 +1,13 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "COU",
+    "ISO4217Number": "970",
+    "sign": "¤",
+    "subunits": 100,
+    "title": "Colombian Unidad de Valor Real",
+    "usage": [
+        {
+            "ISO3166Code": "CO"
+        }
+    ]
+}

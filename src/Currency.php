@@ -7,8 +7,6 @@
 
 namespace BartFeenstra\Currency;
 
-use Symfony\Component\Yaml\Yaml;
-
 /**
  * Describes a currency.
  */
@@ -68,7 +66,7 @@ class Currency {
   /**
    * The path to the resources directory.
    */
-  public static $resourcePath = '/../resources/';
+  public static $resourcePath = '/../resources/currency/';
 
   /**
    * A list of the ISO 4217 codes of all known currency resources.
@@ -94,7 +92,7 @@ class Currency {
     if (!self::$resourceISO4217Codes) {
       $directory = new \RecursiveDirectoryIterator(self::resourceDir());
       foreach ($directory as $item) {
-        if (preg_match('#^...\.yml$#', $item->getFilename())) {
+        if (preg_match('#^...\.json$#', $item->getFilename())) {
           self::$resourceISO4217Codes[] = substr($item->getFilename(), 0, 3);
         }
       }
@@ -109,7 +107,7 @@ class Currency {
    * @param string $iso_4217_code
    */
   public function resourceLoad($iso_4217_code) {
-    $filepath = self::resourceDir() . "$iso_4217_code.yml";
+    $filepath = self::resourceDir() . "$iso_4217_code.json";
     if (is_readable($filepath)) {
       $this->resourceParse(file_get_contents($filepath));
     }
@@ -121,12 +119,12 @@ class Currency {
   /**
    * Parses a YAML file into this object.
    *
-   * @param string $yaml
+   * @param string $json
    */
-  public function resourceParse($yaml) {
-    $currency_data = Yaml::parse($yaml);
-    $usages_data = $currency_data['usage'];
-    $currency_data['usage'] = array();
+  public function resourceParse($json) {
+    $currency_data = json_decode($json);
+    $usages_data = $currency_data->usage;
+    $currency_data->usage = array();
     foreach ($currency_data as $property => $value) {
       $this->$property = $value;
     }
@@ -141,7 +139,7 @@ class Currency {
   }
 
   /**
-   * Dumps this object to YAML code.
+   * Dumps this object to JSON code.
    *
    * @return string
    */
@@ -152,7 +150,7 @@ class Currency {
       $currency_data['usage'][] = get_object_vars($usage);
     }
 
-    return Yaml::dump($currency_data);
+    return json_encode($currency_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
   }
 
   /**

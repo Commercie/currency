@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "MRO",
+    "ISO4217Number": "478",
+    "sign": "UM",
+    "subunits": 5,
+    "title": "Mauritanian ouguiya",
+    "usage": [
+        {
+            "ISO8601From": "1973-06-29",
+            "ISO3166Code": "MR"
+        }
+    ]
+}

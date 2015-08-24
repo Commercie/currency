@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "VAL",
+    "sign": "₤",
+    "subunits": 100,
+    "title": "Vatican lira",
+    "usage": [
+        {
+            "ISO8601From": "1929",
+            "ISO8601To": "2002",
+            "ISO3166Code": "VA"
+        }
+    ]
+}

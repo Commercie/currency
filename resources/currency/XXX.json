@@ -1,0 +1,16 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "XXX",
+    "ISO4217Number": "999",
+    "sign": "¤",
+    "subunits": 0,
+    "title": "No currency",
+    "usage": [
+        {
+            "ISO3166Code": "AQ"
+        },
+        {
+            "ISO3166Code": "ZZ"
+        }
+    ]
+}

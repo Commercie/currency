@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "YUR",
+    "sign": "дин",
+    "subunits": 100,
+    "title": "Yugoslav dinar",
+    "usage": [
+        {
+            "ISO8601From": "1992-07-01",
+            "ISO8601To": "1993-10-01",
+            "ISO3166Code": "BA"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "AED",
+    "ISO4217Number": "784",
+    "sign": "د.إ",
+    "subunits": 100,
+    "title": "Emirati dirham",
+    "usage": [
+        {
+            "ISO8601From": "1973-05-19",
+            "ISO3166Code": "AE"
+        }
+    ]
+}

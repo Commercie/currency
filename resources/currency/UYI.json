@@ -1,0 +1,13 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "UYI",
+    "ISO4217Number": "940",
+    "sign": "¤",
+    "subunits": 0,
+    "title": "Uruguayan Peso en Unidades Indexadas",
+    "usage": [
+        {
+            "ISO3166Code": "UY"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "GNF",
+    "ISO4217Number": "324",
+    "sign": "₣",
+    "subunits": 100,
+    "title": "Guinean franc",
+    "usage": [
+        {
+            "ISO8601From": "1986-01-06",
+            "ISO3166Code": "GN"
+        }
+    ]
+}

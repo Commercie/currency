@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "MZN",
+    "ISO4217Number": "943",
+    "sign": "MT",
+    "subunits": 100,
+    "title": "Mozambican metical",
+    "usage": [
+        {
+            "ISO8601From": "2006-07-01",
+            "ISO3166Code": "MZ"
+        }
+    ]
+}

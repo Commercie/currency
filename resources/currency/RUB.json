@@ -1,0 +1,16 @@
+{
+    "alternativeSigns": [
+        "руб"
+    ],
+    "ISO4217Code": "RUB",
+    "ISO4217Number": "643",
+    "sign": "",
+    "subunits": 100,
+    "title": "Russian ruble",
+    "usage": [
+        {
+            "ISO8601From": "1999-01-01",
+            "ISO3166Code": "RU"
+        }
+    ]
+}

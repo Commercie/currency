@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "DOP",
+    "ISO4217Number": "214",
+    "sign": "$",
+    "subunits": 100,
+    "title": "Dominican peso",
+    "usage": [
+        {
+            "ISO8601From": "1947-10-01",
+            "ISO3166Code": "DO"
+        }
+    ]
+}

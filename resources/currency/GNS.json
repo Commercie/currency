@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "GNS",
+    "sign": "¤",
+    "subunits": 100,
+    "title": "Guinean syli",
+    "usage": [
+        {
+            "ISO8601From": "1972-10-02",
+            "ISO8601To": "1986-01-06",
+            "ISO3166Code": "GN"
+        }
+    ]
+}

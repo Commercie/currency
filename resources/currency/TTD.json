@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "TTD",
+    "ISO4217Number": "780",
+    "sign": "$",
+    "subunits": 100,
+    "title": "Trinidadian dollar",
+    "usage": [
+        {
+            "ISO8601From": "1964-01-01",
+            "ISO3166Code": "TT"
+        }
+    ]
+}

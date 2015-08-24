@@ -17,6 +17,7 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase {
 
   /**
    * @covers ::resourceListAll
+   * @covers ::resourceDir
    */
   function testResourceList() {
     $list = Currency::resourceListAll();
@@ -26,20 +27,27 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase {
   }
 
   /**
-   * Returns YAML for a Currency object.
+   * Returns JSON for a Currency object.
    *
    * @return string
    */
-  function yaml() {
+  function json() {
     return <<<'EOD'
-alternativeSigns: {  }
-ISO4217Code: EUR
-ISO4217Number: '978'
-sign: ¤
-subunits: 100
-title: Euro
-usage:
-    - { ISO8601From: '2003-02-04', ISO8601To: '2006-06-03', ISO3166Code: CS }
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "EUR",
+    "ISO4217Number": "978",
+    "sign": "€",
+    "subunits": 100,
+    "title": "euro",
+    "usage": [
+        {
+            "ISO8601From": "2003-02-04",
+            "ISO8601To": "2006-06-03",
+            "ISO3166Code": "CS"
+        }
+    ]
+}
 
 EOD;
   }
@@ -57,9 +65,9 @@ EOD;
     $currency = new Currency();
     $currency->ISO4217Code = 'EUR';
     $currency->ISO4217Number = '978';
-    $currency->sign = '¤';
+    $currency->sign = '€';
     $currency->subunits = 100;
-    $currency->title = 'Euro';
+    $currency->title = 'euro';
     $currency->usage = array($usage);
 
     return $currency;
@@ -69,9 +77,9 @@ EOD;
    * @covers ::resourceParse
    */
   function testResourceParse() {
-    $yaml = $this->yaml();
+    $json = $this->json();
     $currency_parsed = new Currency();
-    $currency_parsed->resourceParse($yaml);
+    $currency_parsed->resourceParse($json);
     $this->assertInstanceOf('BartFeenstra\Currency\Currency', $currency_parsed);
     $this->assertInstanceOf('BartFeenstra\Currency\Usage', $currency_parsed->usage[0], 'Currency::parse() parses YAML code to a Usage object.');
     $currency = $this->currency();
@@ -86,13 +94,14 @@ EOD;
    */
   function testResourceDump() {
     $currency = $this->currency();
-    $yaml = $this->yaml();
-    $yaml_dumped = $currency->resourceDump();
-    $this->assertSame($yaml, $yaml_dumped);
+    $json = $this->json();
+    $json_dumped = $currency->resourceDump();
+    $this->assertSame(trim($json), trim($json_dumped));
   }
 
   /**
    * @covers ::resourceLoad
+   * @covers ::resourceDir
    */
   function testResourceLoad() {
     $currency = new Currency();

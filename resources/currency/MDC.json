@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "MDC",
+    "sign": "¤",
+    "subunits": 0,
+    "title": "Moldovan cupon",
+    "usage": [
+        {
+            "ISO8601From": "1992-06-01",
+            "ISO8601To": "1993-11-29",
+            "ISO3166Code": "MD"
+        }
+    ]
+}

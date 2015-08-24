@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "CVE",
+    "ISO4217Number": "132",
+    "sign": "$",
+    "subunits": 100,
+    "title": "Cape Verdean escudo",
+    "usage": [
+        {
+            "ISO8601From": "1914-01-01",
+            "ISO3166Code": "CV"
+        }
+    ]
+}

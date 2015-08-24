@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "GHS",
+    "ISO4217Number": "936",
+    "sign": "GH¢",
+    "subunits": 100,
+    "title": "Ghanaian cedi",
+    "usage": [
+        {
+            "ISO8601From": "2007-07-03",
+            "ISO3166Code": "GH"
+        }
+    ]
+}

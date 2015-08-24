@@ -1,0 +1,18 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "CHF",
+    "ISO4217Number": "756",
+    "sign": "₣",
+    "subunits": 100,
+    "title": "Swiss franc",
+    "usage": [
+        {
+            "ISO8601From": "1799-03-17",
+            "ISO3166Code": "CH"
+        },
+        {
+            "ISO8601From": "1921-02-01",
+            "ISO3166Code": "LI"
+        }
+    ]
+}

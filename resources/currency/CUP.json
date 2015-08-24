@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "CUP",
+    "ISO4217Number": "192",
+    "sign": "$",
+    "subunits": 100,
+    "title": "Cuban peso",
+    "usage": [
+        {
+            "ISO8601From": "1859-01-01",
+            "ISO3166Code": "CU"
+        }
+    ]
+}

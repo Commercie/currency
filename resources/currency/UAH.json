@@ -1,0 +1,14 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "UAH",
+    "ISO4217Number": "980",
+    "sign": "₴",
+    "subunits": 100,
+    "title": "Ukrainian hryvnia",
+    "usage": [
+        {
+            "ISO8601From": "1996-09-02",
+            "ISO3166Code": "UA"
+        }
+    ]
+}

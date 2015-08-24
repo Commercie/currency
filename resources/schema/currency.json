@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["alternativeSigns", "ISO4217Code", "sign", "title", "usage"],
+  "properties": {
+    "alternativeSigns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "ISO4217Code": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$"
+    },
+    "ISO4217Number": {
+      "type": "string",
+      "pattern": "^[0-9]{3}$"
+    },
+    "sign": {
+      "type": "string"
+    },
+    "subunits": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "title": {
+      "type": "string"
+    },
+    "usage": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ISO8601From": {
+            "type": "string"
+          },
+          "ISO8601To": {
+            "type": "string"
+          },
+          "ISO3166Code": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+          }
+        }
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    }
+  }
+}

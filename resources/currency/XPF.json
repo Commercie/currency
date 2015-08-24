@@ -1,0 +1,22 @@
+{
+    "alternativeSigns": [],
+    "ISO4217Code": "XPF",
+    "ISO4217Number": "953",
+    "sign": "¤",
+    "subunits": 0,
+    "title": "CFP franc",
+    "usage": [
+        {
+            "ISO8601From": "1985-01-01",
+            "ISO3166Code": "NC"
+        },
+        {
+            "ISO8601From": "1945-12-26",
+            "ISO3166Code": "PF"
+        },
+        {
+            "ISO8601From": "1961-07-30",
+            "ISO3166Code": "WF"
+        }
+    ]
+}
