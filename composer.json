@@ -25,6 +25,6 @@
   },
   "require-dev" : {
     "justinrainbow/json-schema": "~1.4",
-    "phpunit/phpunit" : "3.7.*"
+    "phpunit/phpunit" : "~4.0"
   }
 }
