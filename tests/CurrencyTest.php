@@ -31,6 +31,19 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @covers ::getLabel
+     * @covers ::setLabel
+     */
+    public function testGetLabel()
+    {
+        $label = mt_rand();
+
+        $this->assertSame($this->sut,
+          $this->sut->setLabel($label));
+        $this->assertSame($label, $this->sut->getLabel());
+    }
+
+    /**
      * @covers ::getRoundingStep
      * @covers ::setRoundingStep
      */

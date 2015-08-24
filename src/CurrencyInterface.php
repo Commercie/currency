@@ -78,6 +78,13 @@ interface CurrencyInterface {
   public function setLabel($label);
 
   /**
+   * Gets the label.
+   *
+   * @return string
+   */
+  public function getLabel();
+
+  /**
    * Sets the number of subunits to round amounts in this currency to.
    *
    * @param int $step

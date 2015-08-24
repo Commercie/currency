@@ -115,6 +115,11 @@ class Currency implements CurrencyInterface
         return $this;
     }
 
+    public function getLabel()
+    {
+        return $this->label;
+    }
+
     public function setRoundingStep($step)
     {
         $this->roundingStep = $step;
