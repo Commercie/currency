@@ -20,17 +20,17 @@ class InputTest extends \PHPUnit_Framework_TestCase {
    * @covers ::parseAmountNegativeFormat
    */
   function testParseAmount() {
-    $amounts_invalid = array(
-      'BartFeenstra\Currency\AmountNotNumericException' => array(
+    $amounts_invalid = [
+      'BartFeenstra\Currency\AmountNotNumericException' => [
         'a',
         'a123',
         '123%',
-      ),
-      'BartFeenstra\Currency\AmountInvalidDecimalSeparatorException' => array(
+      ],
+      'BartFeenstra\Currency\AmountInvalidDecimalSeparatorException' => [
         '.5.',
         '123,456,789.00,00',
-      ),
-    );
+      ],
+    ];
     foreach ($amounts_invalid as $exception_class => $amounts) {
       foreach ($amounts as $amount) {
         $valid = TRUE;
@@ -45,26 +45,26 @@ class InputTest extends \PHPUnit_Framework_TestCase {
         $this->assertFalse($valid);
       }
     }
-    $amounts_valid = array(
+    $amounts_valid = [
       // Integers.
-      array(123, '123'),
+      [123, '123'],
       // Floats.
-      array(123.456, '123.456'),
-      array(-123.456, '-123.456'),
+      [123.456, '123.456'],
+      [-123.456, '-123.456'],
       // Integer strings.
-      array('123', '123'),
+      ['123', '123'],
       // Decimal strings using different decimal separators.
-      array('123.456', '123.456'),
-      array('123,456', '123.456'),
-      array('123٫456', '123.456'),
-      array('123/456', '123.456'),
+      ['123.456', '123.456'],
+      ['123,456', '123.456'],
+      ['123٫456', '123.456'],
+      ['123/456', '123.456'],
       // Negative strings.
-      array('-123', '-123'),
-      array('(123)', '-123'),
-      array('123-', '-123'),
-      array('--123', '123'),
-      array('(--123-)', '123'),
-    );
+      ['-123', '-123'],
+      ['(123)', '-123'],
+      ['123-', '-123'],
+      ['--123', '123'],
+      ['(--123-)', '123'],
+    ];
     foreach ($amounts_valid as $amount) {
       $amount_validated = NULL;
       $amount_validated = Input::parseAmount($amount[0]);

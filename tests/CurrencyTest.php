@@ -68,7 +68,7 @@ EOD;
     $currency->sign = '€';
     $currency->subunits = 100;
     $currency->title = 'euro';
-    $currency->usage = array($usage);
+    $currency->usage = [$usage];
 
     return $currency;
   }
@@ -121,11 +121,11 @@ EOD;
    * @covers ::getDecimals
    */
   function testGetDecimals() {
-    $currencies = array(
+    $currencies = [
       'MGA' => 1,
       'EUR' => 2,
       'JPY' => 3,
-    );
+    ];
     foreach ($currencies as $currency_code => $decimals) {
       $currency = new Currency();
       $currency->resourceLoad($currency_code);

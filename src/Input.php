@@ -12,7 +12,7 @@ namespace BartFeenstra\Currency;
  */
 class Input {
 
-  public static $decimalSeparators = array(
+  public static $decimalSeparators = [
     // A comma.
     ',',
     // A period (full stop).
@@ -20,7 +20,8 @@ class Input {
     // Arabic decimal separator.
     '٫',
     // A Persian Momayyez (forward slash).
-    '/');
+    '/'
+  ];
 
   /**
    * Parses an amount.
@@ -57,15 +58,15 @@ class Input {
    *   The amount with its decimal separator replaced by a period.
    */
   public static function parseAmountDecimalSeparator($amount) {
-    $decimal_separator_counts = array();
+    $decimal_separator_counts = [];
     foreach (self::$decimalSeparators as $decimal_separator) {
       $decimal_separator_counts[$decimal_separator] = \mb_substr_count($amount, $decimal_separator);
     }
     $decimal_separator_counts_filtered = array_filter($decimal_separator_counts);
     if (count($decimal_separator_counts_filtered) > 1 || reset($decimal_separator_counts_filtered) !== FALSE && reset($decimal_separator_counts_filtered) != 1) {
-      throw new AmountInvalidDecimalSeparatorException(strtr('The amount can only have no or one decimal separator and it must be one of "decimalSeparators".', array(
+      throw new AmountInvalidDecimalSeparatorException(strtr('The amount can only have no or one decimal separator and it must be one of "decimalSeparators".', [
        'decimalSeparators' => implode(self::$decimalSeparators),
-      )));
+      ]));
     }
     $amount = str_replace(self::$decimalSeparators, '.', $amount);
 

@@ -18,7 +18,7 @@ class Currency {
    * @var array
    *   An array of strings that are similar to Currency::sign.
    */
-  public $alternativeSigns = array();
+  public $alternativeSigns = [];
 
   /**
    * ISO 4217 currency code.
@@ -61,7 +61,7 @@ class Currency {
    * @var array
    *   An array of \BartFeenstra\Currency\Usage objects.
    */
-  public $usage = array();
+  public $usage = [];
 
   /**
    * The path to the resources directory.
@@ -71,7 +71,7 @@ class Currency {
   /**
    * A list of the ISO 4217 codes of all known currency resources.
    */
-  public static $resourceISO4217Codes = array();
+  public static $resourceISO4217Codes = [];
 
   /**
    * Returns the directory that contains the currency resources.
@@ -124,7 +124,7 @@ class Currency {
   public function resourceParse($json) {
     $currency_data = json_decode($json);
     $usages_data = $currency_data->usage;
-    $currency_data->usage = array();
+    $currency_data->usage = [];
     foreach ($currency_data as $property => $value) {
       $this->$property = $value;
     }
@@ -145,7 +145,7 @@ class Currency {
    */
   public function resourceDump() {
     $currency_data = get_object_vars($this);
-    $currency_data['usage'] = array();
+    $currency_data['usage'] = [];
     foreach ($this->usage as $usage) {
       $currency_data['usage'][] = get_object_vars($usage);
     }
