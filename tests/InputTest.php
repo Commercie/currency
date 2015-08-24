@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains class \BartFeenstra\Tests\Currency\ParseTest.
+ * Contains \BartFeenstra\Tests\Currency\InputTest.
  */
 
 namespace BartFeenstra\Tests\Currency;
@@ -11,39 +11,40 @@ use BartFeenstra\Currency\Input;
 
 /**
  * @coversDefaultClass \BartFeenstra\Currency\Input
+ *
+ * @group Currency
  */
 class InputTest extends \PHPUnit_Framework_TestCase {
+
+  /**
+   * The class under test.
+   *
+   * @var \BartFeenstra\Currency\Input
+   */
+  protected $sut;
+
+  /**
+   * {@inheritdoc}
+   */
+  public function setUp() {
+    $this->sut = new Input();
+  }
 
   /**
    * @covers ::parseAmount
    * @covers ::parseAmountDecimalSeparator
    * @covers ::parseAmountNegativeFormat
    */
-  function testParseAmount() {
+  public function testParseAmount() {
     $amounts_invalid = [
-      'BartFeenstra\Currency\AmountNotNumericException' => [
-        'a',
-        'a123',
-        '123%',
-      ],
-      'BartFeenstra\Currency\AmountInvalidDecimalSeparatorException' => [
-        '.5.',
-        '123,456,789.00,00',
-      ],
+      'a',
+      'a123',
+      '123%',
+      '.5.',
+      '123,456,789.00,00',
     ];
-    foreach ($amounts_invalid as $exception_class => $amounts) {
-      foreach ($amounts as $amount) {
-        $valid = TRUE;
-        try {
-          Input::parseAmount($amount);
-        }
-        catch (\Exception $e) {
-          if ($e instanceof $exception_class) {
-            $valid = FALSE;
-          }
-        }
-        $this->assertFalse($valid);
-      }
+    foreach ($amounts_invalid as $amount) {
+      $this->assertFalse($this->sut->parseAmount($amount));
     }
     $amounts_valid = [
       // Integers.
@@ -67,8 +68,9 @@ class InputTest extends \PHPUnit_Framework_TestCase {
     ];
     foreach ($amounts_valid as $amount) {
       $amount_validated = NULL;
-      $amount_validated = Input::parseAmount($amount[0]);
-      $this->assertSame($amount_validated, $amount[1]);
+      $amount_validated = $this->sut->parseAmount($amount[0]);
+      $this->assertEquals($amount_validated, $amount[1]);
     }
   }
+
 }
