@@ -1,7 +1,5 @@
 alternativeSigns:
     - N$
-exchangeRates:
-    MXP: '1000'
 ISO4217Code: MXN
 ISO4217Number: '484'
 sign: $

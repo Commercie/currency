@@ -1,7 +1,5 @@
 alternativeSigns:
     - $U
-exchangeRates:
-    UYN: '1000'
 ISO4217Code: UYU
 ISO4217Number: '858'
 sign: $

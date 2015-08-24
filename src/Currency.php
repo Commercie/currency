@@ -23,14 +23,6 @@ class Currency {
   public $alternativeSigns = array();
 
   /**
-   * Exchange rates to other currencies.
-   *
-   * @var array
-   *   Keys are ISO 4217 codes, values are numeric strings.
-   */
-  public $exchangeRates = array();
-
-  /**
    * ISO 4217 currency code.
    *
    * @var string

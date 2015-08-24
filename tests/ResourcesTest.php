@@ -21,10 +21,6 @@ class Resources extends \PHPUnit_Framework_TestCase {
     foreach (Currency::resourceListAll() as $ISO4217Code) {
       $currency = new Currency();
       $currency->resourceLoad($ISO4217Code);
-      foreach ($currency->exchangeRates as $exchange_rate) {
-        $this->assertInternalType('string', $exchange_rate);
-        $this->assertTrue(is_numeric($exchange_rate));
-      }
     }
   }
 }
