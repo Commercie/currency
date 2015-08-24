@@ -7,6 +7,9 @@
 
 namespace BartFeenstra\Currency;
 
+use BartFeenstra\Currency\Exception\AmountInvalidDecimalSeparatorException;
+use BartFeenstra\Currency\Exception\AmountNotNumericException;
+
 /**
  * Helpers for parsing user input.
  */

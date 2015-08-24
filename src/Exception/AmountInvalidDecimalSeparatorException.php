@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains class \BartFeenstra\Currency\AmountInvalidDecimalSeparatorException.
+ * Contains class \BartFeenstra\Currency\Exception\AmountInvalidDecimalSeparatorException.
  */
 
-namespace BartFeenstra\Currency;
+namespace BartFeenstra\Currency\Exception;
 
 /**
  * Describes an amount string that has invalid decimal separators.
