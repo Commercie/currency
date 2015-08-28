@@ -163,11 +163,6 @@ class Currency implements CurrencyInterface
         return $this->usages;
     }
 
-    public function id()
-    {
-        return $this->currencyCode;
-    }
-
     public function getDecimals()
     {
         $decimals = 0;
