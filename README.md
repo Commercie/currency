@@ -12,5 +12,5 @@ A library that provides metadata for current and historic currencies:
 
 ## Usage
 
-* Currencies can be loaded through `\BartFeenstra\Currency\ResourceRepository`.
-* `\BartFeenstra\Currency\InputInterface` is capable of parsing user-input numbers.
+* Currencies can be loaded through `\Commercie\Currency\ResourceRepository`.
+* `\Commercie\Currency\InputInterface` is capable of parsing user-input numbers.

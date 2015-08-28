@@ -7,7 +7,7 @@
         <ini name="memory_limit" value="-1"/>
     </php>
     <testsuites>
-        <testsuite name="bartfeenstra/currency">
+        <testsuite name="commercie/currency">
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
