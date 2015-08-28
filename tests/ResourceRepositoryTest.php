@@ -2,17 +2,17 @@
 
 /**
  * @file
- * Contains \BartFeenstra\Tests\Currency\ResourceRepositoryTest.
+ * Contains \Commercie\Tests\Currency\ResourceRepositoryTest.
  */
 
-namespace BartFeenstra\Tests\Currency;
+namespace Commercie\Tests\Currency;
 
-use BartFeenstra\Currency\CurrencyInterface;
-use BartFeenstra\Currency\ResourceRepository;
-use BartFeenstra\Currency\UsageInterface;
+use Commercie\Currency\CurrencyInterface;
+use Commercie\Currency\ResourceRepository;
+use Commercie\Currency\UsageInterface;
 
 /**
- * @coversDefaultClass \BartFeenstra\Currency\ResourceRepository
+ * @coversDefaultClass \Commercie\Currency\ResourceRepository
  *
  * @group Currency
  */
@@ -22,7 +22,7 @@ class ResourceRepositoryTest extends \PHPUnit_Framework_TestCase
     /**
      * The subject under test.
      *
-     * @var \BartFeenstra\Currency\ResourceRepository
+     * @var \Commercie\Currency\ResourceRepository
      */
     protected $sut;
 

@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Definition of BartFeenstra\Currency\CurrencyInterface.
+ * Definition of Commercie\Currency\CurrencyInterface.
  */
 
-namespace BartFeenstra\Currency;
+namespace Commercie\Currency;
 
 /**
  * Defines a currency.
@@ -135,7 +135,7 @@ interface CurrencyInterface {
   /**
    * Sets the currency usages.
    *
-   * @param \BartFeenstra\Currency\UsageInterface[]
+   * @param \Commercie\Currency\UsageInterface[]
    *
    * @return $this
    */
@@ -144,7 +144,7 @@ interface CurrencyInterface {
   /**
    * Gets the currency usages.
    *
-   * @return \BartFeenstra\Currency\UsageInterface[]
+   * @return \Commercie\Currency\UsageInterface[]
    */
   public function getUsages();
 

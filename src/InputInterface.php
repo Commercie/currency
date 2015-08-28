@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains \BartFeenstra\Currency\InputInterface.
+ * Contains \Commercie\Currency\InputInterface.
  */
 
-namespace BartFeenstra\Currency;
+namespace Commercie\Currency;
 
 /**
  * Defines a solution to parse user-input amounts.

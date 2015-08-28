@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains of \BartFeenstra\Currency\Currency.
+ * Contains of \Commercie\Currency\Currency.
  */
 
-namespace BartFeenstra\Currency;
+namespace Commercie\Currency;
 
 /**
  * Provides a currency.
@@ -68,7 +68,7 @@ class Currency implements CurrencyInterface
     /**
      * This currency's usages.
      *
-     * @var \BartFeenstra\Currency\UsageInterface[]
+     * @var \Commercie\Currency\UsageInterface[]
      */
     protected $usages = [];
 

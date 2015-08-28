@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains \BartFeenstra\Currency\ResourceRepository.
+ * Contains \Commercie\Currency\ResourceRepository.
  */
 
-namespace BartFeenstra\Currency;
+namespace Commercie\Currency;
 
 /**
  * Provides access to the available resources.
@@ -52,7 +52,7 @@ class ResourceRepository {
    *
    * @param string $currencyCode
    *
-   * @return \BartFeenstra\Currency\CurrencyInterface|null
+   * @return \Commercie\Currency\CurrencyInterface|null
    */
   public function loadCurrency($currencyCode) {
     $filePath = $this->getCurrencyResourceDirectory() . "/$currencyCode.json";
@@ -69,7 +69,7 @@ class ResourceRepository {
    *
    * @param string $json
    *
-   * @return \BartFeenstra\Currency\CurrencyInterface
+   * @return \Commercie\Currency\CurrencyInterface
    */
   protected function createCurrencyFromJson($json) {
     $currency_data = json_decode($json);

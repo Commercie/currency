@@ -2,15 +2,15 @@
 
 /**
  * @file
- * Contains \BartFeenstra\Tests\Currency\InputTest.
+ * Contains \Commercie\Tests\Currency\InputTest.
  */
 
-namespace BartFeenstra\Tests\Currency;
+namespace Commercie\Tests\Currency;
 
-use BartFeenstra\Currency\Input;
+use Commercie\Currency\Input;
 
 /**
- * @coversDefaultClass \BartFeenstra\Currency\Input
+ * @coversDefaultClass \Commercie\Currency\Input
  *
  * @group Currency
  */
@@ -19,7 +19,7 @@ class InputTest extends \PHPUnit_Framework_TestCase {
   /**
    * The class under test.
    *
-   * @var \BartFeenstra\Currency\Input
+   * @var \Commercie\Currency\Input
    */
   protected $sut;
 

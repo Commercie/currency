@@ -1,14 +1,14 @@
 <?php
 
 /**
- * @file Contains \BartFeenstra\Tests\Currency\UsageTest.
+ * @file Contains \Commercie\Tests\Currency\UsageTest.
  */
 
-namespace BartFeenstra\Tests\Currency;
-use BartFeenstra\Currency\Usage;
+namespace Commercie\Tests\Currency;
+use Commercie\Currency\Usage;
 
 /**
- * @coversDefaultClass \BartFeenstra\Currency\Usage
+ * @coversDefaultClass \Commercie\Currency\Usage
  *
  * @group Currency
  */
@@ -17,7 +17,7 @@ class UsageTest extends \PHPUnit_Framework_TestCase {
   /**
    * The class under test.
    *
-   * @var \BartFeenstra\Currency\Usage
+   * @var \Commercie\Currency\Usage
    */
   protected $sut;
 

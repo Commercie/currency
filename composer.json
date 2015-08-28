@@ -1,5 +1,5 @@
 {
-  "name" : "bartfeenstra/currency",
+  "name" : "commercie/currency",
   "license" : "MIT",
   "authors" : [
     {
@@ -11,12 +11,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "BartFeenstra\\Currency\\": "src"
+      "Commercie\\Currency\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "BartFeenstra\\Tests\\Currency\\": "tests/src"
+      "Commercie\\Tests\\Currency\\": "tests/src"
     }
   },
   "require" : {

@@ -2,16 +2,16 @@
 
 /**
  * @file
- * Contains \BartFeenstra\Tests\Currency\CurrencyTest.
+ * Contains \Commercie\Tests\Currency\CurrencyTest.
  */
 
-namespace BartFeenstra\Tests\Currency;
+namespace Commercie\Tests\Currency;
 
-use BartFeenstra\Currency\Currency;
-use BartFeenstra\Currency\Usage;
+use Commercie\Currency\Currency;
+use Commercie\Currency\Usage;
 
 /**
- * @coversDefaultClass \BartFeenstra\Currency\Currency
+ * @coversDefaultClass \Commercie\Currency\Currency
  *
  * @group Currency
  */
@@ -21,7 +21,7 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
     /**
      * The subject under test.
      *
-     * @var \BartFeenstra\Currency\Currency
+     * @var \Commercie\Currency\Currency
      */
     protected $sut;
 

@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains class \BartFeenstra\Tests\Currency\Resources.
+ * Contains class \Commercie\Tests\Currency\Resources.
  */
 
-namespace BartFeenstra\Tests\Currency;
+namespace Commercie\Tests\Currency;
 
 use JsonSchema\Uri\UriRetriever;
 use JsonSchema\Validator;

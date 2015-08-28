@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains \BartFeenstra\Currency\UsageInterface.
+ * Contains \Commercie\Currency\UsageInterface.
  */
 
-namespace BartFeenstra\Currency;
+namespace Commercie\Currency;
 
 /**
  * Describes a currency's usage in a country.
