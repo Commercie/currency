@@ -1,8 +1,8 @@
 {
-    "alternativeSigns": [],
+    "alternativeSigns": ["TL"],
     "ISO4217Code": "TRY",
     "ISO4217Number": "949",
-    "sign": "TL",
+    "sign": "₺",
     "subunits": 100,
     "title": "Turkish lira",
     "usage": [
