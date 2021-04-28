@@ -8,13 +8,14 @@
 namespace Commercie\Tests\Currency;
 
 use Commercie\Currency\Input;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \Commercie\Currency\Input
  *
  * @group Currency
  */
-class InputTest extends \PHPUnit_Framework_TestCase {
+class InputTest extends TestCase {
 
   /**
    * The class under test.
@@ -26,7 +27,7 @@ class InputTest extends \PHPUnit_Framework_TestCase {
   /**
    * {@inheritdoc}
    */
-  public function setUp() {
+  protected function setUp(): void {
     $this->sut = new Input();
   }
 

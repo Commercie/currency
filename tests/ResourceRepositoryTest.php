@@ -10,13 +10,14 @@ namespace Commercie\Tests\Currency;
 use Commercie\Currency\CurrencyInterface;
 use Commercie\Currency\ResourceRepository;
 use Commercie\Currency\UsageInterface;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \Commercie\Currency\ResourceRepository
  *
  * @group Currency
  */
-class ResourceRepositoryTest extends \PHPUnit_Framework_TestCase
+class ResourceRepositoryTest extends TestCase
 {
 
     /**
@@ -26,7 +27,7 @@ class ResourceRepositoryTest extends \PHPUnit_Framework_TestCase
      */
     protected $sut;
 
-    public function setUp()
+    protected function setUp(): void
     {
         $this->sut = new ResourceRepository();
     }
@@ -38,11 +39,11 @@ class ResourceRepositoryTest extends \PHPUnit_Framework_TestCase
     public function testListCurrencies()
     {
         $currencyCodes = $this->sut->listCurrencies();
-        $this->assertInternalType('array', $currencyCodes);
+        $this->assertIsArray($currencyCodes);
         // This is a very crude check to see if enough currencies are found.
         $this->assertTrue(count($currencyCodes) > 99);
         foreach ($currencyCodes as $currencyCode) {
-            $this->assertInternalType('string', $currencyCode);
+            $this->assertIsString($currencyCode);
         }
     }
 

@@ -6,13 +6,14 @@
 
 namespace Commercie\Tests\Currency;
 use Commercie\Currency\Usage;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \Commercie\Currency\Usage
  *
  * @group Currency
  */
-class UsageTest extends \PHPUnit_Framework_TestCase {
+class UsageTest extends TestCase {
 
   /**
    * The class under test.
@@ -24,7 +25,7 @@ class UsageTest extends \PHPUnit_Framework_TestCase {
   /**
    * {@inheritdoc}
    */
-  public function setUp() {
+  protected function setUp(): void {
     $this->sut = new Usage();
   }
 
