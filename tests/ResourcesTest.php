@@ -9,11 +9,12 @@ namespace Commercie\Tests\Currency;
 
 use JsonSchema\Uri\UriRetriever;
 use JsonSchema\Validator;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Tests resource files.
  */
-class Resources extends \PHPUnit_Framework_TestCase {
+class Resources extends TestCase {
 
   /**
    * Tests currency integrity.
@@ -37,5 +38,6 @@ class Resources extends \PHPUnit_Framework_TestCase {
         }
       }
     }
+    $this->assertTrue(true);
   }
 }
