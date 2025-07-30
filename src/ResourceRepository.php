@@ -95,9 +95,6 @@ class ResourceRepository {
 
     $usages_data = $currency_data->usage;
     $usages = [];
-    foreach ($currency_data as $property => $value) {
-      $this->$property = $value;
-    }
     foreach ($usages_data as $usage_data) {
       $usage = new Usage();
       if (isset($usage_data->ISO8601From)) {
